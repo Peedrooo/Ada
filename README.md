@@ -10,4 +10,5 @@ Na universidade de brasilia, realizar a montagem da grade horária é um process
 
 ## Reuniões de orientação
 
-![Acompanhamento - Ada](https://www.youtube.com/playlist?list=PLYDa724AZH7Yi8K3G2jPexBRYz8NtaB1l)
+### Playlist
+[![Acompanhamento - Ada](https://i.ytimg.com/vi/LXb3TcfPPYM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDar4isIXedFtg2SUVVW0RL6_5pkw)](https://www.youtube.com/playlist?list=PLYDa724AZH7Yi8K3G2jPexBRYz8NtaB1l)
