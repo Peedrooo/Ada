@@ -1,0 +1,5 @@
+# Python
+pandas==2.1.4
+
+# Notebook
+ipykernel
