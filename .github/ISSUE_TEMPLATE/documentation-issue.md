@@ -2,7 +2,7 @@
 name: Documentation issue
 about: Solicitação de documentação para o projeto
 title: "[Feature]"
-labels: documentation
+labels: documentation, Todo
 assignees: Peedrooo
 
 ---
@@ -10,3 +10,5 @@ assignees: Peedrooo
 ## Objetivos
 
 ## Critérios de Aceitação
+
+- [ ]
