@@ -1,0 +1,71 @@
+site_name: Ada
+site_author: Pedro Jesus
+
+theme:
+  features:
+    - content.code.select
+    - content.code.copy
+  name: material
+  # logo: assets/img/logo.png
+  # favicon: assets/img/logo.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  lang:
+    - pt_BR
+  # includehidden: false
+  hljs_languages:
+    - yaml
+  gitlab_url: https://gitlab.com/gpam/mlops/docs
+
+nav:
+  - Home: index.md
+  - Instalação: enviroment.md
+
+
+plugins:
+  - search:
+      lang: pt
+      min_search_length: 2
+  - table-reader
+  - autolinks
+  - redirects:
+      redirect_maps:
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.pathconverter:
+      relative_path: "" # default ''
+      absolute: true # default: false
+      tags: "a script img link object embed"
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
