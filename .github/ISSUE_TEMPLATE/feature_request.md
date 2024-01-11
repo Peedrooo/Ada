@@ -1,8 +1,8 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: enhancement, Todo
+title: '[Feature] - '
+labels: enhancement
 assignees: Peedrooo
 
 ---
