@@ -1,5 +1,5 @@
 # Ada
-Algoritmo gerador de grade horária para a Universidade de Brasilia
+Algoritmo de gestão de horários para docentes na Faculdade do Gama (FGA) da Universidade de Brasília (UnB).
 
 
 ## Problema
@@ -8,7 +8,7 @@ Na universidade de brasilia, realizar a montagem da grade horária é um process
 ## Objetivos
 
 ### Objetivo Geral
-Desenvolver um algoritmo para automatizar a criação da grade horária do curso de Engenharia de Software da Universidade de Brasília, considerando o fluxo de disciplinas, disponibilidade de professores e demanda por disciplinas. Posteriormente, expandir essa automatização para os demais cursos da instituição. O algoritmo deverá ser servido por uma API em fastapi, que receberá os dados de entrada e retornará a grade horária gerada.
+Desenvolver um algoritmo para automatizar a criação da grade horária do campus Gama da Universidade de Brasília, envolvendo os cursos de: Engenharia de Software, Engenharia Eletrônica, Engenharia AeroEspacial, Engenharia Automotiva e Engenharia de Energia. Considerando o fluxo de disciplinas, disponibilidade de professores e demanda por disciplinas. Posteriormente, expandir essa automatização para os demais cursos da instituição. O algoritmo deverá ser servido por uma API em fastapi, que receberá os dados de entrada e retornará a grade horária gerada.
 
 ### Objetivos Específicos
 O algoritmo deve ser capaz de:
