@@ -41,6 +41,9 @@ O algoritmo deve ser capaz de:
     - Horários preferenciais dos professores
     - Horários preferenciais das salas
     - Cada professor deve ministrar as disciplinas de sua área de atuação/ preferência
+    - Sobrecarga de aula:
+        - Em um dia não pode haver aulas seguidas da mesma turma
+
 
 A API deve ser capaz de:
 - Receber os dados de entrada
