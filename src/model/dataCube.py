@@ -54,5 +54,5 @@ horarios = [
     ]
 
 cube = Cube(locals, days, horarios)
-
-cube.reset()
+print(cube)
+# cube.reset()
