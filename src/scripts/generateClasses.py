@@ -5,7 +5,7 @@ from random import randint
 sys.path.insert(0, './src')
 
 from model.maxHeap import MaxHeap
-from src.data.resources import CLASSROOM
+from data.resources import CLASSROOM
 
 
 # Read the data
