@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 from random import randint
 
-sys.path.insert(0, './src')
+sys.path.append('./src')
 
 from model.maxHeap import MaxHeap
 from data.resources import CLASSROOM
