@@ -1,0 +1,52 @@
+[
+  {
+    "name": "I1",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I2",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I3",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I4",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I5",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I6",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I7",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I8",
+    "capacity": 200,
+    "type": "comum"
+  },
+  {
+    "name": "I9",
+    "capacity": 150,
+    "type": "lab-computacao"
+  },
+  {
+    "name": "I10",
+    "capacity": 150,
+    "type": "lab-computacao"
+  }
+]
