@@ -1,0 +1,62 @@
+[
+  {
+    "name": "APC",
+    "flow": 1,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "Fisica",
+    "flow": 2,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "DIAC",
+    "flow": 1,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "Calculo",
+    "flow": 2,
+    "lab": "comum",
+    "workload": 60
+  },
+  {
+    "name": "LP",
+    "flow": 1,
+    "lab": "comum",
+    "workload": 60
+  },
+  {
+    "name": "BD",
+    "flow": 2,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "ED",
+    "flow": 1,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "SO",
+    "flow": 2,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "Redes",
+    "flow": 1,
+    "lab": "lab-computacao",
+    "workload": 60
+  },
+  {
+    "name": "IA",
+    "flow": 2,
+    "lab": "lab-computacao",
+    "workload": 60
+  }
+]
