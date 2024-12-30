@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Fabiano Araujo Soares",
+    "prefered_disciplines": [
+"IA"
+],
+    "possible_disciplines": ["IA", "Calculo"],
+    "prefered_workload": 60,
+    "director": false,
+    "coordinator": false,
+    "max_workload": 120
+  },
+  {
+    "name": "Ricardo Ramos Fragelli",
+    "prefered_disciplines": [
+"Calculo"
+],
+    "possible_disciplines": ["IA", "Fisica", "Calculo"],
+    "prefered_workload": 60,
+    "director": true,
+    "coordinator": false,
+    "max_workload": 120
+  },
+  {
+    "name": "Vandor Roberto Vilardi Rissoli",
+    "prefered_disciplines": [
+"BD"
+],
+    "possible_disciplines": ["BD", "ED", "SO"],
+    "prefered_workload": 60,
+    "director": false,
+    "coordinator": true,
+    "max_workload": 120
+  }
+
+]

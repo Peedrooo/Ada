@@ -1,0 +1,3 @@
+Fabiano Araujo Soares-['IA']-['IA', 'Calculo']-60-False-False-120
+Ricardo Ramos Fragelli-['Calculo']-['IA', 'Fisica', 'Calculo']-60-True-False-120
+Vandor Roberto Vilardi Rissoli-['BD']-['BD', 'ED', 'SO']-60-False-True-120

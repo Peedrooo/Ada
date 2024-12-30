@@ -1,6 +1,5 @@
 from typing import Dict, List, Optional
 from fastapi import HTTPException
-# from src.model.disciplineDataModel import DisciplineModel
 from model.discipline import Discipline
 import logging
 import os
