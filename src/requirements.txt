@@ -1,6 +1,10 @@
-# Python
+# Data
 pandas==2.1.4
 openpyxl
 
 # Notebook
 ipykernel
+
+# API
+fastapi==0.111.0
+uvicorn==0.30.1
