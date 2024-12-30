@@ -1,8 +1,8 @@
 import logging
 
-from src.app.database.classromStorage import classrom_storage
+from app.database.classromStorage import classrom_storage
 from fastapi import APIRouter, status, Response
-from src.model.classrom import Classrom
+from model.classrom import Classrom
 from typing import List
 
 router = APIRouter()
