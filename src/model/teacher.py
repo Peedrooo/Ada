@@ -1,31 +1,23 @@
-class Teacher:
-    def __init__(
-            self, name: str,
-            discipline: tuple = None,
-            prefered_disciplines: list = [],
-            possible_disciplines: list = [],
-            workload: int = 0,
-            director: bool = False,
-            coordinator: bool = False
-            ):
+from pydantic import BaseModel
 
-        self.name = name
-        self.discipline = discipline
-        self.prefered_disciplines = prefered_disciplines
-        self.possible_disciplines = possible_disciplines
-        self.workload = workload
 
-        if director:
-            self.max_workload = 0
+class Teacher(BaseModel):
+    name: str
+    prefered_disciplines: list = []
+    possible_disciplines: list = []
+    prefered_workload: int = 0
+    director: bool = False
+    coordinator: bool = False
+    max_workload: int = 0
 
-        elif coordinator:
-            self.max_workload = 15 * 4
+    if director:
+        max_workload = 0
+
+    elif coordinator:
+        max_workload = 15 * 4
 
     def __str__(self):
         return self.name
-
-    def set_discipline(self, discipline: tuple):
-        self.discipline = discipline
 
     def set_prefered_disciplines(self, prefered_disciplines: list):
         self.prefered_disciplines = prefered_disciplines
@@ -36,11 +28,10 @@ class Teacher:
     def set_max_workload(self, max_workload: int):
         self.max_workload = max_workload
 
-    def set_workload(self, workload: int):
-        self.workload = workload
-
-    def get_discipline(self) -> tuple:
-        return self.discipline
+    def set_workload(self, prefered_workload: int):
+        if prefered_workload > self.max_workload:
+            raise ValueError(f"Workload is greater than max workload")
+        self.prefered_workload = prefered_workload
 
     def get_prefered_disciplines(self) -> list:
         return self.prefered_disciplines
@@ -49,7 +40,7 @@ class Teacher:
         return self.possible_disciplines
 
     def get_workload(self) -> int:
-        return self.workload
+        return self.prefered_workload
 
     def get_max_workload(self) -> int:
         return self.max_workload
@@ -57,7 +48,7 @@ class Teacher:
     def get_all(self) -> dict:
         return {
             'name': self.name,
-            'discipline': self.discipline,
-            'workload': self.workload,
+            'possible_disciplines': self.possible_disciplines,
+            'prefered_workload': self.prefered_workload,
             'max_workload': self.max_workload
         }

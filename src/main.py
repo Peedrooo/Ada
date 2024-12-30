@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers.setup import classrom, discipline
+from app.routers.setup import classrom, discipline, teacher
 
 import uvicorn
 
@@ -7,6 +7,7 @@ app = FastAPI()
 
 app.include_router(classrom.router)
 app.include_router(discipline.router)
+app.include_router(teacher.router)
 
 
 @app.get("/", tags=["Health"])
