@@ -1,11 +1,12 @@
 from fastapi import FastAPI
-from src.app.routers import setup
+from app.routers.setup import classrom, discipline
 
 import uvicorn
 
 app = FastAPI()
 
-app.include_router(setup.router)
+app.include_router(classrom.router)
+app.include_router(discipline.router)
 
 
 @app.get("/", tags=["Health"])

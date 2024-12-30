@@ -1,5 +1,5 @@
 from typing import Dict, List, Optional
-from src.model.classrom import Classrom
+from model.classrom import Classrom
 from fastapi import HTTPException
 import logging
 import os
@@ -38,7 +38,7 @@ class ClassromStorage:
         """Cria um txt com todas as salas cadastradas."""
         with open(path, 'w') as file:
             for classrom in self._storage.values():
-                file.write(f"{classrom.name} - {classrom.capacity} - {classrom.type}\n")
+                file.write(f"{classrom.name}-{classrom.capacity}-{classrom.type}\n")
         logging.info("Saved all classroms.")
     
     def delete_all_classroms(self, path) -> None:
