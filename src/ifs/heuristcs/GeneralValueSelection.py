@@ -34,7 +34,7 @@ class GeneralValueSelection(ValueSelection):
             if self.__i_mpp_limit >= 0 and len(solution.get_model().perturb_variables()) > self__i_mpp_limit:
                 # Limite MPP atingido - valor inicial deve ser atribuido
                 return selected_variable.get_initial_assignment()
-            if random.random() <= self.__i_initial_selection_prob
+            if random.random() <= self.__i_initial_selection_prob:
                 # Valor inicial selecionado, dada uma probabilidade 
                 return selected_variable.get_initial_assignment()
         # End-MPP
@@ -51,7 +51,7 @@ class GeneralValueSelection(ValueSelection):
 
             if good_values:
                 values = list(good_values)
-            elif not self.__i_allow_no_good
+            elif not self.__i_allow_no_good:
                 # Todos os valores foram removidos, impossível escolher um valor removido
                 return None
 
@@ -81,7 +81,7 @@ class GeneralValueSelection(ValueSelection):
             delta_initial_assignments = 0
             if self.__i_mpp:
                 # Passa por todos os conflitos
-                for conflict_value in conflicts
+                for conflict_value in conflicts:
                     if conflict_value.variable().get_initial_assignment() is not None:
                         # Não atribuido a um vlaor inicial -> bom para desatribuição
                         delta_initial_assignments -= 1
@@ -99,7 +99,7 @@ class GeneralValueSelection(ValueSelection):
                     self.__i_weight_delta_initial_assignment * delta_initial_assignments +
                     self.__i_weight_weighted_conflicts * weight_conflicts +
                     self.__i_weight_conflicts * len(conflicts) +
-                    self.__i_weight_value * value.to_int() +
+                    self.__i_weight_value * value.to_int()
                 )
 
                 # Salva melhores valores
