@@ -42,11 +42,11 @@
   {
     "name": "I9",
     "capacity": 150,
-    "type": "lab-computacao"
+    "type": "type-computacao"
   },
   {
     "name": "I10",
     "capacity": 150,
-    "type": "lab-computacao"
+    "type": "type-computacao"
   }
 ]

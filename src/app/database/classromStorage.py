@@ -1,11 +1,12 @@
 from typing import Dict, List, Optional
 from model.classrom import Classrom
 from fastapi import HTTPException
+from app.database.storage import Storage
 import logging
 import os
 
 
-class ClassromStorage:
+class ClassromStorage(Storage):
     def __init__(self):
         self._storage: Dict[str, Classrom] = {}
 
@@ -28,11 +29,12 @@ class ClassromStorage:
             )
         logging.info(f"Retrieved classrom: {classrom}")
         return classrom
-
+    
     def list_classroms(self) -> List[Dict[str, str]]:
         """Lista todas as salas armazenadas."""
         logging.info(f"Listing all classroms: {len(self._storage)} found.")
         return [classrom.get_all() for classrom in self._storage.values()]
+
 
     def save_classroms(self, path) -> None:
         """Cria um txt com todas as salas cadastradas."""
@@ -40,6 +42,21 @@ class ClassromStorage:
             for classrom in self._storage.values():
                 file.write(f"{classrom.name}-{classrom.capacity}-{classrom.type}\n")
         logging.info("Saved all classroms.")
+
+    def load_classroms(self, path) -> None:
+        """Carrega todas as salas cadastradas de um txt."""
+        if os.path.exists(path):
+            with open(path, 'r') as file:
+                for line in file:
+                    name, capacity, type = line.strip().split('-')
+                    classrom = Classrom(
+                        name=name,
+                        capacity=int(capacity), 
+                        type=type)
+                    self.add_classrom(classrom)
+            logging.info("Loaded all classroms.")
+        else:
+            logging.warning("File not found.")
     
     def delete_all_classroms(self, path) -> None:
         """Remove todas as salas do armazenamento em memória e txt."""
