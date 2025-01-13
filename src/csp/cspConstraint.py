@@ -64,9 +64,7 @@ class cspConstraint(Constraint):
         if value.get_time() == 5 or value.get_time() == 6 or value.get_time() >= 11:
             return False
         else:
-            return True
-        
-    
+            return True 
 
 # End Constraint
 
@@ -77,10 +75,19 @@ class cspConstraint(Constraint):
         """
         raise NotImplementedError("O método 'variables' precisa ser implementado.")
 
-    def compute_conflicts(self, value, conflicts):
+    def compute_conflicts(self, selectedValue, variable_assignment, conflicts):
         """
         Calcula os conflitos associados a um valor.
         Este método precisa ser implementado por todas as subclasses.
         """
-        raise NotImplementedError("O método 'compute_conflicts' precisa ser implementado.")
+        if flux_conflict(selectedValue, variable_assignment):
+            conflicts[0].append(selectedValue.get_assignment())
+        if resource_conflict(selectedValue, variable_assignment):
+            conflicts[1].append(selectedValue.get_assignment())
+        if lab_conflict(selectedValue):
+            conflicts[2].append(selectedValue.get_assignment())
+        if room_load_conflict(selectedValue):
+            conflicts[3].append(selectedValue.get_assignment())
+        if same_class_time_conflict(selectedValuevalue, variable_assignment):
+            conflicts[4].append(selectedValue.get_assigment())        
         
