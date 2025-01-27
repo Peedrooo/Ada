@@ -68,7 +68,6 @@ class Cube:
             for horario, value in horarios.items()
         )
 
-
 locals = [
     'I10', 'MOCAP', 'I9', 'S10', 'S9', 'I6',
     'I3', 'I7', 'S1', 'S3', 'S2', 'S4', 'S6',

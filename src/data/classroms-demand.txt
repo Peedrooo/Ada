@@ -1,0 +1,5 @@
+APC-30
+Fisica-30
+Calculo-60
+BD-120
+ED-90

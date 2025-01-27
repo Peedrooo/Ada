@@ -1,0 +1,21 @@
+[
+  {
+    "discipline": "APC",
+    "students": 30
+  },
+{
+    "discipline": "Fisica",
+    "students": 30
+  },
+{
+    "discipline": "Calculo",
+    "students": 60
+  },{
+    "discipline": "BD",
+    "students": 120
+  },
+{
+    "discipline": "ED",
+    "students": 90
+  }
+]
