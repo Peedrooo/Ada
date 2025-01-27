@@ -1,4 +1,6 @@
 from csp import CSP
+from constraint import constraint
+from variable   import variable
 
 class BackTracking:
 
@@ -12,8 +14,8 @@ class BackTracking:
         if isComplete(assigment, qnd_turma):
             return assigment
         
-        val = order_value_selection(assigment, self.csp)
-        var = variable_selection(val, assigment, self.csp)
+        var = variable_selection(assigment)
+        val = order_value_selection(var, assigment)
 
         for value in val:
             if isConsistent(var, value, assigment):
@@ -26,117 +28,130 @@ class BackTracking:
         return failure
 
         
-    def order_value_selection(self, value, assigment): # Grande impacto na performance
+    def order_value_selection(self, var, assigment): # Grande impacto na performance
         """ Garantir que a escolha de valores que preservem mais opções para as turmas 
         restantes, reduzindo a probabilidade de atingir um beco sem saída."""
-        variable_order = set()
-        if value.workflow == 60:
-            if value.parte == 1:
-                for var in self.csp.available_slots:
-                    local, day, _ = var
-                    if day == 'SEG' or day == 'TER' or day == 'QUA' and value.students <= local.supported_load:
-                        variable_order.append(var)
-                for var in self.csp.available_slots:
-                    local, day, _ = var
-                    if value.students <= local.supported_load and day != 'SEG' and day != 'TER' and day != 'QUA':
-                        variable_order.append(var)
+        value_order = []
+        value_score = []
+        for v in var.domain:
+            conflicts = 0
+            for other_var in assigment:
+                if not other_var.is_assigned:
+                    conflicts = count_conflicts(var, v, other_var, self.csp.constraint)
+            value_score.append((v, conflicts))
+        
+        value_score.sort(key=lambda x: x[1])
+        if var.Class.workflow == 60:
+            if var.Class.parte == 1:
+                for val in self.csp.available_slots:
+                    local, day, _ = val
+                    if day == 'SEG' or day == 'TER' or day == 'QUA' and var.Class.students <= local.supported_load:
+                        value_order.append(val)
+                for val in self.csp.available_slots:
+                    local, day, _ = val
+                    if var.Class.students <= local.supported_load and day != 'SEG' and day != 'TER' and day != 'QUA':
+                        value_order.append(val)
                 return self.csp.available_slots # já sabesse que a restrição de sala será quebrada
             
-            elif value.parte == 2:
+            elif var.Class.parte == 2:
                 for assign in assigment:
-                    sala_a, day_a, horario_a, turma_a = assign
-                    if turma.id == value.id:
+                    kind, sala_a, day_a, horario_a, turma = assign
+                    if turma.id == var.Class.id:
                         if day_a == 'SEG':
                             if (kind, sala_a, 'QUA', horario_a) in self.available_slots:
-                                variable_order.append(sala_a, 'QUA', horario_a)
+                                value_order.append(sala_a, 'QUA', horario_a)
                             if (kind, sala_a, 'SEX', horario_a) in self.available_slots:
-                                variable_order.append(sala_a, 'SEX', horario_a)
-                            for var in self.csp.available_slots:
-                                _, day, horario = var
+                                value_order.append(sala_a, 'SEX', horario_a)
+                            for val in self.csp.available_slots:
+                                _, day, horario = val
                                 if day == 'QUA' or day == 'SEX' and horario_a == horario:
-                                    variable_order.append(var)
-                            for var in self.csp.available_slots:
-                                _, day, _ = var
+                                    value_order.append(val)
+                            for val in self.csp.available_slots:
+                                _, day, _ = val
                                 if day != 'QUA' and day != 'SEX':
-                                    variable_order.append(var)
-                            return variable_order
+                                    value_order.append(val)
+                            return value_order
                         elif day_a == 'TER':
                             if (kind, sala_a, 'QUI', horario_a) in self.available_slots:
-                                variable_order.append(sala_a, 'QUI', horario_a)
-                            for var in self.csp.available_slots:
-                                _, day, horario = var
+                                value_order.append(sala_a, 'QUI', horario_a)
+                            for val in self.csp.available_slots:
+                                _, day, horario = val
                                 if day == 'QUI' and horario_a == horario:
-                                    variable_order.append(var)
-                            for var in self.csp.available_slots:
-                                _, day, _ = var
+                                    value_order.append(val)
+                            for val in self.csp.available_slots:
+                                _, day, _ = val
                                 if day != 'QUI':
-                                    variable_order.append(var)
-                            return variable_order
+                                    value_order.append(val)
+                            return value_order
                         elif day_a == 'QUA':
                             if (kind, sala_a, 'SEX', horario_a) in self.available_slots:
-                                variable_order.append(sala_a, 'SEX', horario_a)
-                            for var in self.csp.available_slots:
-                                _, day, horario = var
+                                value_order.append(sala_a, 'SEX', horario_a)
+                            for val in self.csp.available_slots:
+                                _, day, horario = val
                                 if day == 'SEX' and horario_a == horario:
-                                    variable_order.append(var)
-                            for var in self.csp.available_slots:
-                                _, day, _ = var
+                                    value_order.append(val)
+                            for val in self.csp.available_slots:
+                                _, day, _ = val
                                 if day != 'SEX':
-                                    variable_order.append(var)
-                            return variable_order
+                                    value_order.append(val)
+                            return value_order
                 #End-for
                 return self.csp.available_slots # Não conseguiu fazer nenhuma ordenação aprofundada   
-        elif value.workflow == 90:
-            if value.parte == 1:
-                for var in self.csp.available_slots:
-                    local, day, _ = var
-                    if day == 'SEG'and value.students <= local.supported_load:
-                        variable_order.append(var)
-                for var in self.csp.available_slots:
-                    local, day, _ = var
-                    if value.students <= local.supported_load and day != 'SEG':
-                        variable_order.append(var)
+        elif var.Class.workflow == 90:
+            if var.Class.parte == 1:
+                for val in self.csp.available_slots:
+                    local, day, _ = val
+                    if day == 'SEG'and var.Class.students <= local.supported_load:
+                        value_order.append(val)
+                for val in self.csp.available_slots:
+                    local, day, _ = val
+                    if var.Class.students <= local.supported_load and day != 'SEG':
+                        value_order.append(val)
                 return self.csp.available_slots # já sabesse que a restrição de sala será quebrada
-            elif value.parte == 2:
+            elif var.Class.parte == 2:
                 for assign in assigment:
                     sala_a, day_a, horario_a, turma_a = assign
-                    if turma.id == value.id:
+                    if turma.id == var.Class.id:
                         if day_a == 'SEG':
                             if (kind, sala_a, 'QUA', horario_a) in self.available_slots:
-                                variable_order.append(sala_a, 'QUA', horario_a)
-                            for var in self.csp.available_slots:
-                                _, day, horario = var
+                                value_order.append(sala_a, 'QUA', horario_a)
+                            for val in self.csp.available_slots:
+                                _, day, horario = val
                                 if day == 'QUA' and horario_a == horario:
-                                    variable_order.append(var)
-                            for var in self.csp.available_slots:
-                                _, day, _ = var
+                                    value_order.append(val)
+                            for val in self.csp.available_slots:
+                                _, day, _ = val
                                 if day != 'QUA':
-                                    variable_order.append(var)
-                            return variable_order
+                                    value_order.append(val)
+                            return value_order
                 #End-for
                 return self.csp.available_slots # Não conseguiu fazer nenhuma ordenação aprofundada
-            elif value.parte == 3:
+            elif value.Class.parte == 3:
                 for assign in assigment:
                     sala_a, day_a, horario_a, turma_a = assign
-                    if turma.id == value.id:
+                    if turma.id == value.Class.id:
                         if day_a == 'QUA':
                             if (kind, sala_a, 'SEX', horario_a) in self.available_slots:
-                                variable_order.append(sala_a, 'SEX', horario_a)
-                            for var in self.csp.available_slots:
-                                _, day, horario = var
+                                value_order.append(sala_a, 'SEX', horario_a)
+                            for val in self.csp.available_slots:
+                                _, day, horario = val
                                 if day == 'SEX' and horario_a == horario:
-                                    variable_order.append(var)
-                            for var in self.csp.available_slots:
-                                _, day, _ = var
+                                    value_order.append(val)
+                            for val in self.csp.available_slots:
+                                _, day, _ = val
                                 if day != 'SEX':
-                                    variable_order.append(var)
-                            return variable_order
+                                    value_order.append(val)
+                            return value_order
                 #End-for
                 return self.csp.available_slots # Não conseguiu fazer nenhuma ordenação aprofundada  
-        elif value.workflow == 30:
+        elif var.Class.workflow == 30:
             # Única estratégia que consegui pensar foi evitar slots que sejam potências escolhas para disciplinas de mais horas
-            pass
-                        
+            for val in self.csp.available_slots:
+                _, room, day, time, turma = val
+                if day == 'TER' or day == 'QUI':
+                    value_order.inssert(0, val)
+                else:
+                    value_order.append(val)
         
 
     def variable_selection(self, assignment):
@@ -144,64 +159,30 @@ class BackTracking:
         if assignment is None:
             return self.csp.domains[0]
         
-    
-    def isConsistent(self, var, value): # verificar restrições
+    def isConsistent(self, var, value, assigment): # verificar restrições
         pass
 
-    def inference(self, csp, var, value):     # Forward checking
+    def inference(self, var, value):     # Forward checking
         pass
 
-    def isComplete(self, total_turma):
-        if total_turma == self.cube.assigments: # Adicionas atributo assignments no cubo de dados
+    def isComplete(self, total_turma, assigment):
+        if total_turma == len(assigment): # Adicionas atributo assignments no csp
             return True
         else:
             return False
         
-    def flux_conflict(self, var, value, assigment):
-        _, day, horario = value
-        for v in assigment:
-            _, day_v, horario_v, turma = v
-            if turma.discipline == var.discipline and turma.id != var.id:
-                return True
-            elif turma.discipline.flow == var.discipline.flow \
-                and (day_v == day and horario_v == horario):
-                return False
-        return True
+    def count_conflicts(var, value, other_var, constraint_obc):
+        count = 0
+        var.assign(value)
+        for d in other_var.domain:
+            if not constraint_obc.flux_conflict(other_var, d, [var]):
+                count += 1
+            if not constraint_obc.resource_conflict(d, [var]):
+                count += 1
+            if not constraint_obc.same_class_time_conflict(other_var, d, [var]):
+                count += 1
+        var.unassign()
+        return count
     
-    # Verificar se vale a pena ter essa restrição, talvez seja melhor remover o valor nos outros domínios quando atribuido
-    def resource_conflict(value, assigment):
-        local, day, horario = value
-        for v in assigment:
-            local_a, day_a, horario_a,_ = v
-            if horario_a == horario and day_a == day \
-                and local_a == local:
-                return False
-        return True
-    
-    def lab_conflict(var, value):
-        _,local,_,_ = value
-        if var.discipline.type == 'comum':
-            return True
-        elif not local.lab and var.discipline.type != 'comum': # Adicionar lógica do atributo lab na classe local
-            return False
-        else:
-            return True
-
-    def room_load_conflict(var, value):
-        _,local,_,_ = value
-        if var.students > local.get_supported_load():
-            return False
-        return True
-    
-    def same_class_time_conflict(var, value, assigment):
-        var = value.variable()
-        _,local,day,horario = value
-        for v in assigment:
-            _,local_v,dar_v,horario_v,turma_v = v
-            if var.id == turma_v.id and day_v == day \
-                and horario_v == horario:
-                return False
-        return True
-
     
 
