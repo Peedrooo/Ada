@@ -3,7 +3,7 @@
 class variable():
     def __init__(self, Class):
         self.Class = Class
-        self.domain
+        self.domain = []
         self.value
         self.is_assigned = False
 
