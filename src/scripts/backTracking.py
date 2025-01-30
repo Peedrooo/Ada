@@ -11,18 +11,18 @@ class BackTracking:
     def search(self, csp, assigment, qnd_turma):
 
         # Condição de parada
-        if isComplete(assigment, qnd_turma):
+        if self.isComplete(assigment, qnd_turma):
             return assigment
         
-        var = variable_selection(assigment)
-        val = order_value_selection(var, assigment)
+        var = self.variable_selection(assigment)
+        val = self.order_value_selection(var, assigment)
 
         for value in val:
-            if isConsistent(var, value, assigment):
+            if self.isConsistent(var, value, assigment):
                 assigment.append((var, value))  # Add ao cubo de dado
-                inference_result = inference(self.csp, var, value)
+                inference_result = self.inference(var, value)
 
-                result = search(csp, assigment, qnd_turma)      
+                result = self.search(csp, assigment, qnd_turma)      
                 if result is not failure:
                     return result
         return failure
@@ -37,7 +37,7 @@ class BackTracking:
             conflicts = 0
             for other_var in assigment:
                 if not other_var.is_assigned:
-                    conflicts = count_conflicts(var, v, other_var, self.csp.constraint)
+                    conflicts = self.count_conflicts(var, v, other_var, self.csp.constraint)
             value_score.append((v, conflicts))
         value_score.sort(key=lambda x: x[1])
 
@@ -163,23 +163,22 @@ class BackTracking:
             return self.csp.domains[0]
         
     def isConsistent(self, var, value, assigment): # verificar restrições
-        for constraint in self.csp.constraints[var]:
-            if not constraint.is_satisfied(value, assigment):
-                return False
+        if not self.csp.constraint.verify(var, value, assigment):
+            return False
         return True
         
-    def inference(self, assigned_variable, assigned_value, constraints):     
+    def inference(self, assigned_variable, assigment):     
         # Copia dos domínios para restaurar se necessário
         reduced_domains = {var: list(var.domains) for var in self.csp.variable_list}
 
         for var in self.csp.variable_list:
             if var != assigned_variable and not var.is_assigned:  
                 # Remove slots inválidos do domínio da variável não atribuída
-                for value in var.domains[:]:  
-                    if not constraints(assigned_variable, assigned_value, var, value):  
+                for value in var.domains:  
+                    if not self.csp.constraint.verify(var, value, assigment):  
                         reduced_domains[var].remove(value)  
 
-                # Se o domínio ficar vazio, falha na inferência (backtrack necessário)
+                # Domínio vazio, falha na inferência (backtrack necessário)
                 if not reduced_domains[var]:
                     return False, None
         return True, reduced_domains

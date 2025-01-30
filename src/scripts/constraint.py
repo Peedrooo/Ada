@@ -3,7 +3,7 @@ class constraint():
     def __init__(self):
         pass
 
-    def flux_conflict(self, var, value, assigment):
+    def flux_conflict(var, value, assigment):
         _, day, horario = value
         for v in assigment:
             _, day_v, horario_v = v.value
@@ -48,3 +48,13 @@ class constraint():
                 and day_v == day and horario_v == horario:
                 return False
         return True
+    
+    def verify(self, var, value, assigment):
+        if self.flux_conflict(var, value, assigment) and \
+            self.resource_conflict(value, assigment) and \
+            self.lab_conflict(var, value) and \
+            self.room_load_conflict(var, value) and \
+            self.same_class_time_conflict(var, value, assigment):
+            return True
+        else:
+            return False
