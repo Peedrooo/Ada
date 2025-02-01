@@ -1,16 +1,15 @@
 
 
 class variable():
-    def __init__(self, Class):
+    def __init__(self, Class, domain):
         self.Class = Class
-        self.domain = []
+        self.domain = domain
         self.value
         self.is_assigned = False
 
     def assign(self, new_value):
         self.value = new_value
         self.is_assigned = True
-
 
     def unassign(self):
         self.value = None
