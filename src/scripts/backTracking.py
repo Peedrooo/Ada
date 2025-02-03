@@ -212,6 +212,7 @@ class BackTracking:
         var.unassign()
         return count
     
+    
 
 if __name__ == "__main__":
     locals = classrom_storage.list_locals()

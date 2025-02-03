@@ -49,7 +49,29 @@ class GenerateClasses:
             if qnt_interesse > 0:
                 HEAP.push((qnt_interesse, disciplina))
 
+    def split_by_workload(self):
+        new_classroom_list = []
+        for turma in self.classroom_list:
+            workload = turma.discipline.workload  # Obtém o workload
+            num_fragmentos = max(1, workload // 30)  # Divide em fragmentos de 30
+            
+            fracionamento = 1  # Parte decimal do ID
+            
+            for _ in range(num_fragmentos):
+                nova_turma = ClassDemand(
+                    discipline=turma.discipline,
+                    students=turma.students
+                )
+                nova_turma.turma_size = turma.turma_size  # Mantém o tamanho original
+                nova_turma.id = round(turma.id + (fracionamento * 0.1), 1)  # Ajusta ID decimal
+                
+                new_classroom_list.append(nova_turma)
+                fracionamento += 1  # Incrementa parte decimal do ID
+
+        self.classroom_list = new_classroom_list  # Atualiza a lista com turmas fragmentadas
+
     def get_classroom(self):
         HEAP = MaxHeap(self.classDemand)
         self.gera_turmas(HEAP)
-        return self.classroom_list  # Retorna lista de ClassDemand com ID e tamanho da turma
+        self.split_by_workload()  # Aplica a fragmentação por workload
+        return self.classroom_list
