@@ -1,5 +1,5 @@
 import sys
-
+import random
 sys.path.append('./src')
 
 from classCSP import classCSP
@@ -8,6 +8,7 @@ from variable   import variable
 from app.database.classromStorage import classrom_storage
 from app.database.classDemandStorage import class_demand_storage
 from model.classDemand import ClassDemand
+from model.discipline import Discipline
 from generateClasses import GenerateClasses
 class BackTracking:
 
@@ -54,15 +55,15 @@ class BackTracking:
             value_score.append((v, conflicts))
         value_score.sort(key=lambda x: x[1])
 
-        if var.Class.workflow == 60:
+        if var.Class.discipline.workflow == 60:
             if var.Class.part == 1:
                 for val in var.domain:
                     local, day, _ = val
-                    if day == 'SEG' or day == 'TER' or day == 'QUA' and var.Class.students <= local.supported_load:
+                    if day == 'SEG' or day == 'TER' or day == 'QUA' and var.Class.turma_size <= local.supported_load:
                         value_order.append(val)
                 for val in var.domain:
                     local, day, _ = val
-                    if var.Class.students <= local.supported_load and day != 'SEG' and day != 'TER' and day != 'QUA':
+                    if var.Class.turma_size <= local.supported_load and day != 'SEG' and day != 'TER' and day != 'QUA':
                         value_order.append(val)
                 return value_order # já sabesse que a restrição de sala será quebrada
             elif var.Class.part == 2:
@@ -110,15 +111,15 @@ class BackTracking:
                             return value_order
                 #End-for
                 return value_score # Não conseguiu fazer nenhuma ordenação aprofundada   
-        elif var.Class.workflow == 90:
+        elif var.Class.discipline.workflow == 90:
             if var.Class.part == 1:
                 for val in value_score:
                     local, day, _ = val
-                    if day == 'SEG'and var.Class.students <= local.supported_load:
+                    if day == 'SEG'and var.Class.turma_size <= local.supported_load:
                         value_order.append(val)
                 for val in value_score:
                     local, day, _ = val
-                    if var.Class.students <= local.supported_load and day != 'SEG':
+                    if var.Class.turma_size <= local.supported_load and day != 'SEG':
                         value_order.append(val)
                 return value_order # já sabesse que a restrição de sala será quebrada
             elif var.Class.part == 2:
@@ -159,7 +160,7 @@ class BackTracking:
                             return value_order
                 #End-for
                 return value_score # Não conseguiu fazer nenhuma ordenação aprofundada  
-        elif var.Class.workflow == 30:
+        elif var.Class.discipline.workflow == 30:
             # Única estratégia que consegui pensar foi evitar slots que sejam potências escolhas para disciplinas de mais horas
             for val in value_score:
                 _, day, _ = val
@@ -212,19 +213,74 @@ class BackTracking:
         var.unassign()
         return count
     
-    
+def mock_discipline():
+    f = open("src/data/disciplines.txt", "r")
+    discipline = []
+    for line in f:
+        name_, flow_, workload_, type_ = line.split("-")
+        discipline.append(Discipline(
+                name=name_,
+                flow=int(flow_),  # Convertendo para inteiro, se necessário
+                workload=int(workload_),
+                type=type_
+            ))
+    f.close()
+    return discipline
+
+def mock_class(disciplines:list[Discipline]):
+    turma = []
+    i=0
+    random.seed(None)
+    for d in disciplines:
+        match d.workload:
+            case 90:
+                for a in range(1, 3):
+                    turma.append(ClassDemand(
+                        discipline = d,
+                        students=0,
+                        turma_size = random.randint(30, 200),
+                        id = i+1,
+                        part = a
+                    ))
+            case 60:
+                for a in range(1, 2):
+                    turma.append(ClassDemand(
+                        discipline = d,
+                        students=0,
+                        turma_size = random.randint(30, 200),
+                        id = i+1,
+                        part = a
+                    ))
+            case 30:
+                turma.append(ClassDemand(
+                        discipline = d,
+                        students=0,
+                        turma_size = random.randint(30, 200),
+                        id = i+1,
+                        part = 1
+                    ))
+            case _:
+                print("Classe com workload inexistente")
+                return None
+        i+=1
+    return turma
+        
 
 if __name__ == "__main__":
     locals = classrom_storage.list_locals()
     class_demand = class_demand_storage.return_class_demands()
     cources = GenerateClasses(class_demand)
-    print(cources.get_classroom())
+    # print(cources.get_classroom())
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
     horarios = [
     '10:00-11:50', '08:00-09:50', '16:00-17:50',
     '14:00-15:50', '12:00-13:50', '18:00-19:50'
     ]
-
+    disciplines = mock_discipline()
+    print(disciplines)
+    print(type(disciplines))
+    turmas = mock_class(disciplines)
+    print(turmas)
 
     # csp = classCSP(
     #     locals = locals,

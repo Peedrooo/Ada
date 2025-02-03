@@ -13,6 +13,7 @@ class ClassDemand(BaseModel):
     students: int
     turma_size: int = 0
     id: int = 0
+    part: int = 0
 
     def recover_discipline(self):
         disciplineStorage = DisciplineStorage()

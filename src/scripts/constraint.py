@@ -28,14 +28,14 @@ class constraint():
         _,local,_ = value
         if var.Class.discipline.type == 'comum':
             return True
-        elif not local.lab == var.discipline.type : # Adicionar lógica do atributo lab na classe local
+        elif not local.lab == var.discipline.type :
             return False
         else:
             return True
 
     def room_load_conflict(var, value):
         _,local,_ = value
-        if var.Class.students > local.get_supported_load():
+        if var.Class.turma_size > local.get_supported_load():
             return False
         return True
     

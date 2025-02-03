@@ -1,10 +1,14 @@
+import sys
 
+sys.path.append('./src')
+
+from model.classDemand import ClassDemand
 
 class variable():
-    def __init__(self, Class, domain):
+    def __init__(self, Class:ClassDemand, domain):
         self.Class = Class
         self.domain = domain
-        self.value
+        self.value = None
         self.is_assigned = False
 
     def assign(self, new_value):
@@ -14,6 +18,3 @@ class variable():
     def unassign(self):
         self.value = None
         self.is_assigned = False
-
-    def init_domain(self, locals, days, times):
-        self.domain = [(local, day, time) for day in days for time in times for local in locals]

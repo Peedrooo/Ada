@@ -8,7 +8,6 @@ class Local:
             ):
 
         self.name = name
-        self.id = id,
         self.lab = lab
         self.load = load 
         self.supported_load = supported_load
