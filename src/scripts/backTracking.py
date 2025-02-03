@@ -234,7 +234,7 @@ def mock_class(disciplines:list[Discipline]):
     for d in disciplines:
         match d.workload:
             case 90:
-                for a in range(1, 3):
+                for a in range(1, 4):
                     turma.append(ClassDemand(
                         discipline = d,
                         students=0,
@@ -243,7 +243,7 @@ def mock_class(disciplines:list[Discipline]):
                         part = a
                     ))
             case 60:
-                for a in range(1, 2):
+                for a in range(1, 3):
                     turma.append(ClassDemand(
                         discipline = d,
                         students=0,
