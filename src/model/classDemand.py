@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from model.discipline import Discipline
 import sys
 import os
 
@@ -8,8 +9,10 @@ from app.database.disciplineStorage import DisciplineStorage
 
 
 class ClassDemand(BaseModel):
-    discipline: str
+    discipline: Discipline | str
     students: int
+    turma_size: int = 0
+    id: int = 0
 
     def recover_discipline(self):
         disciplineStorage = DisciplineStorage()
@@ -22,7 +25,10 @@ class ClassDemand(BaseModel):
             'discipline': self.discipline,
             'students': self.students
         }
-    
+        
+    def __lt__(self, other):
+        return self.students < other.students  # Compara pelo número de alunos
+
     def __str__(self):
         return (f"Discipline: {self.discipline}, Students: {self.students}")
     

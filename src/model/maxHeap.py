@@ -1,10 +1,14 @@
 import heapq
-
+from typing import List
+from model.classDemand import ClassDemand
 
 class MaxHeap:
-    def __init__(self, ELEMENTS):
+    def __init__(self, ELEMENTS: List[ClassDemand]):
         self.heap = []
-        [self.push(e) for e in ELEMENTS]
+
+        [self.push(
+            (e.students, e)
+        ) for e in ELEMENTS]
 
     def push(self, item):
         heapq.heappush(self.heap, (-item[0], item))

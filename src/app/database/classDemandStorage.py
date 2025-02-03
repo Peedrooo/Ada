@@ -29,12 +29,16 @@ class ClassDemandStorage(Storage):
             )
         logging.info(f"Retrieved class demand: {class_demand}")
         return class_demand
-    
+
     def list_class_demands(self) -> List[Dict[str, str]]:
         """Lista todas as demandas de sala armazenadas."""
         logging.info(f"Listing all class demands: {len(self._storage)} found.")
         return [class_demand.get_all() for class_demand in self._storage.values()]
 
+    def return_class_demands(self) -> List[ClassDemand]:
+        """Retorna todas as demandas de sala armazenadas."""
+        logging.info(f"Returning all class demands: {len(self._storage)} found.")
+        return [class_demand for class_demand in self._storage.values()]
 
     def save_class_demands(self, path) -> None:
         """Cria um txt com todas as demandas de sala cadastradas."""
@@ -48,11 +52,12 @@ class ClassDemandStorage(Storage):
         if os.path.exists(path):
             with open(path, 'r') as file:
                 for line in file:
-                    name, capacity, type = line.strip().split('-')
+                    name, capacity = line.strip().split('-')
                     class_demand = ClassDemand(
-                        name=name,
-                        capacity=int(capacity), 
-                        type=type)
+                        discipline=name,
+                        students=int(capacity) 
+                        )
+                    class_demand.recover_discipline()
                     self.add_class_demand(class_demand)
             logging.info("Loaded all class demands.")
         else:
@@ -67,3 +72,4 @@ class ClassDemandStorage(Storage):
 
 
 class_demand_storage = ClassDemandStorage()
+class_demand_storage.load_class_demands('src/data/classroms-demand.txt')

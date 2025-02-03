@@ -1,8 +1,6 @@
 class Local:
     def __init__(
             self, name: str,
-            id: int,
-            part: int, 
             lab: str,
             load: int = 0,
             supported_load: int = 60,
@@ -11,7 +9,6 @@ class Local:
 
         self.name = name
         self.id = id,
-        self.part = part
         self.lab = lab
         self.load = load 
         self.supported_load = supported_load

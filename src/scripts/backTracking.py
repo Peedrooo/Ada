@@ -1,12 +1,19 @@
-from csp import CSP
+import sys
+
+sys.path.append('./src')
+
+from classCSP import classCSP
 from constraint import constraint
 from variable   import variable
-
+from app.database.classromStorage import classrom_storage
+from app.database.classDemandStorage import class_demand_storage
+from model.classDemand import ClassDemand
+from generateClasses import GenerateClasses
 class BackTracking:
 
-    def __init__(self, csp, cube):
+    def __init__(self, csp:classCSP):
         self.csp = csp
-        self.cube = cube  # Conjunto com todas as variáveis e seus valores
+        # self.cube = cube  # Conjunto com todas as variáveis e seus valores
     
     def search(self, assigment, qnd_turma):
 
@@ -34,7 +41,6 @@ class BackTracking:
             restor_var.domain = save_domains[restor_var]
         return failure
 
-        
     def order_value_selection(self, var, assigment): # Grande impacto na performance
         """ Garantir que a escolha de valores que preservem mais opções para as turmas 
         restantes, reduzindo a probabilidade de atingir um beco sem saída."""
@@ -206,5 +212,23 @@ class BackTracking:
         var.unassign()
         return count
     
-    
 
+if __name__ == "__main__":
+    locals = classrom_storage.list_locals()
+    class_demand = class_demand_storage.return_class_demands()
+    cources = GenerateClasses(class_demand)
+    print(cources.get_classroom())
+    days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
+    horarios = [
+    '10:00-11:50', '08:00-09:50', '16:00-17:50',
+    '14:00-15:50', '12:00-13:50', '18:00-19:50'
+    ]
+
+
+    # csp = classCSP(
+    #     locals = locals,
+    #     days = days,
+    #     times = horarios,
+    #     cources = cources.get_classroom()
+    # )
+    pass
