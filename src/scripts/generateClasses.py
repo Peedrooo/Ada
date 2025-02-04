@@ -55,18 +55,16 @@ class GenerateClasses:
             workload = turma.discipline.workload  # Obtém o workload
             num_fragmentos = max(1, workload // 30)  # Divide em fragmentos de 30
             
-            fracionamento = 1  # Parte decimal do ID
-            
-            for _ in range(num_fragmentos):
+            for part in range(1, num_fragmentos + 1):
                 nova_turma = ClassDemand(
                     discipline=turma.discipline,
                     students=turma.students
                 )
                 nova_turma.turma_size = turma.turma_size  # Mantém o tamanho original
-                nova_turma.id = round(turma.id + (fracionamento * 0.1), 1)  # Ajusta ID decimal
+                nova_turma.id = turma.id  # Mantém o mesmo ID
+                nova_turma.part = part  # Novo atributo indicando a parte
                 
                 new_classroom_list.append(nova_turma)
-                fracionamento += 1  # Incrementa parte decimal do ID
 
         self.classroom_list = new_classroom_list  # Atualiza a lista com turmas fragmentadas
 
