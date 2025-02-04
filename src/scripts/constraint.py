@@ -1,9 +1,6 @@
 
 class constraint():
-    def __init__(self):
-        pass
-
-    def flux_conflict(var, value, assigment):
+    def flux_conflict(self, var, value, assigment):
         _, day, horario = value
         for v in assigment:
             _, day_v, horario_v = v.value
@@ -15,7 +12,7 @@ class constraint():
                 return False
         return True
     
-    def resource_conflict(value, assigment):
+    def resource_conflict(self, value, assigment):
         local, day, horario = value
         for v in assigment:
             local_a, day_a, horario_a = v.value
@@ -24,7 +21,7 @@ class constraint():
                 return False
         return True
     
-    def lab_conflict(var, value):
+    def lab_conflict(self, var, value):
         _,local,_ = value
         if var.Class.discipline.type == 'comum':
             return True
@@ -33,13 +30,13 @@ class constraint():
         else:
             return True
 
-    def room_load_conflict(var, value):
+    def room_load_conflict(self, var, value):
         _,local,_ = value
         if var.Class.turma_size > local.get_supported_load():
             return False
         return True
     
-    def same_class_time_conflict(var, value, assigment):
+    def same_class_time_conflict(self, var, value, assigment):
         _, day, horario = value
         for v in assigment:
             _,day_v,horario_v = v.value

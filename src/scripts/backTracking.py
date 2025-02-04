@@ -10,19 +10,20 @@ from app.database.classDemandStorage import class_demand_storage
 from model.classDemand import ClassDemand
 from model.discipline import Discipline
 from generateClasses import GenerateClasses
+from typing import List
+
 class BackTracking:
 
     def __init__(self, csp:classCSP):
         self.csp = csp
         # self.cube = cube  # Conjunto com todas as variáveis e seus valores
     
-    def search(self, assigment, qnd_turma):
-
+    def search(self, qnd_turma, assigment:List[variable]):
         # Condição de parada
-        if self.isComplete(assigment, qnd_turma):
+        if self.isComplete(qnd_turma, assigment):
             return assigment
         
-        var = self.variable_selection(assigment)
+        var = self.variable_selection()
         val = self.order_value_selection(var, assigment)
 
         for value in val:
@@ -33,14 +34,17 @@ class BackTracking:
                 # Copia dos domínios para restaurar se necessário
                 save_domains = {var: list(var.domains) for var in self.csp.variable_list}
                 inference_result = self.inference(var, value)
-
-                result = self.search(assigment, qnd_turma)      
-                if result is not failure:
-                    return result
-        # Restaura o domínio das variáveis
-        for restor_var in self.csp.variable_list:
-            restor_var.domain = save_domains[restor_var]
-        return failure
+                
+                if inference_result:
+                    result = self.search(assigment, qnd_turma)      
+                    if result:
+                        return result
+                # Restaura o domínio das variáveis
+                for restor_var in self.csp.variable_list:
+                    restor_var.domain = save_domains[restor_var]
+                var.unassign()
+                assigment.pop(-1)
+        return False
 
     def order_value_selection(self, var, assigment): # Grande impacto na performance
         """ Garantir que a escolha de valores que preservem mais opções para as turmas 
@@ -55,7 +59,7 @@ class BackTracking:
             value_score.append((v, conflicts))
         value_score.sort(key=lambda x: x[1])
 
-        if var.Class.discipline.workflow == 60:
+        if var.Class.discipline.workload == 60:
             if var.Class.part == 1:
                 for val in var.domain:
                     local, day, _ = val
@@ -111,7 +115,7 @@ class BackTracking:
                             return value_order
                 #End-for
                 return value_score # Não conseguiu fazer nenhuma ordenação aprofundada   
-        elif var.Class.discipline.workflow == 90:
+        elif var.Class.discipline.workload == 90:
             if var.Class.part == 1:
                 for val in value_score:
                     local, day, _ = val
@@ -160,7 +164,7 @@ class BackTracking:
                             return value_order
                 #End-for
                 return value_score # Não conseguiu fazer nenhuma ordenação aprofundada  
-        elif var.Class.discipline.workflow == 30:
+        elif var.Class.discipline.workload == 30:
             # Única estratégia que consegui pensar foi evitar slots que sejam potências escolhas para disciplinas de mais horas
             for val in value_score:
                 _, day, _ = val
@@ -170,11 +174,12 @@ class BackTracking:
                     value_order.append(val)
             return value_order
         
-
-    def variable_selection(self, assignment):
+    def variable_selection(self):
         # Valores ordenados conforme o fluxo e se faz parte da mesma turma
-        if assignment is None:
-            return self.csp.domains[0]
+        for var in csp.variable_list:
+            print(var.Class.discipline.name)
+            if not var.is_assigned:
+                return var
         
     def isConsistent(self, var, value, assigment): # verificar restrições
         if not self.csp.constraints.verify(var, value, assigment):
@@ -269,7 +274,7 @@ def mock_class(disciplines:list[Discipline]):
 if __name__ == "__main__":
     locals = classrom_storage.list_locals()
     class_demand = class_demand_storage.return_class_demands()
-    cources = GenerateClasses(class_demand)
+    # cources = GenerateClasses(class_demand)
     # print(cources.get_classroom())
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
     horarios = [
@@ -277,15 +282,19 @@ if __name__ == "__main__":
     '14:00-15:50', '12:00-13:50', '18:00-19:50'
     ]
     disciplines = mock_discipline()
-    print(disciplines)
-    print(type(disciplines))
     turmas = mock_class(disciplines)
-    print(turmas)
+    # print(turmas)
 
-    # csp = classCSP(
-    #     locals = locals,
-    #     days = days,
-    #     times = horarios,
-    #     cources = cources.get_classroom()
-    # )
+    restrincao = constraint()
+    csp = classCSP(
+        locals = locals,
+        days = days,
+        times = horarios,
+        cources = turmas,
+        constraint = restrincao
+    )
+    csp.init_variables()
+    back_tracking_search = BackTracking(csp)
+    assigment_list = []
+    back_tracking_search.search(len(turmas), assigment_list)
     pass

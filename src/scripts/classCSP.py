@@ -8,8 +8,8 @@ from typing import List
 from model.local import Local
 
 class classCSP:
-    def __init__(self, locals:List[Local], days, times, cources):
-        self.constraints
+    def __init__(self, locals:List[Local], days, times, cources, constraint:constraint):
+        self.constraints = constraint
         self.variable_list = []
         self.locals = locals
         self.days = days
@@ -26,6 +26,3 @@ class classCSP:
         for cource in self.cources:
             var = variable(cource, domain)
             self.variable_list.append(var)
-
-    def init_constraint(self):
-        self.constraints = constraint()
