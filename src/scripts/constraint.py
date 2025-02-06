@@ -22,17 +22,17 @@ class constraint():
         return True
     
     def lab_conflict(self, var, value):
-        _,local,_ = value
+        local,_._ = value
         if var.Class.discipline.type == 'comum':
             return True
-        elif not local.lab == var.discipline.type :
+        elif not local.type == var.discipline.type :
             return False
         else:
             return True
 
     def room_load_conflict(self, var, value):
-        _,local,_ = value
-        if var.Class.turma_size > local.get_supported_load():
+        local,_,_ = value
+        if var.Class.turma_size > local.capacity:
             return False
         return True
     

@@ -10,6 +10,7 @@ from app.database.classDemandStorage import class_demand_storage
 from model.classDemand import ClassDemand
 from model.discipline import Discipline
 from generateClasses import GenerateClasses
+from model.classrom import Classrom
 from typing import List
 
 class BackTracking:
@@ -25,7 +26,7 @@ class BackTracking:
         
         var = self.variable_selection()
         val = self.order_value_selection(var, assigment)
-
+        print(val) # val está vazio
         for value in val:
             if self.isConsistent(var, value, assigment):
                 var.assign(value)
@@ -36,7 +37,7 @@ class BackTracking:
                 inference_result = self.inference(var, value)
                 
                 if inference_result:
-                    result = self.search(assigment, qnd_turma)      
+                    result = self.search(qnd_turma, assigment)      
                     if result:
                         return result
                 # Restaura o domínio das variáveis
@@ -50,24 +51,22 @@ class BackTracking:
         """ Garantir que a escolha de valores que preservem mais opções para as turmas 
         restantes, reduzindo a probabilidade de atingir um beco sem saída."""
         value_order = []
-        value_score = []
-        for v in var.domain:
-            conflicts = 0
-            for other_var in assigment:
-                if not other_var.is_assigned:
-                    conflicts = self.count_conflicts(var, v, other_var)
-            value_score.append((v, conflicts))
-        value_score.sort(key=lambda x: x[1])
+        value_score = [(local_, day_, time_) for local_, day_, time_, _ in sorted(
+            [(v[0], v[1], v[2], self.count_conflicts(var, v, other_var))
+            for v in var.domain
+            for other_var in assigment if not other_var.is_assigned],
+            key=lambda x: x[3]
+        )]
 
         if var.Class.discipline.workload == 60:
             if var.Class.part == 1:
-                for val in var.domain:
+                for val in value_score:
                     local, day, _ = val
-                    if day == 'SEG' or day == 'TER' or day == 'QUA' and var.Class.turma_size <= local.supported_load:
+                    if day == 'SEG' or day == 'TER' or day == 'QUA' and var.Class.turma_size <= local.capacity:
                         value_order.append(val)
-                for val in var.domain:
+                for val in value_score:
                     local, day, _ = val
-                    if var.Class.turma_size <= local.supported_load and day != 'SEG' and day != 'TER' and day != 'QUA':
+                    if var.Class.turma_size <= local.capacity and day != 'SEG' and day != 'TER' and day != 'QUA':
                         value_order.append(val)
                 return value_order # já sabesse que a restrição de sala será quebrada
             elif var.Class.part == 2:
@@ -119,11 +118,11 @@ class BackTracking:
             if var.Class.part == 1:
                 for val in value_score:
                     local, day, _ = val
-                    if day == 'SEG'and var.Class.turma_size <= local.supported_load:
+                    if day == 'SEG'and var.Class.turma_size <= local.capacity:
                         value_order.append(val)
                 for val in value_score:
                     local, day, _ = val
-                    if var.Class.turma_size <= local.supported_load and day != 'SEG':
+                    if var.Class.turma_size <= local.capacity and day != 'SEG':
                         value_order.append(val)
                 return value_order # já sabesse que a restrição de sala será quebrada
             elif var.Class.part == 2:
@@ -269,10 +268,22 @@ def mock_class(disciplines:list[Discipline]):
                 return None
         i+=1
     return turma
-        
+
+def mock_local():
+    f = open("src/data/classroms.txt", "r")
+    list_local = []
+    for line in f:
+        name_, capacity_, type_ = line.split("-")
+        list_local.append(Classrom(
+                name=name_,
+                capacity=int(capacity_),
+                type=type_
+            ))
+    f.close()
+    return list_local
 
 if __name__ == "__main__":
-    locals = classrom_storage.list_locals()
+    # locals = classrom_storage.list_locals()
     class_demand = class_demand_storage.return_class_demands()
     # cources = GenerateClasses(class_demand)
     # print(cources.get_classroom())
@@ -284,7 +295,7 @@ if __name__ == "__main__":
     disciplines = mock_discipline()
     turmas = mock_class(disciplines)
     # print(turmas)
-
+    locals = mock_local()
     restrincao = constraint()
     csp = classCSP(
         locals = locals,
@@ -297,4 +308,5 @@ if __name__ == "__main__":
     back_tracking_search = BackTracking(csp)
     assigment_list = []
     back_tracking_search.search(len(turmas), assigment_list)
+    print(assigment_list)
     pass

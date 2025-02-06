@@ -5,10 +5,10 @@ sys.path.append('./src')
 from constraint import constraint
 from variable import variable
 from typing import List
-from model.local import Local
+from model.classrom import Classrom
 
 class classCSP:
-    def __init__(self, locals:List[Local], days, times, cources, constraint:constraint):
+    def __init__(self, locals:List[Classrom], days, times, cources, constraint:constraint):
         self.constraints = constraint
         self.variable_list = []
         self.locals = locals
