@@ -26,14 +26,14 @@ class BackTracking:
         
         var = self.variable_selection()
         val = self.order_value_selection(var, assigment)
-        print(val) # val está vazio
+
         for value in val:
             if self.isConsistent(var, value, assigment):
                 var.assign(value)
                 assigment.append(var)
 
                 # Copia dos domínios para restaurar se necessário
-                save_domains = {var: list(var.domains) for var in self.csp.variable_list}
+                save_domains = {var: list(var.domain) for var in self.csp.variable_list}
                 inference_result = self.inference(var, value)
                 
                 if inference_result:
@@ -54,10 +54,9 @@ class BackTracking:
         value_score = [(local_, day_, time_) for local_, day_, time_, _ in sorted(
             [(v[0], v[1], v[2], self.count_conflicts(var, v, other_var))
             for v in var.domain
-            for other_var in assigment if not other_var.is_assigned],
+            for other_var in self.csp.variable_list if not other_var.is_assigned],
             key=lambda x: x[3]
         )]
-
         if var.Class.discipline.workload == 60:
             if var.Class.part == 1:
                 for val in value_score:
@@ -189,7 +188,7 @@ class BackTracking:
         for var in self.csp.variable_list:
             if var != assigned_variable and not var.is_assigned:  
                 # Remove slots inválidos do domínio da variável não atribuída
-                for value in var.domains:  
+                for value in var.domain:  
                     if not self.csp.constraints.verify(var, value, assigment):  
                         var.domain.remove(value)  
 

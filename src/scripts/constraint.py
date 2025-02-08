@@ -5,9 +5,9 @@ class constraint():
         for v in assigment:
             _, day_v, horario_v = v.value
             turma = v.Class
-            if turma.discipline == var.discipline and turma.id != var.id:
+            if turma.discipline == var.Class.discipline and turma.id != var.Class.id:
                 return True
-            elif turma.discipline.flow == var.discipline.flow \
+            elif turma.discipline.flow == var.Class.discipline.flow \
                 and (day_v == day and horario_v == horario):
                 return False
         return True
@@ -22,10 +22,10 @@ class constraint():
         return True
     
     def lab_conflict(self, var, value):
-        local,_._ = value
+        local,_,_ = value
         if var.Class.discipline.type == 'comum':
             return True
-        elif not local.type == var.discipline.type :
+        elif not local.type == var.Class.discipline.type :
             return False
         else:
             return True
