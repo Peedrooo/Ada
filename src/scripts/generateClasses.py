@@ -17,14 +17,14 @@ class GenerateClasses:
 
         for tamanho in tamanhos:
             if qnt_interesse <= tamanho:
-                # Criando um novo objeto ClassDemand com ID e tamanho da turma
                 turma = ClassDemand(
-                    discipline=disciplina,  # Mantendo o nome original
+                    discipline=disciplina, 
                     students=qnt_interesse
                 )
-                turma.recover_discipline()  # Recupera a disciplina original
-                turma.turma_size = tamanho  # Adiciona atributo de tamanho
-                turma.id = self.turma_id  # Adiciona um ID único à turma
+                turma.recover_discipline()  
+                turma.turma_size = tamanho
+                turma.id = self.turma_id 
+                # turma.type = self.dis
                 self.turma_id += 1  # Incrementa o ID para a próxima turma
 
                 self.classroom_list.append(turma)
@@ -60,10 +60,12 @@ class GenerateClasses:
                     discipline=turma.discipline,
                     students=turma.students
                 )
+                # nova_turma.recover_discipline()  # Recupera a disciplina original
                 nova_turma.turma_size = turma.turma_size  # Mantém o tamanho original
                 nova_turma.id = turma.id  # Mantém o mesmo ID
                 nova_turma.part = part  # Novo atributo indicando a parte
-                
+                nova_turma.type = nova_turma.discipline.type  # Novo atributo indicando o tipo
+
                 new_classroom_list.append(nova_turma)
 
         self.classroom_list = new_classroom_list  # Atualiza a lista com turmas fragmentadas

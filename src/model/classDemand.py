@@ -14,6 +14,7 @@ class ClassDemand(BaseModel):
     turma_size: int = 0
     id: int = 0
     part: int = 0
+    type: str = 'normal'
 
     def recover_discipline(self):
         disciplineStorage = DisciplineStorage()
