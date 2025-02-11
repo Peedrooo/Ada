@@ -1,5 +1,6 @@
 import sys
 import random
+import traceback
 sys.path.append('./src')
 
 from classCSP import classCSP
@@ -26,16 +27,15 @@ class BackTracking:
         
         var = self.variable_selection()
         val = self.order_value_selection(var, assigment)
-
+        print(f'lista de valores: {len(val)}')
         for value in val:
             if self.isConsistent(var, value, assigment):
                 var.assign(value)
                 assigment.append(var)
-
                 # Copia dos domínios para restaurar se necessário
                 save_domains = {var: list(var.domain) for var in self.csp.variable_list}
-                inference_result = self.inference(var, value)
-                
+                inference_result = self.inference(var, assigment)
+                print(f"🔁 inference retornou: {inference_result}")
                 if inference_result:
                     result = self.search(qnd_turma, assigment)      
                     if result:
@@ -51,11 +51,8 @@ class BackTracking:
         """ Garantir que a escolha de valores que preservem mais opções para as turmas 
         restantes, reduzindo a probabilidade de atingir um beco sem saída."""
         value_order = []
-        value_score = [(local_, day_, time_) for local_, day_, time_, _ in sorted(
-            [(v[0], v[1], v[2], self.count_conflicts(var, v, other_var))
-            for v in var.domain
-            for other_var in self.csp.variable_list if not other_var.is_assigned],
-            key=lambda x: x[3]
+        value_score = [(v[0], v[1], v[2]) for v in sorted(
+            var.domain, key=lambda v: sum(self.count_conflicts(var, v, other_var) for other_var in self.csp.variable_list if not other_var.is_assigned)
         )]
         if var.Class.discipline.workload == 60:
             if var.Class.part == 1:
@@ -70,14 +67,14 @@ class BackTracking:
                 return value_order # já sabesse que a restrição de sala será quebrada
             elif var.Class.part == 2:
                 for assign in assigment:
-                    sala_a, day_a, horario_a = assign.domain
+                    sala_a, day_a, horario_a = assign.value
                     turma = assign.Class
                     if turma.id == var.Class.id:
                         if day_a == 'SEG':
                             if (sala_a, 'QUA', horario_a) in value_score:
-                                value_order.append(sala_a, 'QUA', horario_a)
+                                value_order.append((sala_a, 'QUA', horario_a))
                             if (sala_a, 'SEX', horario_a) in value_score:
-                                value_order.append(sala_a, 'SEX', horario_a)
+                                value_order.append((sala_a, 'SEX', horario_a))
                             for val in value_score:
                                 _, day, horario = val
                                 if day == 'QUA' or day == 'SEX' and horario_a == horario:
@@ -89,7 +86,7 @@ class BackTracking:
                             return value_order
                         elif day_a == 'TER':
                             if (sala_a, 'QUI', horario_a) in value_score:
-                                value_order.append(sala_a, 'QUI', horario_a)
+                                value_order.append((sala_a, 'QUI', horario_a))
                             for val in value_score:
                                 _, day, horario = val
                                 if day == 'QUI' and horario_a == horario:
@@ -101,7 +98,7 @@ class BackTracking:
                             return value_order
                         elif day_a == 'QUA':
                             if (sala_a, 'SEX', horario_a) in value_score:
-                                value_order.append(sala_a, 'SEX', horario_a)
+                                value_order.append((sala_a, 'SEX', horario_a))
                             for val in value_score:
                                 _, day, horario = val
                                 if day == 'SEX' and horario_a == horario:
@@ -131,7 +128,7 @@ class BackTracking:
                     if turma.id == var.Class.id:
                         if day_a == 'SEG':
                             if (sala_a, 'QUA', horario_a) in value_score:
-                                value_order.append(sala_a, 'QUA', horario_a)
+                                value_order.append((sala_a, 'QUA', horario_a))
                             for val in value_score:
                                 _, day, horario = val
                                 if day == 'QUA' and horario_a == horario:
@@ -150,7 +147,7 @@ class BackTracking:
                     if turma_a.id == var.Class.id:
                         if day_a == 'QUA':
                             if (sala_a, 'SEX', horario_a) in value_score:
-                                value_order.append(sala_a, 'SEX', horario_a)
+                                value_order.append((sala_a, 'SEX', horario_a))
                             for val in value_score:
                                 _, day, horario = val
                                 if day == 'SEX' and horario_a == horario:
@@ -175,7 +172,7 @@ class BackTracking:
     def variable_selection(self):
         # Valores ordenados conforme o fluxo e se faz parte da mesma turma
         for var in csp.variable_list:
-            print(var.Class.discipline.name)
+            # print(var.Class.discipline.name)
             if not var.is_assigned:
                 return var
         
@@ -184,18 +181,26 @@ class BackTracking:
             return False
         return True
         
-    def inference(self, assigned_variable, assigment):     
-        for var in self.csp.variable_list:
-            if var != assigned_variable and not var.is_assigned:  
-                # Remove slots inválidos do domínio da variável não atribuída
-                for value in var.domain:  
-                    if not self.csp.constraints.verify(var, value, assigment):  
-                        var.domain.remove(value)  
+    def inference(self, assigned_variable, assigment):
+        try:
+            print("🔍 Entrou na função inference")
+            # print("📌 Assignment recebido:", assigment)
 
-                # Domínio vazio, falha na inferência (backtrack necessário)
-                if var.domain == None:
-                    return False
-        return True
+            for var in self.csp.variable_list:
+                if var != assigned_variable and not var.is_assigned:
+                    print(f"🔎 Processando variável: {var}")
+
+                    var.domain = [value for value in var.domain if self.csp.constraints.verify(var, value, assigment)]     
+
+                    if not var.domain:  # Se o domínio ficou vazio
+                        print(f"❌ Domínio esvaziado para {var}, retornando False.")
+                        return False
+
+            print("✅ inference finalizou normalmente.")
+            return True
+        except Exception as e:
+            print(f"⚠️ Erro inesperado em inference: {e}")
+            return False
 
     def isComplete(self, total_turma, assigment):
         if total_turma == len(assigment): # Adicionas atributo assignments no csp
@@ -207,11 +212,11 @@ class BackTracking:
         count = 0
         var.assign(value)
         for d in other_var.domain:
-            if not self.csp.constraints.flux_conflict(other_var, d, [var]):
+            if self.csp.constraints.flux_conflict(other_var, d, var):
                 count += 1
-            if not self.csp.constraints.resource_conflict(d, [var]):
+            if self.csp.constraints.resource_conflict(d, var):
                 count += 1
-            if not self.csp.constraints.same_class_time_conflict(other_var, d, [var]):
+            if self.csp.constraints.same_class_time_conflict(other_var, d, var):
                 count += 1
         var.unassign()
         return count
@@ -282,7 +287,7 @@ def mock_local():
     return list_local
 
 if __name__ == "__main__":
-    # locals = classrom_storage.list_locals()
+    # locals = classrom_storage.list_classroms()
     class_demand = class_demand_storage.return_class_demands()
     cources = GenerateClasses(class_demand)
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
@@ -306,6 +311,11 @@ if __name__ == "__main__":
     csp.init_variables()
     back_tracking_search = BackTracking(csp)
     assigment_list = []
-    assigment = back_tracking_search.search(len(turmas), assigment_list)
+
+    try:
+        assigment = back_tracking_search.search(len(turmas), assigment_list)
+    except Exception as e:
+        print(f"⚠️ Erro detectado em search: {e}")
+        traceback.print_exc()
     print(assigment)
     pass

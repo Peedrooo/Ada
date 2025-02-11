@@ -4,7 +4,7 @@ I3-200-comum
 I4-200-comum
 I5-200-comum
 I6-200-comum
-I7-200-comum
+I7-200-lab_computacao
 I8-200-comum
 I9-150-lab_computacao
 I10-150-lab_computacao
