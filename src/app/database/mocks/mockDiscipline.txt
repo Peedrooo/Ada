@@ -3,10 +3,10 @@
     "name": "APC",
     "flow": 1,
     "type": "labComputacao",
-    "workload": 60
+    "workload": 90
   },
   {
-    "name": "Fisica",
+    "name": "Fisica 1",
     "flow": 2,
     "type": "labComputacao",
     "workload": 60
@@ -18,7 +18,7 @@
     "workload": 60
   },
   {
-    "name": "Calculo",
+    "name": "Calculo 1",
     "flow": 2,
     "type": "comum",
     "workload": 60
@@ -48,15 +48,159 @@
     "workload": 60
   },
   {
-    "name": "Redes",
-    "flow": 1,
+    "name": "IA",
+    "flow": 2,
     "type": "labComputacao",
     "workload": 60
   },
   {
-    "name": "IA",
+    "name": "DS",
     "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "MD1",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "OO",
+    "flow": 3,
     "type": "labComputacao",
+    "workload": 60
+  },
+  {
+    "name": "FAC",
+    "flow": 4,
+    "type": "labComputacao",
+    "workload": 60
+  },
+  {
+    "name": "PI1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "MDS",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "EDA1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "MD2",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "COMP1",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "TPPE",
+    "flow": 5,
+    "type": "labComputacao",
+    "workload": 60
+  },
+  {
+    "name": "Requisitos de Software",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "IHC",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "EDA2",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "FSO",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "SBD1",
+    "flow": 5,
+    "type": "labComputacao",
+    "workload": 60
+  },
+  {
+    "name": "FRC",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Arquitetura e Desenho de Software",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Testes de Software",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "SBD2",
+    "flow": 6,
+    "type": "labComputacao",
+    "workload": 60
+  },
+  {
+    "name": "Qualidade de Software 1",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "FSE",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Paradigmas de Programação",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "PSPD",
+    "flow": 7,
+    "type": "labComputacao",
+    "workload": 60
+  },
+  {
+    "name": "EPS",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "GCS",
+    "flow": 8,
+    "type": "comum",
     "workload": 60
   }
 ]
