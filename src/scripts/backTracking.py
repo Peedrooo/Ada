@@ -12,6 +12,7 @@ from model.classDemand import ClassDemand
 from model.discipline import Discipline
 from generateClasses import GenerateClasses
 from model.classrom import Classrom
+from interface import Interface
 from typing import List
 
 class BackTracking:
@@ -183,20 +184,20 @@ class BackTracking:
         
     def inference(self, assigned_variable, assigment):
         try:
-            print("🔍 Entrou na função inference")
+            # print("🔍 Entrou na função inference")
             # print("📌 Assignment recebido:", assigment)
 
             for var in self.csp.variable_list:
                 if var != assigned_variable and not var.is_assigned:
-                    print(f"🔎 Processando variável: {var}")
+                    # print(f"🔎 Processando variável: {var}")
 
                     var.domain = [value for value in var.domain if self.csp.constraints.verify(var, value, assigment)]     
 
                     if not var.domain:  # Se o domínio ficou vazio
-                        print(f"❌ Domínio esvaziado para {var}, retornando False.")
+                        # print(f"❌ Domínio esvaziado para {var}, retornando False.")
                         return False
 
-            print("✅ inference finalizou normalmente.")
+            # print("✅ inference finalizou normalmente.")
             return True
         except Exception as e:
             print(f"⚠️ Erro inesperado em inference: {e}")
@@ -289,15 +290,16 @@ def mock_local():
 if __name__ == "__main__":
     # locals = classrom_storage.list_classroms()
     class_demand = class_demand_storage.return_class_demands()
-    cources = GenerateClasses(class_demand)
+    # cources = GenerateClasses(class_demand)
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
     horarios = [
     '10:00-11:50', '08:00-09:50', '16:00-17:50',
-    '14:00-15:50', '12:00-13:50', '18:00-19:50'
+    '14:00-15:50'
+    #  , '12:00-13:50', '18:00-19:50'
     ]
-    # disciplines = mock_discipline()
-    # turmas = mock_class(disciplines)
-    turmas = cources.get_classroom()
+    disciplines = mock_discipline()
+    turmas = mock_class(disciplines)
+    # turmas = cources.get_classroom()
     locals = mock_local()
     # print(turmas)
     restrincao = constraint()
@@ -317,5 +319,10 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"⚠️ Erro detectado em search: {e}")
         traceback.print_exc()
-    print(assigment)
+
+    if assigment:  # Se search retornou algo diferente de False
+        ui = Interface(assigment)
+        ui.draw()
+    else:
+        print("❌ Nenhuma solução encontrada!")
     pass
