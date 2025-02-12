@@ -301,7 +301,6 @@ if __name__ == "__main__":
     turmas = mock_class(disciplines)
     # turmas = cources.get_classroom()
     locals = mock_local()
-    # print(turmas)
     restrincao = constraint()
     csp = classCSP(
         locals = locals,

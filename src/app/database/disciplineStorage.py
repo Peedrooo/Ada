@@ -71,3 +71,4 @@ class DisciplineStorage(Storage):
 
 
 discipline_storage = DisciplineStorage()
+discipline_storage.load_disciplines('src/data/disciplines.txt')
