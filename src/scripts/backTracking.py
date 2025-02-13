@@ -288,7 +288,7 @@ def mock_local():
     return list_local
 
 if __name__ == "__main__":
-    # locals = classrom_storage.list_classroms()
+    locals = classrom_storage.list_classroms()
     class_demand = class_demand_storage.return_class_demands()
     cources = GenerateClasses(class_demand)
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']

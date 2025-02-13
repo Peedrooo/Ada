@@ -40,10 +40,10 @@ class ClassromStorage(Storage):
         logging.info(f"Retrieved classrom: {classrom}")
         return classrom
     
-    def list_classroms(self) -> List[Dict[str, str]]:
+    def list_classroms(self) -> List[Classrom]:
         """Lista todas as salas armazenadas."""
         logging.info(f"Listing all classroms: {len(self._storage)} found.")
-        return [classrom.get_all() for classrom in self._storage.values()]
+        return [classrom for classrom in self._storage.values()]
 
     def list_locals(self) -> List[Local]:
         """Lista todos os locais armazenados."""
