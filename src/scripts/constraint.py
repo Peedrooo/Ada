@@ -45,20 +45,20 @@ class constraint():
     
     def verify(self, var, value, assigment):
         if self.lab_conflict(var, value):
-            # print('erro lab')
+            print('erro lab')
             return False
         if self.room_load_conflict(var, value):
-            # print('erro room_load')
+            print('erro room_load')
             return False
         for v in assigment:
             if v != var and v != []:
                 if self.resource_conflict(value, v):
-                    # print('erro resource')
+                    print('erro resource')
                     return False
                 if self.flux_conflict(var, value, v):
-                    # print('erro flux')
+                    print('erro flux')
                     return False
                 if self.same_class_time_conflict(var, value, v):
-                    # print('erro same class')
+                    print('erro same class')
                     return False
         return True

@@ -26,3 +26,12 @@ class classCSP:
         for cource in self.cources:
             var = variable(cource, domain)
             self.variable_list.append(var)
+    
+    def sort_variables(self):
+        """
+        Ordena as turmas por carga horária
+        como uma heurística
+        """
+        self.variable_list = sorted(self.variable_list, key = lambda x: x.Class.discipline.workload, reverse=True)
+        # for var in self.variable_list:
+            # print(f'{var.Class.discipline.name}, id - {var.Class.id}, part - {var.Class.part}, carga horária: {var.Class.discipline.workload}')

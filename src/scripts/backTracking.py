@@ -290,16 +290,16 @@ def mock_local():
 if __name__ == "__main__":
     # locals = classrom_storage.list_classroms()
     class_demand = class_demand_storage.return_class_demands()
-    # cources = GenerateClasses(class_demand)
+    cources = GenerateClasses(class_demand)
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
     horarios = [
     '10:00-11:50', '08:00-09:50', '16:00-17:50',
     '14:00-15:50'
     #  , '12:00-13:50', '18:00-19:50'
     ]
-    disciplines = mock_discipline()
-    turmas = mock_class(disciplines)
-    # turmas = cources.get_classroom()
+    # disciplines = mock_discipline()
+    # turmas = mock_class(disciplines)
+    turmas = cources.get_classroom()
     locals = mock_local()
     restrincao = constraint()
     csp = classCSP(
@@ -310,18 +310,19 @@ if __name__ == "__main__":
         constraint = restrincao
     )
     csp.init_variables()
+    csp.sort_variables()
     back_tracking_search = BackTracking(csp)
     assigment_list = []
 
-    try:
-        assigment = back_tracking_search.search(len(turmas), assigment_list)
-    except Exception as e:
-        print(f"⚠️ Erro detectado em search: {e}")
-        traceback.print_exc()
+    # try:
+    #     assigment = back_tracking_search.search(len(turmas), assigment_list)
+    # except Exception as e:
+    #     print(f"⚠️ Erro detectado em search: {e}")
+    #     traceback.print_exc()
 
-    if assigment:  # Se search retornou algo diferente de False
-        ui = Interface(assigment)
-        ui.draw()
-    else:
-        print("❌ Nenhuma solução encontrada!")
+    # if assigment:  # Se search retornou algo diferente de False
+    #     ui = Interface(assigment)
+    #     ui.draw()
+    # else:
+    #     print("❌ Nenhuma solução encontrada!")
     pass
