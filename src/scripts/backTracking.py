@@ -314,15 +314,15 @@ if __name__ == "__main__":
     back_tracking_search = BackTracking(csp)
     assigment_list = []
 
-    # try:
-    #     assigment = back_tracking_search.search(len(turmas), assigment_list)
-    # except Exception as e:
-    #     print(f"⚠️ Erro detectado em search: {e}")
-    #     traceback.print_exc()
+    try:
+        assigment = back_tracking_search.search(len(turmas), assigment_list)
+    except Exception as e:
+        print(f"⚠️ Erro detectado em search: {e}")
+        traceback.print_exc()
 
-    # if assigment:  # Se search retornou algo diferente de False
-    #     ui = Interface(assigment)
-    #     ui.draw()
-    # else:
-    #     print("❌ Nenhuma solução encontrada!")
+    if assigment:  # Se search retornou algo diferente de False
+        ui = Interface(assigment)
+        ui.draw()
+    else:
+        print("❌ Nenhuma solução encontrada!")
     pass
