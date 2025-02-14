@@ -1,52 +1,112 @@
 [
   {
     "name": "I1",
-    "capacity": 200,
+    "capacity": 45,
     "type": "comum"
   },
   {
     "name": "I2",
-    "capacity": 200,
+    "capacity": 60,
     "type": "comum"
   },
   {
     "name": "I3",
-    "capacity": 200,
+    "capacity": 60,
     "type": "comum"
   },
   {
     "name": "I4",
-    "capacity": 200,
+    "capacity": 60,
     "type": "comum"
   },
   {
     "name": "I5",
-    "capacity": 200,
+    "capacity": 60,
     "type": "comum"
   },
   {
     "name": "I6",
-    "capacity": 200,
-    "type": "comum"
+    "capacity": 60,
+    "type": "lab_computacao"
   },
   {
     "name": "I7",
-    "capacity": 200,
-    "type": "comum"
+    "capacity": 45,
+    "type": "lab_computacao"
   },
   {
     "name": "I8",
-    "capacity": 200,
+    "capacity": 45,
     "type": "comum"
   },
   {
     "name": "I9",
-    "capacity": 150,
-    "type": "type-computacao"
+    "capacity": 130,
+    "type": "comum"
   },
   {
     "name": "I10",
-    "capacity": 150,
-    "type": "type-computacao"
+    "capacity": 70,
+    "type": "lab_computacao"
+  },
+  {
+    "name": "S1",
+    "capacity": 100,
+    "type": "comum"
+  },
+  {
+    "name": "S2",
+    "capacity": 90,
+    "type": "comum"
+  },
+  {
+    "name": "S3",
+    "capacity": 130,
+    "type": "comum"
+  },
+  {
+    "name": "S4",
+    "capacity": 90,
+    "type": "comum"
+  },
+  {
+    "name": "S5",
+    "capacity": 48,
+    "type": "comum"
+  },
+  {
+    "name": "S6",
+    "capacity": 40,
+    "type": "comum"
+  },
+  {
+    "name": "S7",
+    "capacity": 60,
+    "type": "comum"
+  },
+  {
+    "name": "S8",
+    "capacity": 50,
+    "type": "comum"
+  },
+  {
+    "name": "S9",
+    "capacity": 100,
+    "type": "comum"
+  },
+  {
+    "name": "S10",
+    "capacity": 70,
+    "type": "lab_computacao"
+  },
+  {
+    "name": "Mocap",
+    "capacity": 70,
+    "type": "lab_computacao"
+  },
+  {
+    "name": "Anfiteatro",
+    "capacity": 130,
+    "type": "comum"
   }
 ]

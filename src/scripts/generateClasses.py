@@ -17,9 +17,9 @@ class GenerateClasses:
     def add_turma(self, disciplina, qnt_interesse):
         disciplina_encontrada = discipline_storage.get_discipline(disciplina)
         if disciplina_encontrada.type == 'comum':
-            tamanhos = [15, 20, 25, 30, 45, 50, 70, 85, 110]
+            tamanhos = [45, 48, 50, 70, 90, 130]
         else:
-            tamanhos = [50, 60, 80]
+            tamanhos = [45, 60, 70]
 
         for tamanho in tamanhos:
 

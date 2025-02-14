@@ -1,7 +1,9 @@
 import logging
 import os
 from typing import Dict, List, Optional
+
 from fastapi import HTTPException
+
 from app.database.storage import Storage
 from model.discipline import Discipline
 
@@ -37,7 +39,7 @@ class DisciplineStorage(Storage):
 
     def save_disciplines(self, path: str) -> None:
         """Cria um arquivo txt com todas as disciplinas cadastradas."""
-        with open(path, 'w') as file:
+        with open(path, 'w', encoding='utf-8') as file:
             for discipline in self._storage.values():
                 file.write(f"{discipline.name}-{discipline.flow}-"
                            f"{discipline.workload}-{discipline.type}\n")
@@ -46,7 +48,7 @@ class DisciplineStorage(Storage):
     def load_disciplines(self, path: str) -> None:
         """Carrega todas as disciplinas cadastradas de um arquivo txt."""
         if os.path.exists(path):
-            with open(path, 'r') as file:
+            with open(path, 'r', encoding='utf-8') as file:
                 for line in file:
                     name, flow, workload, type = line.strip().split('-')
                     discipline = Discipline(
