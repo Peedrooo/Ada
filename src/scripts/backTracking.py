@@ -48,13 +48,12 @@ class BackTracking:
                 assigment.pop(-1)
         return False
 
-    def order_value_selection(self, var, assigment): # Grande impacto na performance
-        """ Garantir que a escolha de valores que preservem mais opções para as turmas 
-        restantes, reduzindo a probabilidade de atingir um beco sem saída."""
+    def order_value_selection(self, var, assigment):
         value_order = []
         value_score = [(v[0], v[1], v[2]) for v in sorted(
             var.domain, key=lambda v: sum(self.count_conflicts(var, v, other_var) for other_var in self.csp.variable_list if not other_var.is_assigned)
         )]
+        
         if var.Class.discipline.workload == 60:
             if var.Class.part == 1:
                 for val in value_score:
@@ -65,7 +64,7 @@ class BackTracking:
                     local, day, _ = val
                     if var.Class.turma_size <= local.capacity and day != 'SEG' and day != 'TER' and day != 'QUA':
                         value_order.append(val)
-                return value_order # já sabesse que a restrição de sala será quebrada
+                return value_order if value_order else value_score  # Retorna value_order se não estiver vazio, caso contrário, retorna value_score
             elif var.Class.part == 2:
                 for assign in assigment:
                     sala_a, day_a, horario_a = assign.value
@@ -84,7 +83,7 @@ class BackTracking:
                                 _, day, horario = val
                                 if horario_a != horario or (day != 'QUA' and day != 'SEX'):
                                     value_order.append(val)
-                            return value_order
+                            return value_order if value_order else value_score
                         elif day_a == 'TER':
                             if (sala_a, 'QUI', horario_a) in value_score:
                                 value_order.append((sala_a, 'QUI', horario_a))
@@ -96,7 +95,7 @@ class BackTracking:
                                 _, day, _ = val
                                 if horario_a != horario or day != 'QUI':
                                     value_order.append(val)
-                            return value_order
+                            return value_order if value_order else value_score
                         elif day_a == 'QUA':
                             if (sala_a, 'SEX', horario_a) in value_score:
                                 value_order.append((sala_a, 'SEX', horario_a))
@@ -108,9 +107,9 @@ class BackTracking:
                                 _, day, _ = val
                                 if horario_a != horario or day != 'SEX':
                                     value_order.append(val)
-                            return value_order
+                            return value_order if value_order else value_score
                 #End-for
-                return value_score # Não conseguiu fazer nenhuma ordenação aprofundada   
+                return value_score  # Não conseguiu fazer nenhuma ordenação aprofundada   
         elif var.Class.discipline.workload == 90:
             if var.Class.part == 1:
                 for val in value_score:
@@ -121,10 +120,10 @@ class BackTracking:
                     local, day, _ = val
                     if var.Class.turma_size <= local.capacity and day != 'SEG':
                         value_order.append(val)
-                return value_order # já sabesse que a restrição de sala será quebrada
+                return value_order if value_order else value_score  # Retorna value_order se não estiver vazio, caso contrário, retorna value_score
             elif var.Class.part == 2:
                 for assign in assigment:
-                    sala_a, day_a, horario_a = assign
+                    sala_a, day_a, horario_a = assign.value
                     turma = assign.Class
                     if turma.id == var.Class.id:
                         if day_a == 'SEG':
@@ -138,9 +137,9 @@ class BackTracking:
                                 _, day, _ = val
                                 if horario_a != horario or day != 'QUA':
                                     value_order.append(val)
-                            return value_order
+                            return value_order if value_order else value_score
                 #End-for
-                return value_score # Não conseguiu fazer nenhuma ordenação aprofundada
+                return value_score  # Não conseguiu fazer nenhuma ordenação aprofundada
             elif var.Class.part == 3:
                 for assign in assigment:
                     sala_a, day_a, horario_a = assign.value
@@ -157,9 +156,9 @@ class BackTracking:
                                 _, day, _ = val
                                 if horario_a != horario or day != 'SEX':
                                     value_order.append(val)
-                            return value_order
+                            return value_order if value_order else value_score
                 #End-for
-                return value_score # Não conseguiu fazer nenhuma ordenação aprofundada  
+                return value_score  # Não conseguiu fazer nenhuma ordenação aprofundada  
         elif var.Class.discipline.workload == 30:
             # Única estratégia que consegui pensar foi evitar slots que sejam potências escolhas para disciplinas de mais horas
             for val in value_score:
@@ -168,8 +167,8 @@ class BackTracking:
                     value_order.insert(0, val)
                 else:
                     value_order.append(val)
-            return value_order
-        
+            return value_order if value_order else value_score  # Retorna value_order se não estiver vazio, caso contrário, retorna value_score
+        return value_score  # Não conseguiu fazer nenhuma ordenação aprofundada        
     def variable_selection(self):
         # Valores ordenados conforme o fluxo e se faz parte da mesma turma
         for var in csp.variable_list:
