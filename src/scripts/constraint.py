@@ -34,9 +34,8 @@ class constraint():
     
     def lab_conflict(self, var, value):
         local,_,_ = value
-        print(f'Tipo Disciplina: {var.Class.discipline.type}')
-        print(f'Tipo sala: {local.type}')
-
+        # print(f'Tipo Disciplina: {var.Class.discipline.type}')
+        # print(f'Tipo sala: {local.type}')
         if var.Class.discipline.type == 'comum':
             return False
         elif local.type != var.Class.discipline.type:
