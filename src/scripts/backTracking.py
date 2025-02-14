@@ -289,6 +289,7 @@ def mock_local():
 
 if __name__ == "__main__":
     locals = classrom_storage.list_classroms()
+    print(f'Quantidade de locais {len(locals)}')
     class_demand = class_demand_storage.return_class_demands()
     cources = GenerateClasses(class_demand)
     days = ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']
@@ -297,9 +298,9 @@ if __name__ == "__main__":
     '14:00-15:50'
     #  , '12:00-13:50', '18:00-19:50'
     ]
-    # disciplines = mock_discipline()
-    # turmas = mock_class(disciplines)
+
     turmas = cources.get_classroom()
+    print(f'Quantidade de turmas {len(turmas)}')
     # locals = mock_local()
     restrincao = constraint()
     csp = classCSP(
