@@ -1,6 +1,10 @@
 
 class constraint():
     def flux_conflict(self, var, value, v):
+        # Restrição não se aplica para disciplina optativa 
+        if var.Class.discipline.flow == 0:
+            return False
+        
         _, day, horario = value
         _, day_v, horario_v = v.value
         turma = v.Class
@@ -30,6 +34,9 @@ class constraint():
     
     def lab_conflict(self, var, value):
         local,_,_ = value
+        print(f'Tipo Disciplina: {var.Class.discipline.type}')
+        print(f'Tipo sala: {local.type}')
+
         if var.Class.discipline.type == 'comum':
             return False
         elif local.type != var.Class.discipline.type:

@@ -4,7 +4,7 @@ DIAC-1-60-lab_computacao
 Calculo-2-60-comum
 LP-1-60-comum
 BD-2-60-lab_computacao
-ED-1-30-lab_computacao
+ED-1-60-lab_computacao
 SO-2-60-lab_computacao
 Redes-1-60-lab_computacao
 IA-2-60-lab_computacao
