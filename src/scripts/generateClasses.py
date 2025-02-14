@@ -35,8 +35,8 @@ class GenerateClasses:
                 self.classroom_list.append(turma)
                 
                 qnt_interesse -= tamanho
-            elif qnt_interesse > 110 and  disciplina_encontrada.type == 'comum':
-                tamanho = 110
+            elif qnt_interesse >= 130 and  disciplina_encontrada.type == 'comum':
+                tamanho = 130
                 turma = ClassDemand(
                     discipline=disciplina_encontrada, 
                     students=tamanho
@@ -48,8 +48,8 @@ class GenerateClasses:
                 self.classroom_list.append(turma)
 
                 qnt_interesse -= tamanho
-            elif qnt_interesse > 80 and disciplina_encontrada.type != 'comum':
-                tamanho = 80
+            elif qnt_interesse >= 70 and disciplina_encontrada.type != 'comum':
+                tamanho = 70
                 turma = ClassDemand(
                     discipline=disciplina_encontrada, 
                     students=tamanho
@@ -73,7 +73,6 @@ class GenerateClasses:
                 HEAP.push((qnt_interesse, disciplina))
 
         while len(HEAP):
-            print('Heap size:', len(HEAP))
             qnt_interesse, disciplina = HEAP.pop()
             qnt_interesse = self.add_turma(disciplina.discipline.name, qnt_interesse)
             if qnt_interesse > 0:
