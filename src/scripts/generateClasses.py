@@ -35,6 +35,7 @@ class GenerateClasses:
                 self.classroom_list.append(turma)
                 
                 qnt_interesse -= tamanho
+                return qnt_interesse
             elif qnt_interesse >= 130 and  disciplina_encontrada.type == 'comum':
                 tamanho = 130
                 turma = ClassDemand(
@@ -48,6 +49,7 @@ class GenerateClasses:
                 self.classroom_list.append(turma)
 
                 qnt_interesse -= tamanho
+                return qnt_interesse
             elif qnt_interesse >= 70 and disciplina_encontrada.type != 'comum':
                 tamanho = 70
                 turma = ClassDemand(
@@ -61,7 +63,7 @@ class GenerateClasses:
                 self.classroom_list.append(turma)
 
                 qnt_interesse -= tamanho
-        return qnt_interesse
+                return qnt_interesse
 
     def gera_turmas(self, HEAP: MaxHeap):
         all_elements = HEAP.all()
@@ -72,11 +74,11 @@ class GenerateClasses:
             if qnt_interesse > 0:
                 HEAP.push((qnt_interesse, disciplina))
 
-        while len(HEAP):
-            qnt_interesse, disciplina = HEAP.pop()
-            qnt_interesse = self.add_turma(disciplina.discipline.name, qnt_interesse)
-            if qnt_interesse > 0:
-                HEAP.push((qnt_interesse, disciplina))
+        # while len(HEAP):
+        #     qnt_interesse, disciplina = HEAP.pop()
+        #     qnt_interesse = self.add_turma(disciplina.discipline.name, qnt_interesse)
+        #     if qnt_interesse > 0:
+        #         HEAP.push((qnt_interesse, disciplina))
 
     def split_by_workload(self):
         new_classroom_list = []
@@ -106,5 +108,6 @@ class GenerateClasses:
         print('Classes generated')
         self.split_by_workload()
         print('Classes splitted')
+        print(len(self.classroom_list))
         return self.classroom_list
     

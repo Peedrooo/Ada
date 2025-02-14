@@ -3,195 +3,195 @@ Fisica-30
 Calculo-60
 BD-120
 ED-90
-Aerodin‚mica de sistemas aeroespaciais-45
-CiÍncias Aeroespaciais-60
-Din‚mica de Estruturas Aeroespaciais-50
-Din‚mica dos Gases para Sistemas Aeroespaciais-40
-Fundamentos do MÈtodo dos Elementos Finitos-70
+Aerodin√¢mica de sistemas aeroespaciais-45
+Ci√™ncias Aeroespaciais-60
+Din√¢mica de Estruturas Aeroespaciais-50
+Din√¢mica dos Gases para Sistemas Aeroespaciais-40
+Fundamentos do M√©todo dos Elementos Finitos-70
 Fundamentos do Projeto de Aeronaves-55
-Mec‚nica de Estruturas Aeroespaciais-65
-Mec‚nica de Estruturas Aeron·uticas-50
-Mec‚nica do Voo-60
-Mec‚nica do Voo Espacial-45
-Mec‚nica dos Materiais CompÛsitos-55
+Mec√¢nica de Estruturas Aeroespaciais-65
+Mec√¢nica de Estruturas Aeron√°uticas-50
+Mec√¢nica do Voo-60
+Mec√¢nica do Voo Espacial-45
+Mec√¢nica dos Materiais Comp√≥sitos-55
 Projeto de Sistemas Aeroespaciais-70
 Projeto de Sistemas de Controle-65
-Projeto de Sistemas de ObservaÁ„o da Terra-50
+Projeto de Sistemas de Observa√ß√£o da Terra-50
 Projeto Integrador de Engenharia 1-80
 Projeto Integrador de Engenharia 2-75
-Propuls„o Aeroespacial-60
-Propuls„o Aeronautica-55
-Propuls„o ElÈtrica-50
+Propuls√£o Aeroespacial-60
+Propuls√£o Aeronautica-55
+Propuls√£o El√©trica-50
 Sistemas Aeroespaciais-70
-Sistemas de Propuls„o SÛlida e HÌbrida-45
+Sistemas de Propuls√£o S√≥lida e H√≠brida-45
 Topicos Especiais 2 em Engenharia Aeroespacial-40
 Topicos Especiais 3 em Engenharia Aeroespacial-35
 Topicos Especiais 4 em Engenharia Aeroespacial-30
-TÛpicos Especiais em Engenharia Aeroespacial-50
-TelecomunicaÁıes Espaciais-60
-Ac˙stica e VibraÁıes Veiculares-45
-An·lise Estrutural MÈtodos de Elementos Finitos-70
-An·lise Din‚mica MÈtodos de Elementos Finitos-65
-Arquitetura de Motores de Combust„o interna-55
+T√≥picos Especiais em Engenharia Aeroespacial-50
+Telecomunica√ß√µes Espaciais-60
+Ac√∫stica e Vibra√ß√µes Veiculares-45
+An√°lise Estrutural M√©todos de Elementos Finitos-70
+An√°lise Din√¢mica M√©todos de Elementos Finitos-65
+Arquitetura de Motores de Combust√£o interna-55
 Confiabilidade de Sistemas Automotivos-50
 Desenho Industrial Assistido por Computador-60
-Din‚mica de VeÌculos-70
+Din√¢mica de Ve√≠culos-70
 Dinamica dos Mecanismos-45
 Eletronica Veicular-55
-Engenharia de ManutenÁ„o-50
-Engenharia de SeguranÁa do Trabalho-60
+Engenharia de Manuten√ß√£o-50
+Engenharia de Seguran√ßa do Trabalho-60
 Engenharia de Software Automotivo-70
 Equipamentos Termofluidos Automotivos-45
 Ergonomia do Produto-50
-Gest„o da ProduÁ„o Automotiva-60
-Gest„o da ProduÁ„o da Qualidade-55
-IntegraÁ„o e Testes-70
-IntroduÁ„o ‡ Mec‚nica da Fratura-45
+Gest√£o da Produ√ß√£o Automotiva-60
+Gest√£o da Produ√ß√£o da Qualidade-55
+Integra√ß√£o e Testes-70
+Introdu√ß√£o √† Mec√¢nica da Fratura-45
 Introducao ao Desgaste-50
-IntroduÁ„o ao Design e ConcepÁ„o de VeÌculos-60
-LaboratÛrio de Materiais de ConstruÁ„o de Engenharia-55
-Materiais Compostos e Pl·sticos-70
-Mec‚nica dos SÛlidos 1 para Engenharia-65
-Mecanica dos SÛlidos 2 para Engenharia-60
-MÈtodos Experimentais para Engenharia-55
+Introdu√ß√£o ao Design e Concep√ß√£o de Ve√≠culos-60
+Laborat√≥rio de Materiais de Constru√ß√£o de Engenharia-55
+Materiais Compostos e Pl√°sticos-70
+Mec√¢nica dos S√≥lidos 1 para Engenharia-65
+Mecanica dos S√≥lidos 2 para Engenharia-60
+M√©todos Experimentais para Engenharia-55
 Projeto de Elementos Automotivos-70
 Projeto de Estruturas de Veiculos-65
 Projeto de Sistemas Automotivos-60
-Projeto de VeÌculos-55
+Projeto de Ve√≠culos-55
 Sistemas Automotivos-70
 Sistemas de Controle Automotivo-65
-Sistemas Hidr·ulicos e Pneum·ticos-60
-Tecnologias de FabricaÁ„o 1-55
-Tecnologias de FabricaÁ„o 2-70
-Teoria de Materiais de ConstruÁ„o-65
+Sistemas Hidr√°ulicos e Pneum√°ticos-60
+Tecnologias de Fabrica√ß√£o 1-55
+Tecnologias de Fabrica√ß√£o 2-70
+Teoria de Materiais de Constru√ß√£o-65
 Topicos Especiais em Engenharia Automotiva-60
-TÛpicos Especiais em Engenharia Automotiva-55
-C·lculo 1-120
-C·lculo 2-110
-C·lculo 3-100
-FÌsica 1-130
-FÌsica 1 Experimental-120
-Fundamentos de Astronomia e AstrofÌsica-90
+T√≥picos Especiais em Engenharia Automotiva-55
+C√°lculo 1-120
+C√°lculo 2-110
+C√°lculo 3-100
+F√≠sica 1-130
+F√≠sica 1 Experimental-120
+Fundamentos de Astronomia e Astrof√≠sica-90
 Fundamentos de Energia Nuclear-80
-Fundamentos de EquaÁıes Diferenciais para Engenharia-100
-Fundamentos de Vari·veis Complexas para Engenharia-90
-IntroduÁ„o ‡ ¡lgebra Linear-110
-IntroduÁ„o ‡ Astronomia e AstrofÌsica-85
-IntroduÁ„o ‡ Engenharia-150
-IntroduÁ„o a Geometria AnalÌtica-120
-LaboratÛrio de OndulatÛria e FÌsica TÈrmica para Engenharia-100
+Fundamentos de Equa√ß√µes Diferenciais para Engenharia-100
+Fundamentos de Vari√°veis Complexas para Engenharia-90
+Introdu√ß√£o √† √Ålgebra Linear-110
+Introdu√ß√£o √† Astronomia e Astrof√≠sica-85
+Introdu√ß√£o √† Engenharia-150
+Introdu√ß√£o a Geometria Anal√≠tica-120
+Laborat√≥rio de Ondulat√≥ria e F√≠sica T√©rmica para Engenharia-100
 Matematica aplicada a sistemas-110
-MÈtodos NumÈricos para Engenharia-90
-OndulatÛria e Fisica TÈrmica para Engenharia-100
-Pr·tica de Eletromagnetismo-80
-PrÈ C·lculo-130
-Probabilidade e EstatÌstica Aplicada a Engenharia-110
+M√©todos Num√©ricos para Engenharia-90
+Ondulat√≥ria e Fisica T√©rmica para Engenharia-100
+Pr√°tica de Eletromagnetismo-80
+Pr√© C√°lculo-130
+Probabilidade e Estat√≠stica Aplicada a Engenharia-110
 Teoria de Eletromagnetismo-90
-TÛpicos Especiais em FÌsica Aplicada-80
+T√≥picos Especiais em F√≠sica Aplicada-80
 Topicos Especiais Em Matematica Aplicada-70
-FÌsica Moderna-100
-FÌsica 3-90
+F√≠sica Moderna-100
+F√≠sica 3-90
 Anatomia e Fisiologia Humana-85
 Antenas Impressas-60
 Codificacao e Compressao de Sinais e Video-70
-ComunicaÁıes Digitais para Engenharia-80
-Elementos e MÈtodos em EletrÙnica-90
+Comunica√ß√µes Digitais para Engenharia-80
+Elementos e M√©todos em Eletr√¥nica-90
 Eletronica de Alta Frequencia-70
 Eletronica de Potencia-80
-EletrÙnica de Radio FrequÍncia-90
-EletrÙnica Embarcada-100
+Eletr√¥nica de Radio Frequ√™ncia-90
+Eletr√¥nica Embarcada-100
 Engenharia de Produto-110
-Inform·tica em Sa˙de-85
-InovaÁ„o-90
-InstrumentaÁ„o BiomÈdica 1-80
-InstrumentaÁ„o BiomÈdica 2-70
-InstrumentaÁ„o e Sistemas de Controle-90
-InstrumentaÁ„o EletrÙnica para Engenharia-100
+Inform√°tica em Sa√∫de-85
+Inova√ß√£o-90
+Instrumenta√ß√£o Biom√©dica 1-80
+Instrumenta√ß√£o Biom√©dica 2-70
+Instrumenta√ß√£o e Sistemas de Controle-90
+Instrumenta√ß√£o Eletr√¥nica para Engenharia-100
 Integridade de Sinais e Design de Circuitos-85
-InteligÍncia Artificial-120
+Intelig√™ncia Artificial-120
 Microprocessadores e Microcontroladores-110
-Modelagem de Sistemas BiolÛgicos-90
-Pratica de Circuitos EletrÙnicos 1-80
-Pratica de Circuitos EletrÙnicos 2-70
+Modelagem de Sistemas Biol√≥gicos-90
+Pratica de Circuitos Eletr√¥nicos 1-80
+Pratica de Circuitos Eletr√¥nicos 2-70
 Pratica de Circuitos Eletronicos 3-60
 Pratica de Eletronica Digital 1-90
 Pratica de Eletronica Digital 2-80
-Pratica de FÌsica dos Dispositivos Eletronicos-70
-PrincÌpios de ComunicaÁ„o para Engenharia-100
-PrincÌpios de Controle-110
+Pratica de F√≠sica dos Dispositivos Eletronicos-70
+Princ√≠pios de Comunica√ß√£o para Engenharia-100
+Princ√≠pios de Controle-110
 Processamento de Sinais-120
 Processamento de Sinais Biologicos-90
 Processamento Digital de Imagens-100
 Processamento Digital de Sinais Financeiros-85
-Processos Estoc·sticos-80
-Projeto com Circuitos Reconfigur·veis-70
-Projeto de Circuitos EletrÙnicos Integrados 2-60
+Processos Estoc√°sticos-80
+Projeto com Circuitos Reconfigur√°veis-70
+Projeto de Circuitos Eletr√¥nicos Integrados 2-60
 Projeto de Circuitos Integrados 1-90
 Projeto de Circuitos Integrados Digitais-100
 Sinais e Sistemas para Engenharia-110
 Sistemas de Controle-120
 Sistemas Embarcados-130
 Sistemas Operacionais Embarcados-100
-Teoria da Fisica dos Dispositivos EletrÙnicos-90
-Teoria de Circuitos EletrÙnicos 1-80
-Teoria de Circuitos EletrÙnicos 2-70
-Teoria de Circuitos EletrÙnicos 3-60
-Teoria de EletrÙnica Digital 1-90
-Teoria de EletrÙnica Digital 2-80
-TÛpicos Especiais em Eletronica-70
-TÛpicos Especiais em InstrumentaÁ„o BiomÈdica-60
-INTRODU«√O ¿ FOT‘NICA E OPTR‘NICA-90
-TÛpicos especiais em eletrÙnica-80
-An·lise de Sistemas de Energia ElÈtrica-100
-An·lise Instrumental de CombustÌveis-90
+Teoria da Fisica dos Dispositivos Eletr√¥nicos-90
+Teoria de Circuitos Eletr√¥nicos 1-80
+Teoria de Circuitos Eletr√¥nicos 2-70
+Teoria de Circuitos Eletr√¥nicos 3-60
+Teoria de Eletr√¥nica Digital 1-90
+Teoria de Eletr√¥nica Digital 2-80
+T√≥picos Especiais em Eletronica-70
+T√≥picos Especiais em Instrumenta√ß√£o Biom√©dica-60
+INTRODU√á√ÉO √Ä FOT√îNICA E OPTR√îNICA-90
+T√≥picos especiais em eletr√¥nica-80
+An√°lise de Sistemas de Energia El√©trica-100
+An√°lise Instrumental de Combust√≠veis-90
 Biorrefinarias-80
-Centrais de GeraÁ„o TermoelÈtrica-70
-CombustÌveis e BiocombustÌveis-90
-Desenvolvimento Sustent·vel-100
-Din‚mica dos Fluidos-110
+Centrais de Gera√ß√£o Termoel√©trica-70
+Combust√≠veis e Biocombust√≠veis-90
+Desenvolvimento Sustent√°vel-100
+Din√¢mica dos Fluidos-110
 Economia da Energia-90
-EficiÍncia EnergÈtica em InstalaÁıes ElÈtricas Industriais-80
-Engenharia de PetrÛleo e G·s-100
+Efici√™ncia Energ√©tica em Instala√ß√µes El√©tricas Industriais-80
+Engenharia de Petr√≥leo e G√°s-100
 Engenharia e Ambiente-90
-Engenharia EconÙmica-110
-FenÙmenos de Transporte-100
-Fontes de Energia e Tecnologias de Convers„o-90
-Fundamentos de Propuls„o ElÈtrica Veicular-80
-Gest„o Ambiental no Setor EnergÈtico-70
+Engenharia Econ√¥mica-110
+Fen√¥menos de Transporte-100
+Fontes de Energia e Tecnologias de Convers√£o-90
+Fundamentos de Propuls√£o El√©trica Veicular-80
+Gest√£o Ambiental no Setor Energ√©tico-70
 Humanidades e Cidadania-100
 Laboratorio de Eletricidade Aplicada-90
-LaboratÛrio de Sistemas de Convers„o de Energia-80
-M·quinas de Fluido-90
-MÈtodos e TÈcnicas da Escrita Cientifica-70
-Planejamento e Gest„o de Energia-100
-Processos PetroquÌmicos-90
-QuÌmica Geral Experimental-80
-QuÌmica Geral TeÛrica-90
-QuÌmica Org‚nica para Engenharia-100
-RegulaÁ„o Ambiental no Setor EnergÈtico-70
-Sistemas de Energia Solar e EÛlica-110
-Sistemas de InformaÁ„o Geogr·fica para Engenharia-90
-Sistemas HidroelÈtricos-100
+Laborat√≥rio de Sistemas de Convers√£o de Energia-80
+M√°quinas de Fluido-90
+M√©todos e T√©cnicas da Escrita Cientifica-70
+Planejamento e Gest√£o de Energia-100
+Processos Petroqu√≠micos-90
+Qu√≠mica Geral Experimental-80
+Qu√≠mica Geral Te√≥rica-90
+Qu√≠mica Org√¢nica para Engenharia-100
+Regula√ß√£o Ambiental no Setor Energ√©tico-70
+Sistemas de Energia Solar e E√≥lica-110
+Sistemas de Informa√ß√£o Geogr√°fica para Engenharia-90
+Sistemas Hidroel√©tricos-100
 Teoria de Eletricidade Aplicada-80
-Teoria de Sistemas de Convers„o de Energia-90
-Termodin‚mica 1-110
-TÛpicos Especiais 1 em Engenharia de Energia-80
-TransferÍncia de Calor-90
-Transmiss„o e DistribuiÁ„o de Energia ElÈtrica-100
-Algoritmos e ProgramaÁ„o de Computadores-120
+Teoria de Sistemas de Convers√£o de Energia-90
+Termodin√¢mica 1-110
+T√≥picos Especiais 1 em Engenharia de Energia-80
+Transfer√™ncia de Calor-90
+Transmiss√£o e Distribui√ß√£o de Energia El√©trica-100
+Algoritmos e Programa√ß√£o de Computadores-120
 Aprendizado de Maquina-130
 Arquitetura e Desenho de Software-110
 Compiladores 1-90
-Criptografia e SeguranÁa de Redes-100
+Criptografia e Seguran√ßa de Redes-100
 Desenvolvimento de Sofware-120
 Engenharia de Produto de Software-110
 Engenharia de Software Experimental-90
 Estrutura de Dados e Algoritmos 1-130
 Estruturas de Dados 2-120
-FÌsica para Jogos EletrÙnicos 1-80
+F√≠sica para Jogos Eletr√¥nicos 1-80
 Fundamentos de Arquitetura de Computadores-100
 Fundamentos de Redes de Computadores-110
 Fundamentos de Sistemas Embarcados-90
 Fundamentos de Sistemas Operacionais-100
-Gerencia de ConfiguraÁ„o e EvoluÁ„o de Software-80
-InteraÁ„o Humano Computador-90
+Gerencia de Configura√ß√£o e Evolu√ß√£o de Software-80
+Intera√ß√£o Humano Computador-90

@@ -1162,5 +1162,179 @@
     "flow": 5,
     "type": "comum",
     "workload": 60
+  },
+  {
+    "name": "Introdução a Computação Gráfica",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introducao a Web Semantica",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Matematica Discreta 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Matematica Discreta 2",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Melhoria de Processos de Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Métodos de Desenvolvimento de Software",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Orientação a Objetos",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Paradigmas de Programação",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Princípios de Robótica Educacional",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Produtividade e Profissionalismo em Engenharia Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programação para Competições",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programacao para Sistemas Paralelos e Distribuídos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programação WEB",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Algoritmos",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 2",
+    "flow": 8,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Qualidade de Software 1",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Requisitos de Software",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Seminários em Engenharia de Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistema de Banco de Dados 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistema de Banco de Dados 2",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Críticos e Tolerância a Falhas",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Técnicas de Programação em Plataformas Emergentes",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Testes de Software",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais de Engenharia de Software (FELICIDADE)",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais de Engenharia de Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em  Jogos Digitais",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em  Programação",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Governança de TI",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
   }
 ]

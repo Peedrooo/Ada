@@ -301,7 +301,6 @@ if __name__ == "__main__":
 
     turmas = cources.get_classroom()
     print(f'Quantidade de turmas {len(turmas)}')
-    # locals = mock_local()
     restrincao = constraint()
     csp = classCSP(
         locals = locals,

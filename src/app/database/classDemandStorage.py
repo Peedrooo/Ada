@@ -42,7 +42,7 @@ class ClassDemandStorage(Storage):
 
     def save_class_demands(self, path) -> None:
         """Cria um txt com todas as demandas de sala cadastradas."""
-        with open(path, 'w') as file:
+        with open(path, 'w', encoding='utf-8') as file:
             for class_demand in self._storage.values():
                 file.write(f"{class_demand.discipline.name}-{class_demand.students}\n")
         logging.info("Saved all class demands.")
@@ -50,7 +50,7 @@ class ClassDemandStorage(Storage):
     def load_class_demands(self, path) -> None:
         """Carrega todas as demandas de sala cadastradas de um txt."""
         if os.path.exists(path):
-            with open(path, 'r') as file:
+            with open(path, 'r', encoding='utf-8') as file:
                 for line in file:
                     name, capacity = line.strip().split('-')
                     class_demand = ClassDemand(
