@@ -74,11 +74,11 @@ class GenerateClasses:
             if qnt_interesse > 0:
                 HEAP.push((qnt_interesse, disciplina))
 
-        # while len(HEAP):
-        #     qnt_interesse, disciplina = HEAP.pop()
-        #     qnt_interesse = self.add_turma(disciplina.discipline.name, qnt_interesse)
-        #     if qnt_interesse > 0:
-        #         HEAP.push((qnt_interesse, disciplina))
+        while len(HEAP):
+            qnt_interesse, disciplina = HEAP.pop()
+            qnt_interesse = self.add_turma(disciplina.discipline.name, qnt_interesse)
+            if qnt_interesse > 0:
+                HEAP.push((qnt_interesse, disciplina))
 
     def split_by_workload(self):
         new_classroom_list = []

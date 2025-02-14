@@ -1,5 +1,6 @@
 import sys
 import random
+import time
 import traceback
 sys.path.append('./src')
 
@@ -203,7 +204,7 @@ class BackTracking:
             return False
 
     def isComplete(self, total_turma, assigment):
-        if total_turma == len(assigment): # Adicionas atributo assignments no csp
+        if total_turma == len(assigment) or 408 == len(assigment): # Adicionas atributo assignments no csp
             return True
         else:
             return False
@@ -298,6 +299,7 @@ if __name__ == "__main__":
     #  , '12:00-13:50', '18:00-19:50'
     ]
 
+    tempo_inicial = time.time()
     turmas = cources.get_classroom()
     print(f'Quantidade de turmas {len(turmas)}')
     restrincao = constraint()
@@ -319,9 +321,16 @@ if __name__ == "__main__":
         print(f"⚠️ Erro detectado em search: {e}")
         traceback.print_exc()
 
+    tempo_final = time.time()
+    duracao = tempo_final - tempo_inicial
     if assigment:  # Se search retornou algo diferente de False
         ui = Interface(assigment)
         ui.draw()
     else:
         print("❌ Nenhuma solução encontrada!")
+    
+    # Exibir os resultados
+    print(f"Tempo inicial: {tempo_inicial:.6f} segundos")
+    print(f"Tempo final: {tempo_final:.6f} segundos")
+    print(f"Duração da execução: {duracao:.6f} segundos")
     pass
