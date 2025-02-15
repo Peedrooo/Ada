@@ -41,3 +41,6 @@ Testes de Software-100
 Tópicos Especiais de Engenharia de Software (FELICIDADE)-70
 Tópicos Especiais de Engenharia de Software-90
 Tópicos Especiais em Governança de TI-100
+Desenvolvimento de Software-120
+Matemática Discreta 1-70
+Matemática Discreta 2-100
