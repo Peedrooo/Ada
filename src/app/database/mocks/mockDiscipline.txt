@@ -1200,6 +1200,18 @@
     "workload": 60
   },
   {
+    "name": "Desenvolvimento de Software",
+    "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Gerência de Configuração e Evolução de Software",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Orientação a Objetos",
     "flow": 3,
     "type": "comum",
@@ -1336,5 +1348,30 @@
     "flow": 0,
     "type": "comum",
     "workload": 60
-  }
+  },
+  {"name": "Matemática Discreta 1", "flow": 2, "type": "comum", "workload": 90},
+  {"name": "Matemática Discreta 2", "flow": 3, "type": "comum", "workload": 90},
+  {"name": "Melhoria de Processos de Software", "flow": 4, "type": "comum", "workload": 90},
+  {"name": "Métodos de Desenvolvimento de Software", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Orientação a Objetos", "flow": 2, "type": "lab_computacao", "workload": 90},
+  {"name": "Paradigmas de Programação", "flow": 3, "type": "lab_computacao", "workload": 90},
+  {"name": "Princípios de Robótica Educacional", "flow": 4, "type": "comum", "workload": 90},
+  {"name": "Produtividade e Profissionalismo em Engenharia de Software", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Programação para Competições", "flow": 6, "type": "lab_computacao", "workload": 90},
+  {"name": "Programação para Sistemas Paralelos e Distribuídos", "flow": 7, "type": "lab_computacao", "workload": 90},
+  {"name": "Programação WEB", "flow": 3, "type": "lab_computacao", "workload": 90},
+  {"name": "Projeto de Algoritmos", "flow": 4, "type": "lab_computacao", "workload": 90},
+  {"name": "Projeto Integrador de Engenharia 1", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Projeto Integrador de Engenharia 2", "flow": 6, "type": "comum", "workload": 90},
+  {"name": "Qualidade de Software 1", "flow": 7, "type": "comum", "workload": 90},
+  {"name": "Requisitos de Software", "flow": 8, "type": "comum", "workload": 90},
+  {"name": "Seminários em Engenharia de Software", "flow": 2, "type": "comum", "workload": 90},
+  {"name": "Sistema de Banco de Dados 1", "flow": 3, "type": "lab_computacao", "workload": 90},
+  {"name": "Sistema de Banco de Dados 2", "flow": 4, "type": "lab_computacao", "workload": 90},
+  {"name": "Sistemas Críticos e Tolerância a Falhas", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Técnicas de Programação em Plataformas Emergentes", "flow": 6, "type": "lab_computacao", "workload": 90},
+  {"name": "Testes de Software", "flow": 7, "type": "comum", "workload": 90},
+  {"name": "Tópicos Especiais de Engenharia de Software (FELICIDADE)", "flow": 8, "type": "comum", "workload": 90},
+  {"name": "Tópicos Especiais de Engenharia de Software", "flow": 2, "type": "comum", "workload": 90},
+  {"name": "Tópicos Especiais em Governança de TI", "flow": 3, "type": "comum", "workload": 90}
 ]

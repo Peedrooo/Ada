@@ -214,8 +214,6 @@ Programação para Competições-5-60-comum
 Programacao para Sistemas Paralelos e Distribuídos-2-60-comum
 Programação WEB-4-60-comum
 Projeto de Algoritmos-6-60-comum
-Projeto Integrador de Engenharia 1-7-60-comum
-Projeto Integrador de Engenharia 2-1-60-comum
 Qualidade de Software 1-8-60-comum
 Requisitos de Software-3-60-comum
 Seminários em Engenharia de Software-5-60-comum
@@ -229,3 +227,12 @@ Tópicos Especiais de Engenharia de Software-3-60-comum
 Tópicos Especiais em Jogos Digitais-5-60-comum
 Tópicos Especiais em Programação-2-60-comum
 Tópicos Especiais em Governança de TI-4-60-comum
+Introdução a Computação Gráfica-7-60-comum
+Desenvolvimento de Software-2-60-comum
+Tópicos Especiais em  Jogos Digitais-0-60-comum
+Tópicos Especiais em  Programação-0-60-comum
+Gerência de Configuração e Evolução de Software-6-60-comum
+Matemática Discreta 1-2-90-comum
+Matemática Discreta 2-3-90-comum
+Produtividade e Profissionalismo em Engenharia de Software-5-90-comum
+Programação para Sistemas Paralelos e Distribuídos-7-90-lab_computacao

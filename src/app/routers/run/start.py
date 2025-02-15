@@ -1,9 +1,13 @@
 import logging
+import os
+import sys
 
 from app.database.classDemandStorage import class_demand_storage
 from fastapi import APIRouter, status, Response
 from model.classDemand import ClassDemand
 from typing import List
+# from scripts.backTracking import BackTracking
+
 
 router = APIRouter()
 
@@ -15,6 +19,7 @@ def start_classroms(demand: List[ClassDemand], response: Response):
         response.status_code = status.HTTP_201_CREATED
         logging.info("Started new classroms")
         class_demand_storage.save_class_demands('./src/data/classroms-demand.txt')
+
         return {
             "message": f"Classroms started successfully"
             }
