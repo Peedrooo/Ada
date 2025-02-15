@@ -1,10 +1,238 @@
-APC-1-60-lab-computacao
-Fisica-2-60-lab-computacao
-DIAC-1-60-lab-computacao
+APC-1-60-lab_computacao
+Fisica-2-60-lab_computacao
+DIAC-1-60-lab_computacao
 Calculo-2-60-comum
 LP-1-60-comum
-BD-2-60-lab-computacao
-ED-1-60-lab-computacao
-SO-2-60-lab-computacao
-Redes-1-60-lab-computacao
-IA-2-60-lab-computacao
+BD-2-60-lab_computacao
+ED-1-60-lab_computacao
+SO-2-60-lab_computacao
+Redes-1-60-lab_computacao
+IA-2-60-lab_computacao
+Aerodinâmica de sistemas aeroespaciais-6-75-comum
+Ciências Aeroespaciais-2-60-comum
+Dinâmica de Estruturas Aeroespaciais-8-60-comum
+Dinâmica dos Gases para Sistemas Aeroespaciais-7-60-comum
+Fundamentos do Método dos Elementos Finitos-5-60-comum
+Fundamentos do Projeto de Aeronaves-0-60-comum
+Mecânica de Estruturas Aeroespaciais-7-75-comum
+Mecânica de Estruturas Aeronáuticas-0-60-comum
+Mecânica do Voo-7-60-comum
+Mecânica do Voo Espacial-8-60-comum
+Mecânica dos Materiais Compósitos-5-60-comum
+Projeto de Sistemas Aeroespaciais-8-60-comum
+Projeto de Sistemas de Controle-7-60-comum
+Projeto de Sistemas de Observação da Terra-0-60-comum
+Projeto Integrador de Engenharia 1-4-60-comum
+Projeto Integrador de Engenharia 2-8-90-comum
+Propulsão Aeroespacial-8-90-comum
+Propulsão Aeronautica-10-60-comum
+Propulsão Elétrica-10-60-comum
+Sistemas Aeroespaciais-3-60-comum
+Sistemas de Propulsão Sólida e Híbrida-0-60-comum
+Topicos Especiais 2 em Engenharia Aeroespacial-0-60-comum
+Topicos Especiais 3 em Engenharia Aeroespacial-0-60-comum
+Topicos Especiais 4 em Engenharia Aeroespacial-0-60-comum
+Tópicos Especiais em Engenharia Aeroespacial-6-60-comum
+Telecomunicações Espaciais-0-60-comum
+Acústica e Vibrações Veiculares-10-60-comum
+Análise Estrutural Métodos de Elementos Finitos-7-60-comum
+Análise Dinâmica Métodos de Elementos Finitos-7-60-comum
+Arquitetura de Motores de Combustão interna-7-60-comum
+Confiabilidade de Sistemas Automotivos-8-60-comum
+Desenho Industrial Assistido por Computador-1-90-lab_computacao
+Dinâmica de Veículos-8-60-comum
+Dinamica dos Mecanismos-6-60-comum
+Eletronica Veicular-7-60-lab_computacao
+Engenharia de Manutenção-6-60-comum
+Engenharia de Segurança do Trabalho-6-60-comum
+Engenharia de Software Automotivo-0-60-comum
+Equipamentos Termofluidos Automotivos-6-60-comum
+Ergonomia do Produto-4-60-comum
+Gestão da Produção Automotiva-6-60-comum
+Gestão da Produção da Qualidade-6-60-comum
+Integração e Testes-7-60-comum
+Introdução à Mecânica da Fratura-7-60-comum
+Introducao ao Desgaste-8-60-comum
+Introdução ao Design e Concepção de Veículos-3-60-comum
+Laboratório de Materiais de Construção de Engenharia-4-15-lab_computacao
+Materiais Compostos e Plásticos-6-60-comum
+Mecânica dos Sólidos 1 para Engenharia-3-60-comum
+Mecanica dos Sólidos 2 para Engenharia-5-60-comum
+Métodos Experimentais para Engenharia-6-60-lab_computacao
+Projeto de Elementos Automotivos-6-90-comum
+Projeto de Estruturas de Veiculos-8-60-comum
+Projeto de Sistemas Automotivos-7-60-comum
+Projeto de Veículos-8-60-comum
+Sistemas Automotivos-2-60-comum
+Sistemas de Controle Automotivo-8-60-lab_computacao
+Sistemas Hidráulicos e Pneumáticos-7-60-lab_computacao
+Tecnologias de Fabricação 1-5-60-comum
+Tecnologias de Fabricação 2-6-60-comum
+Teoria de Materiais de Construção-4-60-comum
+Topicos Especiais em Engenharia Automotiva-5-60-comum
+Tópicos Especiais em Engenharia Automotiva-6-60-comum
+Cálculo 1-1-90-comum
+Cálculo 2-2-90-comum
+Cálculo 3-3-90-comum
+Física 1-2-60-comum
+Física 1 Experimental-2-30-lab_computacao
+Fundamentos de Astronomia e Astrofísica-0-60-comum
+Fundamentos de Energia Nuclear-0-60-comum
+Fundamentos de Equações Diferenciais para Engenharia-0-60-comum
+Fundamentos de Variáveis Complexas para Engenharia-0-60-comum
+Introdução à Álgebra Linear-2-120-comum
+Introdução à Astronomia e Astrofísica-3-60-comum
+Introdução à Engenharia-1-60-comum
+Introdução a Geometria Analítica-1-60-comum
+Laboratório de Ondulatória e Física Térmica para Engenharia-4-30-lab_computacao
+Matematica aplicada a sistemas-5-60-comum
+Métodos Numéricos para Engenharia-3-80-comum
+Ondulatória e Fisica Térmica para Engenharia-4-60-comum
+Prática de Eletromagnetismo-4-60-lab_computacao
+Pré Cálculo-1-60-comum
+Probabilidade e Estatística Aplicada a Engenharia-2-60-comum
+Teoria de Eletromagnetismo-4-60-comum
+Tópicos Especiais em Física Aplicada-4-60-comum
+Topicos Especiais Em Matematica Aplicada-0-60-comum
+Física Moderna-0-60-comum
+Física 3-0-60-comum
+Anatomia e Fisiologia Humana-0-60-comum
+Anatomia e fisiologia Humana-0-60-comum
+Antenas Impressas-0-60-comum
+Codificacao e Compressao de Sinais e Video-0-60-comum
+Comunicações Digitais para Engenharia-8-60-comum
+Elementos e Métodos em Eletrônica-2-60-comum
+Eletronica de Alta Frequencia-0-60-comum
+Eletronica de Potencia-0-60-comum
+Eletrônica de Radio Frequência-10-60-comum
+Eletrônica Embarcada-0-60-comum
+Engenharia de Produto-7-60-comum
+Informática em Saúde-8-60-comum
+Inovação-6-60-comum
+Instrumentação Biomédica 1-7-60-comum
+Instrumentação Biomédica 2-8-60-comum
+Instrumentação e Sistemas de Controle-6-60-comum
+Instrumentação Eletrônica para Engenharia-7-60-comum
+Integridade de Sinais e Design de Circuitos-8-60-comum
+Inteligência Artificial-7-60-comum
+Microprocessadores e Microcontroladores-6-60-comum
+Modelagem de Sistemas Biológicos-8-60-comum
+Pratica de Circuitos Eletrônicos 1-4-60-lab_computacao
+Pratica de Circuitos Eletrônicos 2-6-15-lab_computacao
+Pratica de Circuitos Eletronicos 3-8-15-lab_computacao
+Pratica de Eletronica Digital 1-3-60-lab_computacao
+Pratica de Eletronica Digital 2-4-60-lab_computacao
+Pratica de Física dos Dispositivos Eletronicos-5-60-lab_computacao
+Princípios de Comunicação para Engenharia-6-60-comum
+Princípios de Controle-6-60-comum
+Processamento de Sinais-7-60-comum
+Processamento de Sinais Biologicos-0-60-comum
+Processamento Digital de Imagens-8-60-lab_computacao
+Processamento Digital de Sinais Financeiros-9-60-comum
+Processos Estocásticos-8-60-comum
+Projeto com Circuitos Reconfiguráveis-7-60-comum
+Projeto de Circuitos Eletrônicos Integrados 2-8-60-comum
+Projeto de Circuitos Integrados 1-7-60-comum
+Projeto de Circuitos Integrados Digitais-0-60-comum
+Sinais e Sistemas para Engenharia-5-60-comum
+Sistemas de Controle-6-60-comum
+Sistemas Embarcados-7-60-comum
+Sistemas Operacionais Embarcados-0-60-comum
+Teoria da Fisica dos Dispositivos Eletrônicos-5-60-comum
+Teoria de Circuitos Eletrônicos 1-4-60-comum
+Teoria de Circuitos Eletrônicos 2-6-60-comum
+Teoria de Circuitos Eletrônicos 3-8-60-comum
+Teoria de Eletrônica Digital 1-3-60-comum
+Teoria de Eletrônica Digital 2-4-60-comum
+Tópicos Especiais em Eletronica-0-60-comum
+Tópicos Especiais em Instrumentação Biomédica-0-60-comum
+INTRODUÇÃO À FOTÔNICA E OPTRÔNICA-0-60-comum
+Tópicos especiais em eletrônica-0-60-comum
+Análise de Sistemas de Energia Elétrica-8-60-comum
+Análise Instrumental de Combustíveis-7-60-comum
+Biorrefinarias-7-60-comum
+Centrais de Geração Termoelétrica-8-60-comum
+Combustíveis e Biocombustíveis-6-60-comum
+Desenvolvimento Sustentável-10-60-comum
+Dinâmica dos Fluidos-5-60-comum
+Economia da Energia-7-60-comum
+Eficiência Energética em Instalações Elétricas Industriais-8-60-comum
+Engenharia de Petróleo e Gás-5-60-comum
+Engenharia e Ambiente-1-60-comum
+Engenharia Econômica-3-60-comum
+Fenômenos de Transporte-4-60-comum
+Fontes de Energia e Tecnologias de Conversão-2-60-comum
+Fundamentos de Propulsão Elétrica Veicular-7-60-comum
+Gestão Ambiental no Setor Energético-8-60-comum
+Humanidades e Cidadania-5-60-comum
+Laboratorio de Eletricidade Aplicada-5-60-lab_computacao
+Laboratório de Sistemas de Conversão de Energia-6-60-lab_computacao
+Máquinas de Fluido-7-60-comum
+Métodos e Técnicas da Escrita Cientifica-6-60-comum
+Planejamento e Gestão de Energia-10-60-comum
+Processos Petroquímicos-8-60-comum
+Química Geral Experimental-3-60-lab_computacao
+Química Geral Teórica-3-60-comum
+Química Orgânica para Engenharia-4-60-comum
+Regulação Ambiental no Setor Energético-0-60-comum
+Sistemas de Energia Solar e Eólica-7-60-comum
+Sistemas de Informação Geográfica para Engenharia-0-60-comum
+Sistemas Hidroelétricos-8-60-comum
+Teoria de Eletricidade Aplicada-5-60-comum
+Teoria de Sistemas de Conversão de Energia-6-60-comum
+Termodinâmica 1-5-60-comum
+Tópicos Especiais 1 em Engenharia de Energia-10-60-comum
+Transferência de Calor-6-60-comum
+Transmissão e Distribuição de Energia Elétrica-7-60-comum
+Algoritmos e Programação de Computadores-1-90-lab_computacao
+Aprendizado de Maquina-0-60-comum
+Arquitetura e Desenho de Software-6-60-comum
+Compiladores 1-5-60-comum
+Criptografia e Segurança de Redes-9-60-comum
+Desenvolvimento de Sofware-2-60-comum
+Engenharia de Produto de Software-8-60-comum
+Engenharia de Software Experimental-0-60-comum
+Estrutura de Dados e Algoritmos 1-4-60-comum
+Estruturas de Dados 2-5-60-comum
+Física para Jogos Eletrônicos 1-0-60-comum
+Fundamentos de Arquitetura de Computadores-4-60-comum
+Fundamentos de Redes de Computadores-6-60-comum
+Fundamentos de Sistemas Embarcados-7-60-comum
+Fundamentos de Sistemas Operacionais-5-60-comum
+Gerencia de Configuração e Evolução de Software-8-60-comum
+Interação Humano Computador-5-60-comum
+Introducao a Web Semantica-5-60-comum
+Matematica Discreta 1-3-60-comum
+Matematica Discreta 2-4-60-comum
+Melhoria de Processos de Software-2-60-comum
+Métodos de Desenvolvimento de Software-6-60-comum
+Orientação a Objetos-7-60-comum
+Paradigmas de Programação-1-60-comum
+Princípios de Robótica Educacional-8-60-comum
+Produtividade e Profissionalismo em Engenharia Software-3-60-comum
+Programação para Competições-5-60-comum
+Programacao para Sistemas Paralelos e Distribuídos-2-60-comum
+Programação WEB-4-60-comum
+Projeto de Algoritmos-6-60-comum
+Qualidade de Software 1-8-60-comum
+Requisitos de Software-3-60-comum
+Seminários em Engenharia de Software-5-60-comum
+Sistema de Banco de Dados 1-2-60-comum
+Sistema de Banco de Dados 2-4-60-comum
+Sistemas Críticos e Tolerância a Falhas-6-60-comum
+Técnicas de Programação em Plataformas Emergentes-7-60-comum
+Testes de Software-1-60-comum
+Tópicos Especiais de Engenharia de Software (FELICIDADE)-8-60-comum
+Tópicos Especiais de Engenharia de Software-3-60-comum
+Tópicos Especiais em Jogos Digitais-5-60-comum
+Tópicos Especiais em Programação-2-60-comum
+Tópicos Especiais em Governança de TI-4-60-comum
+Introdução a Computação Gráfica-7-60-comum
+Desenvolvimento de Software-2-60-comum
+Tópicos Especiais em  Jogos Digitais-0-60-comum
+Tópicos Especiais em  Programação-0-60-comum
+Gerência de Configuração e Evolução de Software-6-60-comum
+Matemática Discreta 1-2-90-comum
+Matemática Discreta 2-3-90-comum
+Produtividade e Profissionalismo em Engenharia de Software-5-90-comum
+Programação para Sistemas Paralelos e Distribuídos-7-90-lab_computacao

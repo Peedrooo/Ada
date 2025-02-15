@@ -1,11 +1,14 @@
-from typing import Dict, List, Optional
-from fastapi import HTTPException
-from model.discipline import Discipline
 import logging
 import os
+from typing import Dict, List, Optional
+
+from fastapi import HTTPException
+
+from app.database.storage import Storage
+from model.discipline import Discipline
 
 
-class DisciplineStorage:
+class DisciplineStorage(Storage):
     def __init__(self):
         self._storage: Dict[str, Discipline] = {}
 
@@ -36,11 +39,26 @@ class DisciplineStorage:
 
     def save_disciplines(self, path: str) -> None:
         """Cria um arquivo txt com todas as disciplinas cadastradas."""
-        with open(path, 'w') as file:
+        with open(path, 'w', encoding='utf-8') as file:
             for discipline in self._storage.values():
                 file.write(f"{discipline.name}-{discipline.flow}-"
-                           f"{discipline.workload}-{discipline.lab}\n")
+                           f"{discipline.workload}-{discipline.type}\n")
         logging.info("Saved all disciplines.")
+
+    def load_disciplines(self, path: str) -> None:
+        """Carrega todas as disciplinas cadastradas de um arquivo txt."""
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as file:
+                for line in file:
+                    name, flow, workload, type = line.strip().split('-')
+                    discipline = Discipline(
+                        name=name, flow=flow, 
+                        workload=int(workload), 
+                        type=type)
+                    self.add_discipline(discipline)
+            logging.info("Loaded all disciplines.")
+        else:
+            logging.warning("File not found.")
 
     def delete_all_disciplines(self, path: str) -> None:
         """Remove todas as disciplinas do armazenamento em memória e do arquivo txt."""
@@ -49,5 +67,10 @@ class DisciplineStorage:
             os.remove(path)
         logging.info("Deleted all disciplines.")
 
+    def get_all(self) -> Dict[str, Discipline]:
+        """Retorna todas as disciplinas armazenadas."""
+        return self._storage.values()
+
 
 discipline_storage = DisciplineStorage()
+discipline_storage.load_disciplines('src/data/disciplines.txt')

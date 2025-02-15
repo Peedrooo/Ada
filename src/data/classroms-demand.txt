@@ -1,0 +1,43 @@
+Algoritmos e Programação de Computadores-120
+Aprendizado de Maquina-130
+Arquitetura e Desenho de Software-40
+Compiladores 1-90
+Criptografia e Segurança de Redes-100
+Desenvolvimento de Sofware-120
+Engenharia de Produto de Software-40
+Engenharia de Software Experimental-90
+Estrutura de Dados e Algoritmos 1-130
+Estruturas de Dados 2-120
+Física para Jogos Eletrônicos 1-80
+Fundamentos de Arquitetura de Computadores-100
+Fundamentos de Redes de Computadores-40
+Fundamentos de Sistemas Embarcados-90
+Fundamentos de Sistemas Operacionais-100
+Gerência de Configuração e Evolução de Software-80
+Interação Humano Computador-90
+Introducao a Web Semantica-80
+Matematica Discreta 1-40
+Matematica Discreta 2-100
+Melhoria de Processos de Software-90
+Métodos de Desenvolvimento de Software-100
+Orientação a Objetos-120
+Paradigmas de Programação-40
+Princípios de Robótica Educacional-90
+Produtividade e Profissionalismo em Engenharia de Software-80
+Programação para Competições-70
+Programação para Sistemas Paralelos e Distribuídos-90
+Programação WEB-100
+Projeto de Algoritmos-40
+Projeto Integrador de Engenharia 1-80
+Projeto Integrador de Engenharia 2-75
+Qualidade de Software 1-120
+Requisitos de Software-130
+Seminários em Engenharia de Software-90
+Sistema de Banco de Dados 1-100
+Sistema de Banco de Dados 2-40
+Sistemas Críticos e Tolerância a Falhas-90
+Técnicas de Programação em Plataformas Emergentes-80
+Testes de Software-100
+Tópicos Especiais de Engenharia de Software (FELICIDADE)-70
+Tópicos Especiais de Engenharia de Software-90
+Tópicos Especiais em Governança de TI-100

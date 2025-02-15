@@ -1,11 +1,12 @@
 from typing import Dict, List, Optional
 from fastapi import HTTPException
 from model.teacher import Teacher
+from app.database.storage import Storage
 import logging
 import os
 
 
-class TeacherStorage:
+class TeacherStorage(Storage):
     def __init__(self):
         self._storage: Dict[str, Teacher] = {}
 
@@ -44,6 +45,26 @@ class TeacherStorage:
                     f"{teacher.director}-{teacher.coordinator}-{teacher.max_workload}\n"
                     )
         logging.info("Saved all teachers.")
+
+    def load_teachers(self, path: str) -> None:
+        """Carrega todas as teachers cadastradas de um arquivo txt."""
+        if os.path.exists(path):
+            with open(path, 'r') as file:
+                for line in file:
+                    name, prefered_disciplines, possible_disciplines, prefered_workload, director, coordinator, max_workload = line.strip().split('-')
+                    teacher = Teacher(
+                        name=name,
+                        prefered_disciplines=self.string_to_list(prefered_disciplines),
+                        possible_disciplines=self.string_to_list(possible_disciplines),
+                        prefered_workload=int(prefered_workload),
+                        director=director,
+                        coordinator=coordinator,
+                        max_workload=int(max_workload)
+                    )
+                    self.add_teacher(teacher)
+            logging.info("Loaded all teachers.")
+        else:
+            logging.warning("File not found.")
 
     def delete_all_teachers(self, path: str) -> None:
         """Remove todas as teachers do armazenamento em memória e do arquivo txt."""

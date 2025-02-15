@@ -1,13 +1,15 @@
 class Local:
     def __init__(
             self, name: str,
+            lab: str,
             load: int = 0,
             supported_load: int = 60,
             sugested_load: int = 80
             ):
 
         self.name = name
-        self.load = load
+        self.lab = lab
+        self.load = load 
         self.supported_load = supported_load
         self.sugested_load = sugested_load
 

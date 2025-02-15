@@ -1,62 +1,1377 @@
 [
   {
-    "name": "APC",
-    "flow": 1,
-    "lab": "lab-computacao",
-    "workload": 60
+    "name": "Aerodinâmica de sistemas aeroespaciais",
+    "flow": 6,
+    "type": "comum",
+    "workload": 75
   },
   {
-    "name": "Fisica",
+    "name": "Ciências Aeroespaciais",
     "flow": 2,
-    "lab": "lab-computacao",
+    "type": "comum",
     "workload": 60
   },
   {
-    "name": "DIAC",
+    "name": "Dinâmica de Estruturas Aeroespaciais",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Dinâmica dos Gases para Sistemas Aeroespaciais",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos do Método dos Elementos Finitos",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos do Projeto de Aeronaves",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Mecânica de Estruturas Aeroespaciais",
+    "flow": 7,
+    "type": "comum",
+    "workload": 75
+  },
+  {
+    "name": "Mecânica de Estruturas Aeronáuticas",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Mecânica do Voo",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Mecânica do Voo Espacial",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Mecânica dos Materiais Compósitos",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Sistemas Aeroespaciais",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Sistemas de Controle",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Sistemas de Observação da Terra",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 2",
+    "flow": 8,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Propulsão Aeroespacial",
+    "flow": 8,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Propulsão Aeronautica",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Propulsão Elétrica",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Aeroespaciais",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas de Propulsão Sólida e Híbrida",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais 2 em Engenharia Aeroespacial",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais 3 em Engenharia Aeroespacial",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais 4 em Engenharia Aeroespacial",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Engenharia Aeroespacial",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Engenharia Aeroespacial",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Telecomunicações Espaciais",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Acústica e Vibrações Veiculares",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Análise Estrutural Métodos de Elementos Finitos",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Análise Dinâmica Métodos de Elementos Finitos",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Arquitetura de Motores de Combustão interna",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Confiabilidade de Sistemas Automotivos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Desenho Industrial Assistido por Computador",
     "flow": 1,
-    "lab": "lab-computacao",
+    "type": "lab_computacao",
+    "workload": 90
+  },
+  {
+    "name": "Dinâmica de Veículos",
+    "flow": 8,
+    "type": "comum",
     "workload": 60
   },
   {
-    "name": "Calculo",
+    "name": "Dinamica dos Mecanismos",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Eletronica Veicular",
+    "flow": 7,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Manutenção",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Segurança do Trabalho",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Software Automotivo",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Equipamentos Termofluidos Automotivos",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Ergonomia do Produto",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Gestão da Produção Automotiva",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Gestão da Produção da Qualidade",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Integração e Testes",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introdução à Mecânica da Fratura",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introducao ao Desgaste",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introdução ao Design e Concepção de Veículos",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Laboratório de Materiais de Construção de Engenharia",
+    "flow": 4,
+    "type": "lab_computacao",
+    "workload": 15
+  },
+  {
+    "name": "Materiais Compostos e Plásticos",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Mecânica dos Sólidos 1 para Engenharia",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Mecanica dos Sólidos 2 para Engenharia",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Métodos Experimentais para Engenharia",
+    "flow": 6,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Elementos Automotivos",
+    "flow": 6,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Projeto de Estruturas de Veiculos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Sistemas Automotivos",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Veículos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Automotivos",
     "flow": 2,
-    "lab": "comum",
+    "type": "comum",
     "workload": 60
   },
   {
-    "name": "LP",
+    "name": "Sistemas de Controle Automotivo",
+    "flow": 8,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Hidráulicos e Pneumáticos",
+    "flow": 7,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Tecnologias de Fabricação 1",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tecnologias de Fabricação 2",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Materiais de Construção",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais em Engenharia Automotiva",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Engenharia Automotiva",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Cálculo 1",
     "flow": 1,
-    "lab": "comum",
-    "workload": 60
+    "type": "comum",
+    "workload": 90
   },
   {
-    "name": "BD",
+    "name": "Cálculo 2",
     "flow": 2,
-    "lab": "lab-computacao",
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Cálculo 3",
+    "flow": 3,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Física 1",
+    "flow": 2,
+    "type": "comum",
     "workload": 60
   },
   {
-    "name": "ED",
+    "name": "Física 1 Experimental",
+    "flow": 2,
+    "type": "lab_computacao",
+    "workload": 30
+  },
+  {
+    "name": "Fundamentos de Astronomia e Astrofísica",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Energia Nuclear",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Equações Diferenciais para Engenharia",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Variáveis Complexas para Engenharia",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introdução à Álgebra Linear",
+    "flow": 2,
+    "type": "comum",
+    "workload": 120
+  },
+  {
+    "name": "Introdução à Astronomia e Astrofísica",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introdução à Engenharia",
     "flow": 1,
-    "lab": "lab-computacao",
+    "type": "comum",
     "workload": 60
   },
   {
-    "name": "SO",
-    "flow": 2,
-    "lab": "lab-computacao",
-    "workload": 60
-  },
-  {
-    "name": "Redes",
+    "name": "Introdução a Geometria Analítica",
     "flow": 1,
-    "lab": "lab-computacao",
+    "type": "comum",
     "workload": 60
   },
   {
-    "name": "IA",
-    "flow": 2,
-    "lab": "lab-computacao",
+    "name": "Laboratório de Ondulatória e Física Térmica para Engenharia",
+    "flow": 4,
+    "type": "lab_computacao",
+    "workload": 30
+  },
+  {
+    "name": "Matematica aplicada a sistemas",
+    "flow": 5,
+    "type": "comum",
     "workload": 60
-  }
+  },
+  {
+    "name": "Métodos Numéricos para Engenharia",
+    "flow": 3,
+    "type": "comum",
+    "workload": 80
+  },
+  {
+    "name": "Ondulatória e Fisica Térmica para Engenharia",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Prática de Eletromagnetismo",
+    "flow": 4,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Pré Cálculo",
+    "flow": 1,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Probabilidade e Estatística Aplicada a Engenharia",
+    "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Eletromagnetismo",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Física Aplicada",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais Em Matematica Aplicada",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Física Moderna",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Física 3",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Anatomia e Fisiologia Humana",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Anatomia e fisiologia Humana",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Antenas Impressas",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Codificacao e Compressao de Sinais e Video",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Comunicações Digitais para Engenharia",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Elementos e Métodos em Eletrônica",
+    "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Eletronica de Alta Frequencia",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Eletronica de Potencia",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Eletrônica de Radio Frequência",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Eletrônica Embarcada",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Produto",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Informática em Saúde",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Inovação",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Instrumentação Biomédica 1",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Instrumentação Biomédica 2",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Instrumentação e Sistemas de Controle",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Instrumentação Eletrônica para Engenharia",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Integridade de Sinais e Design de Circuitos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Inteligência Artificial",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Microprocessadores e Microcontroladores",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Modelagem de Sistemas Biológicos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Pratica de Circuitos Eletrônicos 1",
+    "flow": 4,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Pratica de Circuitos Eletrônicos 2",
+    "flow": 6,
+    "type": "lab_computacao",
+    "workload": 15
+  },
+  {
+    "name": "Pratica de Circuitos Eletronicos 3",
+    "flow": 8,
+    "type": "lab_computacao",
+    "workload": 15
+  },
+  {
+    "name": "Pratica de Eletronica Digital 1",
+    "flow": 3,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Pratica de Eletronica Digital 2",
+    "flow": 4,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Pratica de Física dos Dispositivos Eletronicos",
+    "flow": 5,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Princípios de Comunicação para Engenharia",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Princípios de Controle",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Processamento de Sinais",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Processamento de Sinais Biologicos",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Processamento Digital de Imagens",
+    "flow": 8,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Processamento Digital de Sinais Financeiros",
+    "flow": 9,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Processos Estocásticos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto com Circuitos Reconfiguráveis",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Circuitos Eletrônicos Integrados 2",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Circuitos Integrados 1",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Circuitos Integrados Digitais",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sinais e Sistemas para Engenharia",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas de Controle",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Embarcados",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Operacionais Embarcados",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria da Fisica dos Dispositivos Eletrônicos",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Circuitos Eletrônicos 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Circuitos Eletrônicos 2",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Circuitos Eletrônicos 3",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Eletrônica Digital 1",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Eletrônica Digital 2",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Eletronica",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Instrumentação Biomédica",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "INTRODUÇÃO À FOTÔNICA E OPTRÔNICA",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos especiais em eletrônica",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Análise de Sistemas de Energia Elétrica",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Análise Instrumental de Combustíveis",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Biorrefinarias",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Centrais de Geração Termoelétrica",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Combustíveis e Biocombustíveis",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Desenvolvimento Sustentável",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Dinâmica dos Fluidos",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Economia da Energia",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Eficiência Energética em Instalações Elétricas Industriais",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Petróleo e Gás",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia e Ambiente",
+    "flow": 1,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia Econômica",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fenômenos de Transporte",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fontes de Energia e Tecnologias de Conversão",
+    "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Propulsão Elétrica Veicular",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Gestão Ambiental no Setor Energético",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Humanidades e Cidadania",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Laboratorio de Eletricidade Aplicada",
+    "flow": 5,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Laboratório de Sistemas de Conversão de Energia",
+    "flow": 6,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Máquinas de Fluido",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Métodos e Técnicas da Escrita Cientifica",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Planejamento e Gestão de Energia",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Processos Petroquímicos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Química Geral Experimental",
+    "flow": 3,
+    "type": "lab_computacao",
+    "workload": 60
+  },
+  {
+    "name": "Química Geral Teórica",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Química Orgânica para Engenharia",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Regulação Ambiental no Setor Energético",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas de Energia Solar e Eólica",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas de Informação Geográfica para Engenharia",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Hidroelétricos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Eletricidade Aplicada",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Sistemas de Conversão de Energia",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Termodinâmica 1",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais 1 em Engenharia de Energia",
+    "flow": 10,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Transferência de Calor",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Transmissão e Distribuição de Energia Elétrica",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Algoritmos e Programação de Computadores",
+    "flow": 1,
+    "type": "lab_computacao",
+    "workload": 90
+  },
+  {
+    "name": "Aprendizado de Maquina",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Arquitetura e Desenho de Software",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Compiladores 1",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Criptografia e Segurança de Redes",
+    "flow": 9,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Desenvolvimento de Sofware",
+    "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Produto de Software",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Engenharia de Software Experimental",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Estrutura de Dados e Algoritmos 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Estruturas de Dados 2",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Física para Jogos Eletrônicos 1",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Arquitetura de Computadores",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Redes de Computadores",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Sistemas Embarcados",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Sistemas Operacionais",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Gerencia de Configuração e Evolução de Software",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Interação Humano Computador",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introdução a Computação Gráfica",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Introducao a Web Semantica",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Matematica Discreta 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Matematica Discreta 2",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Melhoria de Processos de Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Métodos de Desenvolvimento de Software",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Desenvolvimento de Software",
+    "flow": 2,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Gerência de Configuração e Evolução de Software",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Orientação a Objetos",
+    "flow": 3,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Paradigmas de Programação",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Princípios de Robótica Educacional",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Produtividade e Profissionalismo em Engenharia Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programação para Competições",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programacao para Sistemas Paralelos e Distribuídos",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programação WEB",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto de Algoritmos",
+    "flow": 6,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 2",
+    "flow": 8,
+    "type": "comum",
+    "workload": 90
+  },
+  {
+    "name": "Qualidade de Software 1",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Requisitos de Software",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Seminários em Engenharia de Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistema de Banco de Dados 1",
+    "flow": 4,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistema de Banco de Dados 2",
+    "flow": 5,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Críticos e Tolerância a Falhas",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Técnicas de Programação em Plataformas Emergentes",
+    "flow": 8,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Testes de Software",
+    "flow": 7,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais de Engenharia de Software (FELICIDADE)",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais de Engenharia de Software",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em  Jogos Digitais",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em  Programação",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Tópicos Especiais em Governança de TI",
+    "flow": 0,
+    "type": "comum",
+    "workload": 60
+  },
+  {"name": "Matemática Discreta 1", "flow": 2, "type": "comum", "workload": 90},
+  {"name": "Matemática Discreta 2", "flow": 3, "type": "comum", "workload": 90},
+  {"name": "Melhoria de Processos de Software", "flow": 4, "type": "comum", "workload": 90},
+  {"name": "Métodos de Desenvolvimento de Software", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Orientação a Objetos", "flow": 2, "type": "lab_computacao", "workload": 90},
+  {"name": "Paradigmas de Programação", "flow": 3, "type": "lab_computacao", "workload": 90},
+  {"name": "Princípios de Robótica Educacional", "flow": 4, "type": "comum", "workload": 90},
+  {"name": "Produtividade e Profissionalismo em Engenharia de Software", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Programação para Competições", "flow": 6, "type": "lab_computacao", "workload": 90},
+  {"name": "Programação para Sistemas Paralelos e Distribuídos", "flow": 7, "type": "lab_computacao", "workload": 90},
+  {"name": "Programação WEB", "flow": 3, "type": "lab_computacao", "workload": 90},
+  {"name": "Projeto de Algoritmos", "flow": 4, "type": "lab_computacao", "workload": 90},
+  {"name": "Projeto Integrador de Engenharia 1", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Projeto Integrador de Engenharia 2", "flow": 6, "type": "comum", "workload": 90},
+  {"name": "Qualidade de Software 1", "flow": 7, "type": "comum", "workload": 90},
+  {"name": "Requisitos de Software", "flow": 8, "type": "comum", "workload": 90},
+  {"name": "Seminários em Engenharia de Software", "flow": 2, "type": "comum", "workload": 90},
+  {"name": "Sistema de Banco de Dados 1", "flow": 3, "type": "lab_computacao", "workload": 90},
+  {"name": "Sistema de Banco de Dados 2", "flow": 4, "type": "lab_computacao", "workload": 90},
+  {"name": "Sistemas Críticos e Tolerância a Falhas", "flow": 5, "type": "comum", "workload": 90},
+  {"name": "Técnicas de Programação em Plataformas Emergentes", "flow": 6, "type": "lab_computacao", "workload": 90},
+  {"name": "Testes de Software", "flow": 7, "type": "comum", "workload": 90},
+  {"name": "Tópicos Especiais de Engenharia de Software (FELICIDADE)", "flow": 8, "type": "comum", "workload": 90},
+  {"name": "Tópicos Especiais de Engenharia de Software", "flow": 2, "type": "comum", "workload": 90},
+  {"name": "Tópicos Especiais em Governança de TI", "flow": 3, "type": "comum", "workload": 90}
 ]
