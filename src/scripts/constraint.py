@@ -14,7 +14,7 @@ class constraint():
             and (day_v == day and horario_v == horario):
             if turma.discipline.flow <= 3:
                 return True
-            elif var.Class.dicipline.course == turma.discipline.course:
+            elif var.Class.discipline.course == turma.discipline.course:
                 return True
         return False
 
