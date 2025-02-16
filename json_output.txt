@@ -4,245 +4,329 @@
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Fundamentos do Projeto de Aeronaves",
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Projeto de Sistemas de Observacao da Terra",
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Topicos Especiais 4 em Engenharia Aeroespacial",
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Sistemas de Propulsao Solida e Hibrida",
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Topicos Especiais 2 em Engenharia Aeroespacial",
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Topicos Especiais 3 em Engenharia Aeroespacial",
     "flow": 0,
     "cource": "Aeroespacial",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Engenharia de Software Automotivo",
     "flow": 0,
     "cource": "Automotiva",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Eletronica de Potencia",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Fisica 3",
     "flow": 0,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Fisica Moderna",
     "flow": 0,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Topicos Especiais Em Matematica Aplicada",
     "flow": 0,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Fundamentos de Energia Nuclear",
     "flow": 0,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Fundamentos de Equacoes Diferenciais para Engenharia",
     "flow": 0,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Fundamentos de Variaveis Complexas para Engenharia",
+    "flow": 0,
+    "cource": "Ciencias Naturais Aplicadas",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Fundamentos de Astronomia e Astrofisica",
     "flow": 0,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Eletronica Embarcada",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Processamento de Sinais Biologicos ",
+    "flow": 0,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Projeto de Circuitos Integrados Digitais",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Anatomia e Fisiologia Humana",
+    "flow": 0,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Eletronica de Alta Frequencia",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Codificacao e Compressao de Sinais e Video",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Antenas Impressas",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Anatomia e fisiologia Humana",
+    "flow": 0,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Sistemas de Informacao Geografica para Engenharia",
     "flow": 0,
     "cource": "Energia",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Regulacao Ambiental no Setor Energetico",
     "flow": 0,
     "cource": "Energia",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Engenharia de Software Experimental",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Topicos especiais em eletronica",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais em Instrumentacao Biomedica",
+    "flow": 0,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": " INTRODUCAO A FOTONICA E OPTRONICA ",
+    "flow": 0,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Topicos Especiais em Eletronica",
+    "flow": 0,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Sistemas Operacionais Embarcados",
     "flow": 0,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Introducao a Web Semantica",
+    "flow": 0,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Projeto de Algoritmos",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Programacao para Competicoes",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Produtividade e Profissionalismo em Engenharia Software",
+    "flow": 0,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Programacao WEB",
+    "flow": 0,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Topicos Especiais em  Programacao",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Fisica para Jogos Eletronicos 1",
+    "flow": 0,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Aprendizado de Maquina",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Topicos Especiais em  Jogos Digitais",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "TOPICOS EM PSICOLOGIA DO DESENVOLVIMENTO",
+    "flow": 0,
+    "cource": "IP",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Topicos Especiais de Engenharia de Software",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Topicos Especiais em Governanca de TI",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Topicos Especiais de Engenharia de Software (FELICIDADE)",
     "flow": 0,
     "cource": "Software",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Calculo 1",
     "flow": 1,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Algoritmos e Programacao de Computadores",
     "flow": 1,
     "cource": "Software",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Engenharia e Ambiente",
@@ -256,7 +340,7 @@
     "flow": 1,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
   },
   {
     "name": "Desenho Industrial Assistido por Computador",
@@ -270,7 +354,14 @@
     "flow": 1,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 30
+    "workload": 60
+  },
+  {
+    "name": "Pre-Calculo",
+    "flow": 1,
+    "cource": "Ciencias Naturais Aplicadas",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Elementos e Metodos em Eletronica",
@@ -284,7 +375,7 @@
     "flow": 2,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Ciencias Aeroespaciais",
@@ -350,6 +441,20 @@
     "workload": 60
   },
   {
+    "name": "Calculo 3  ",
+    "flow": 3,
+    "cource": "Ciencias Naturais Aplicadas",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Teoria de Eletronica Digital 1",
+    "flow": 3,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Engenharia Economica",
     "flow": 3,
     "cource": "Energia",
@@ -372,6 +477,13 @@
   },
   {
     "name": "Orientacao a Objetos",
+    "flow": 3,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Principios de Robotica Educacional",
     "flow": 3,
     "cource": "Software",
     "type": "comum",
@@ -413,18 +525,18 @@
     "workload": 60
   },
   {
-    "name": "Calculo 3",
+    "name": "Calculo 3 ",
     "flow": 3,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
-    "name": "Introducao a Astronomia e Astrofisica",
+    "name": "Introducao a Astronomia e Astrofisica ",
     "flow": 3,
     "cource": "Ciencias Naturais Aplicadas",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Ondulatoria e Fisica Termica para Engenharia",
@@ -455,7 +567,21 @@
     "workload": 60
   },
   {
-    "name": "Laboratorio de Materiais de Construcao de Engenharia",
+    "name": "Ergonomia do Produto ",
+    "flow": 4,
+    "cource": "Automotiva",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 1",
+    "flow": 4,
+    "cource": "Aeroespacial",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Laboratorio de Materiais de Construcao de Engenharia ",
     "flow": 4,
     "cource": "Automotiva",
     "type": "comum",
@@ -514,7 +640,7 @@
     "name": "Fundamentos de Arquitetura de Computadores",
     "flow": 4,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -542,14 +668,14 @@
     "name": "Metodos de Desenvolvimento de Software",
     "flow": 4,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
     "workload": 60
   },
   {
     "name": "Tecnicas de Programacao em Plataformas Emergentes",
     "flow": 5,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -563,7 +689,14 @@
     "name": "Sistema de Banco de Dados 1",
     "flow": 5,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Sistemas Criticos e Tolerancia a Falhas",
+    "flow": 5,
+    "cource": "Software",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -581,7 +714,7 @@
     "workload": 60
   },
   {
-    "name": "Teoria de Eletricidade Aplicada",
+    "name": "Teoria de Eletricidade Aplicada ",
     "flow": 5,
     "cource": "Energia",
     "type": "comum",
@@ -592,7 +725,7 @@
     "flow": 5,
     "cource": "Energia",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Fundamentos do Metodo dos Elementos Finitos",
@@ -690,7 +823,7 @@
     "flow": 5,
     "cource": "Automotiva",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Tecnologias de Fabricacao 1",
@@ -773,7 +906,7 @@
     "name": "Sistema de Banco de Dados 2",
     "flow": 6,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -840,6 +973,13 @@
     "workload": 60
   },
   {
+    "name": "Introducao a Computacao Grafica",
+    "flow": 6,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Teoria de Sistemas de Conversao de Energia",
     "flow": 6,
     "cource": "Energia",
@@ -892,7 +1032,14 @@
     "name": "Fundamentos de Redes de Computadores",
     "flow": 6,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Metodos e Tecnicas da Escrita Cientifica ",
+    "flow": 6,
+    "cource": "Energia",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -927,7 +1074,7 @@
     "name": "Programacao para Sistemas Paralelos e Distribuidos",
     "flow": 7,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -1015,6 +1162,13 @@
     "workload": 60
   },
   {
+    "name": "Projeto de Sistemas de Controle",
+    "flow": 7,
+    "cource": "Aeroespacial",
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Eletronica Veicular",
     "flow": 7,
     "cource": "Automotiva",
@@ -1064,6 +1218,13 @@
     "workload": 60
   },
   {
+    "name": "Instrumentacao Biomedica 1",
+    "flow": 7,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Instrumentacao Eletronica para Engenharia",
     "flow": 7,
     "cource": "Eletronica",
@@ -1075,14 +1236,14 @@
     "flow": 7,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Projeto de Circuitos Integrados 1",
     "flow": 7,
     "cource": "Eletronica",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Engenharia de Produto",
@@ -1114,6 +1275,13 @@
   },
   {
     "name": "Projeto de Sistemas Aeroespaciais",
+    "flow": 8,
+    "cource": "Aeroespacial",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Projeto Integrador de Engenharia 2",
     "flow": 8,
     "cource": "Aeroespacial",
     "type": "comum",
@@ -1162,6 +1330,13 @@
     "workload": 60
   },
   {
+    "name": "Modelagem de Sistemas Biologicos",
+    "flow": 8,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Projeto de Circuitos Eletronicos Integrados 2",
     "flow": 8,
     "cource": "Eletronica",
@@ -1180,13 +1355,13 @@
     "flow": 8,
     "cource": "Energia",
     "type": "comum",
-    "workload": 90
+    "workload": 60
   },
   {
     "name": "Engenharia de Produto de Software",
     "flow": 8,
     "cource": "Software",
-    "type": "lab_computacao",
+    "type": "comum",
     "workload": 60
   },
   {
@@ -1201,7 +1376,14 @@
     "flow": 8,
     "cource": "Energia",
     "type": "comum",
-    "workload": 90
+    "workload": 60
+  },
+  {
+    "name": "Instrumentacao Biomedica 2",
+    "flow": 8,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
   },
   {
     "name": "Processamento Digital de Imagens",
@@ -1212,6 +1394,13 @@
   },
   {
     "name": "Processos Estocasticos",
+    "flow": 8,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Informatica em Saude",
     "flow": 8,
     "cource": "Eletronica",
     "type": "comum",
@@ -1274,6 +1463,20 @@
     "workload": 60
   },
   {
+    "name": "Processamento Digital de Sinais Financeiros",
+    "flow": 9,
+    "cource": "Eletronica",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Criptografia e Seguranca de Redes",
+    "flow": 9,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
+  },
+  {
     "name": "Propulsao Aeronautica",
     "flow": 10,
     "cource": "Aeroespacial",
@@ -1326,6 +1529,27 @@
     "name": "Melhoria de Processos de Software",
     "flow": 10,
     "cource": "Software",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Seminarios em Engenharia de Software",
+    "flow": 10,
+    "cource": "Software",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": " Topicos Especiais em Engenharia Aeroespacial",
+    "flow": 0,
+    "cource": "Aeroespacial",
+    "type": "comum",
+    "workload": 60
+  },
+  {
+    "name": "Telecomunicacoes Espaciais ",
+    "flow": 0,
+    "cource": "Aeroespacial",
     "type": "comum",
     "workload": 60
   }

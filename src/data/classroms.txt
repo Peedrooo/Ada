@@ -15,3 +15,9 @@ S4-90-comum
 S5-48-comum
 S6-40-comum
 S7-60-comum
+FISICA-30-comum
+SS-48-lab_computacao
+MOCAP-80-comum
+S-60-comum
+Multiuso-15-comum
+Anfiteatro-250-comum

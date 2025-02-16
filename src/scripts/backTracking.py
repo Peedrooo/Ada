@@ -173,6 +173,7 @@ class BackTracking:
                     value_order.append(val)
             return value_order if value_order else value_score  # Retorna value_order se não estiver vazio, caso contrário, retorna value_score
         return value_score  # Não conseguiu fazer nenhuma ordenação aprofundada        
+    
     def variable_selection(self):
         # Valores ordenados conforme o fluxo e se faz parte da mesma turma
         for var in csp.variable_list:
@@ -207,7 +208,7 @@ class BackTracking:
             return False
 
     def isComplete(self, total_turma, assigment):
-        if total_turma == len(assigment) or 408 == len(assigment): # Adicionas atributo assignments no csp
+        if total_turma == len(assigment) or 552 == len(assigment): # Adicionas atributo assignments no csp
             return True
         else:
             return False

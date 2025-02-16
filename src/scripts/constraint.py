@@ -12,8 +12,12 @@ class constraint():
             return False
         elif turma.discipline.flow == var.Class.discipline.flow \
             and (day_v == day and horario_v == horario):
-            return True
+            if turma.discipline.flow <= 3:
+                return True
+            elif var.Class.dicipline.cource == turma.discipline.cource:
+                return True
         return False
+
     
     def resource_conflict(self, value, v):
         local, day, horario = value
