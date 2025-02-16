@@ -4,16 +4,16 @@ import time
 import traceback
 sys.path.append('./src')
 
-from classCSP import classCSP
-from constraint import constraint
-from variable   import variable
+from scripts.classCSP import classCSP
+from scripts.constraint import constraint
+from scripts.variable import variable
+from scripts.generateClasses import GenerateClasses
+from scripts.interface import Interface
 from app.database.classromStorage import classrom_storage
 from app.database.classDemandStorage import class_demand_storage
 from model.classDemand import ClassDemand
 from model.discipline import Discipline
-from generateClasses import GenerateClasses
 from model.classrom import Classrom
-from interface import Interface
 from typing import List
 
 class BackTracking:
@@ -176,7 +176,7 @@ class BackTracking:
     
     def variable_selection(self):
         # Valores ordenados conforme o fluxo e se faz parte da mesma turma
-        for var in csp.variable_list:
+        for var in self.csp.variable_list:
             # print(var.Class.discipline.name)
             if not var.is_assigned:
                 return var

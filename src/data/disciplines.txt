@@ -1,0 +1,190 @@
+Mecanica de Estruturas Aeronauticas-0-Aeroespacial-30-comum
+Fundamentos do Projeto de Aeronaves-0-Aeroespacial-30-comum
+Projeto de Sistemas de Observacao da Terra-0-Aeroespacial-30-comum
+Topicos Especiais 4 em Engenharia Aeroespacial-0-Aeroespacial-30-comum
+Sistemas de Propulsao Solida e Hibrida-0-Aeroespacial-90-comum
+Topicos Especiais 2 em Engenharia Aeroespacial-0-Aeroespacial-90-comum
+Topicos Especiais 3 em Engenharia Aeroespacial-0-Aeroespacial-30-comum
+Engenharia de Software Automotivo-0-Automotiva-30-comum
+Eletronica de Potencia-0-Eletronica-30-comum
+Fisica 3-0-Ciencias Naturais Aplicadas-30-comum
+Fisica Moderna-0-Ciencias Naturais Aplicadas-30-comum
+Topicos Especiais Em Matematica Aplicada-0-Ciencias Naturais Aplicadas-30-comum
+Fundamentos de Energia Nuclear-0-Ciencias Naturais Aplicadas-30-comum
+Fundamentos de Equacoes Diferenciais para Engenharia-0-Ciencias Naturais Aplicadas-30-comum
+Fundamentos de Astronomia e Astrofisica-0-Ciencias Naturais Aplicadas-30-comum
+Eletronica Embarcada-0-Eletronica-30-comum
+Projeto de Circuitos Integrados Digitais-0-Eletronica-30-comum
+Eletronica de Alta Frequencia-0-Eletronica-30-comum
+Codificacao e Compressao de Sinais e Video-0-Eletronica-30-comum
+Antenas Impressas-0-Eletronica-30-comum
+Sistemas de Informacao Geografica para Engenharia-0-Energia-30-comum
+Regulacao Ambiental no Setor Energetico-0-Energia-30-comum
+Engenharia de Software Experimental-0-Software-30-comum
+Topicos especiais em eletronica-0-Eletronica-30-comum
+Sistemas Operacionais Embarcados-0-Eletronica-30-comum
+Projeto de Algoritmos-0-Software-30-comum
+Programacao para Competicoes-0-Software-30-comum
+Topicos Especiais em  Programacao-0-Software-30-comum
+Aprendizado de Maquina-0-Software-30-comum
+Topicos Especiais em  Jogos Digitais-0-Software-30-comum
+Topicos Especiais de Engenharia de Software-0-Software-30-comum
+Topicos Especiais em Governanca de TI-0-Software-30-comum
+Topicos Especiais de Engenharia de Software (FELICIDADE)-0-Software-30-comum
+Calculo 1-1-Ciencias Naturais Aplicadas-90-comum
+Algoritmos e Programacao de Computadores-1-Software-90-comum
+Engenharia e Ambiente-1-Energia-60-comum
+Introducao a Engenharia-1-Ciencias Naturais Aplicadas-30-comum
+Desenho Industrial Assistido por Computador-1-Automotiva-60-comum
+Introducao a Geometria Analitica-1-Ciencias Naturais Aplicadas-30-comum
+Elementos e Metodos em Eletronica-2-Eletronica-60-comum
+Calculo 2-2-Ciencias Naturais Aplicadas-90-comum
+Ciencias Aeroespaciais-2-Aeroespacial-60-comum
+Desenvolvimento de Sofware-2-Software-60-comum
+Fontes de Energia e Tecnologias de Conversao-2-Energia-60-comum
+Probabilidade e Estatistica Aplicada a Engenharia-2-Ciencias Naturais Aplicadas-60-comum
+Fisica 1-2-Ciencias Naturais Aplicadas-60-comum
+Introducao a Algebra Linear-2-Ciencias Naturais Aplicadas-60-comum
+Fisica 1 Experimental-2-Ciencias Naturais Aplicadas-60-comum
+Sistemas Automotivos-2-Automotiva-60-comum
+Metodos Numericos para Engenharia-3-Ciencias Naturais Aplicadas-60-comum
+Engenharia Economica-3-Energia-60-comum
+Quimica Geral Experimental-3-Energia-60-comum
+Matematica Discreta 1-3-Software-60-comum
+Orientacao a Objetos-3-Software-60-comum
+Quimica Geral Teorica-3-Energia-60-comum
+Pratica de Eletronica Digital 1-3-Eletronica-60-comum
+Introducao ao Design e Concepcao de Veiculos-3-Automotiva-60-comum
+Sistemas Aeroespaciais-3-Aeroespacial-60-comum
+Mecanica dos Solidos 1 para Engenharia-3-Automotiva-60-comum
+Calculo 3-3-Ciencias Naturais Aplicadas-90-comum
+Introducao a Astronomia e Astrofisica-3-Ciencias Naturais Aplicadas-90-comum
+Ondulatoria e Fisica Termica para Engenharia-4-Ciencias Naturais Aplicadas-60-comum
+Pratica de Eletromagnetismo-4-Ciencias Naturais Aplicadas-60-comum
+Teoria de Eletromagnetismo-4-Ciencias Naturais Aplicadas-60-comum
+Laboratorio de Ondulatoria e Fisica Termica para Engenharia-4-Ciencias Naturais Aplicadas-60-comum
+Laboratorio de Materiais de Construcao de Engenharia-4-Automotiva-60-comum
+Teoria de Materiais de Construcao-4-Automotiva-60-comum
+Topicos Especiais em Fisica Aplicada-4-Ciencias Naturais Aplicadas-60-comum
+Pratica de Eletronica Digital 2-4-Eletronica-60-comum
+Pratica de Circuitos Eletronicos 1-4-Eletronica-60-comum
+Teoria de Circuitos Eletronicos 1-4-Eletronica-60-comum
+Quimica Organica para Engenharia-4-Energia-60-comum
+Estrutura de Dados e Algoritmos 1-4-Software-60-comum
+Fundamentos de Arquitetura de Computadores-4-Software-60-lab_computacao
+Fenomenos de Transporte-4-Energia-60-comum
+Teoria de Eletronica Digital 2-4-Eletronica-60-comum
+Matematica Discreta 2-4-Software-60-comum
+Metodos de Desenvolvimento de Software-4-Software-60-lab_computacao
+Tecnicas de Programacao em Plataformas Emergentes-5-Software-60-lab_computacao
+Requisitos de Software-5-Software-60-comum
+Sistema de Banco de Dados 1-5-Software-60-lab_computacao
+Estruturas de Dados 2-5-Software-60-comum
+Compiladores 1-5-Software-60-comum
+Teoria de Eletricidade Aplicada-5-Energia-60-comum
+Dinamica dos Fluidos-5-Energia-90-comum
+Fundamentos do Metodo dos Elementos Finitos-5-Aeroespacial-60-comum
+Laboratorio de Eletricidade Aplicada-5-Energia-60-comum
+Humanidades e Cidadania-5-Energia-60-comum
+Teoria da Fisica dos Dispositivos Eletronicos-5-Eletronica-60-comum
+Engenharia de Petroleo e Gas-5-Energia-60-comum
+Termodinamica 1-5-Energia-60-comum
+Fundamentos de Sistemas Operacionais-5-Software-60-comum
+Interacao Humano Computador-5-Software-60-comum
+Matematica aplicada a sistemas-5-Ciencias Naturais Aplicadas-60-comum
+Mecanica dos Materiais Compositos-5-Aeroespacial-60-comum
+Sinais e Sistemas para Engenharia-5-Eletronica-60-comum
+Pratica de Fisica dos Dispositivos Eletronicos-5-Eletronica-60-comum
+Topicos Especiais em Engenharia Automotiva-5-Automotiva-60-comum
+Mecanica dos Solidos 2 para Engenharia-5-Automotiva-90-comum
+Tecnologias de Fabricacao 1-5-Automotiva-60-comum
+Metodos Experimentais para Engenharia-6-Automotiva-60-comum
+Pratica de Circuitos Eletronicos 2-6-Eletronica-60-comum
+Aerodinamica de sistemas aeroespaciais-6-Aeroespacial-60-comum
+Topicos Especiais em Engenharia Aeroespacial-6-Aeroespacial-60-comum
+Engenharia de Manutencao-6-Automotiva-60-comum
+Dinamica dos Mecanismos-6-Automotiva-60-comum
+Equipamentos Termofluidos Automotivos-6-Automotiva-60-comum
+Principios de Comunicacao para Engenharia-6-Eletronica-60-comum
+Principios de Controle-6-Eletronica-60-comum
+Testes de Software-6-Software-60-comum
+Sistema de Banco de Dados 2-6-Software-60-lab_computacao
+Qualidade de Software 1-6-Software-60-comum
+Instrumentacao e Sistemas de Controle-6-Eletronica-60-comum
+Inovacao-6-Eletronica-60-comum
+Sistemas de Controle-6-Eletronica-60-comum
+Microprocessadores e Microcontroladores-6-Eletronica-60-comum
+Arquitetura e Desenho de Software-6-Software-60-comum
+Laboratorio de Sistemas de Conversao de Energia-6-Energia-60-comum
+Teoria de Circuitos Eletronicos 2-6-Eletronica-60-comum
+Combustiveis e Biocombustiveis-6-Energia-60-comum
+Teoria de Sistemas de Conversao de Energia-6-Energia-60-comum
+Engenharia de Seguranca do Trabalho-6-Automotiva-60-comum
+Gestao da Producao Automotiva-6-Automotiva-60-comum
+Materiais Compostos e Plasticos-6-Automotiva-60-comum
+Gestao da Producao da Qualidade-6-Automotiva-60-comum
+Projeto de Elementos Automotivos-6-Automotiva-60-comum
+Tecnologias de Fabricacao 2-6-Automotiva-60-comum
+Fundamentos de Redes de Computadores-6-Software-60-lab_computacao
+Transferencia de Calor-6-Energia-60-comum
+Biorrefinarias-7-Energia-60-comum
+Maquinas de Fluido-7-Energia-60-comum
+Paradigmas de Programacao-7-Software-60-comum
+Programacao para Sistemas Paralelos e Distribuidos-7-Software-60-lab_computacao
+Sistemas de Energia Solar e Eolica-7-Energia-60-comum
+Fundamentos de Sistemas Embarcados-7-Software-60-comum
+Transmissao e Distribuicao de Energia Eletrica-7-Energia-60-comum
+Fundamentos de Propulsao Eletrica Veicular-7-Energia-60-comum
+Economia da Energia-7-Energia-60-comum
+Analise Instrumental de Combustiveis-7-Energia-60-comum
+Integracao e Testes-7-Automotiva-60-comum
+Projeto de Sistemas Automotivos-7-Automotiva-60-comum
+Sistemas Embarcados-7-Eletronica-60-comum
+Mecanica do Voo-7-Aeroespacial-60-comum
+Analise Dinamica Metodos de Elementos Finitos-7-Automotiva-60-comum
+Mecanica de Estruturas Aeroespaciais-7-Aeroespacial-60-comum
+Eletronica Veicular-7-Automotiva-60-comum
+Sistemas Hidraulicos e Pneumaticos-7-Automotiva-60-comum
+Introducao a Mecanica da Fratura-7-Automotiva-60-comum
+Dinamica dos Gases para Sistemas Aeroespaciais-7-Aeroespacial-60-comum
+Arquitetura de Motores de Combustao interna-7-Automotiva-60-comum
+Analise Estrutural Metodos de Elementos Finitos-7-Automotiva-60-comum
+Processamento de Sinais-7-Eletronica-60-comum
+Instrumentacao Eletronica para Engenharia-7-Eletronica-60-comum
+Projeto com Circuitos Reconfiguraveis-7-Eletronica-90-comum
+Projeto de Circuitos Integrados 1-7-Eletronica-90-comum
+Engenharia de Produto-7-Eletronica-60-comum
+Inteligencia Artificial-7-Eletronica-60-comum
+Introducao ao Desgaste-8-Automotiva-60-comum
+Propulsao Aeroespacial-8-Aeroespacial-60-comum
+Projeto de Sistemas Aeroespaciais-8-Aeroespacial-60-comum
+Projeto de Estruturas de Veiculos-8-Automotiva-60-comum
+Sistemas de Controle Automotivo-8-Automotiva-60-comum
+Dinamica de Estruturas Aeroespaciais-8-Aeroespacial-60-comum
+Mecanica do Voo Espacial-8-Aeroespacial-60-comum
+Confiabilidade de Sistemas Automotivos-8-Automotiva-60-comum
+Integridade de Sinais e Design de Circuitos-8-Eletronica-60-comum
+Projeto de Circuitos Eletronicos Integrados 2-8-Eletronica-60-comum
+Centrais de Geracao Termoeletrica-8-Energia-60-comum
+Eficiencia Energetica em Instalacoes Eletricas Industriais-8-Energia-90-comum
+Engenharia de Produto de Software-8-Software-60-lab_computacao
+Gerencia de Configuracao e Evolucao de Software-8-Software-60-comum
+Sistemas Hidroeletricos-8-Energia-90-comum
+Processamento Digital de Imagens-8-Eletronica-60-comum
+Processos Estocasticos-8-Eletronica-60-comum
+Pratica de Circuitos Eletronicos 3-8-Eletronica-60-comum
+Comunicacoes Digitais para Engenharia-8-Eletronica-60-comum
+Dinamica de Veiculos-8-Automotiva-60-comum
+Projeto de Veiculos-8-Automotiva-60-comum
+Gestao Ambiental no Setor Energetico-8-Energia-60-comum
+Teoria de Circuitos Eletronicos 3-8-Eletronica-60-comum
+Analise de Sistemas de Energia Eletrica-8-Energia-60-comum
+Processos Petroquimicos-8-Energia-60-comum
+Propulsao Aeronautica-10-Aeroespacial-60-comum
+Eletronica de Radio Frequencia-10-Eletronica-60-comum
+Acustica e Vibracoes Veiculares-10-Automotiva-60-comum
+Propulsao Eletrica-10-Aeroespacial-60-comum
+Desenvolvimento Sustentavel-10-Energia-60-comum
+Planejamento e Gestao de Energia-10-Energia-60-comum
+Topicos Especiais 1 em Engenharia de Energia-10-Energia-60-comum
+Melhoria de Processos de Software-10-Software-60-comum

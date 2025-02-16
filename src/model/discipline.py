@@ -1,9 +1,10 @@
 from pydantic import BaseModel
 
+
 class Discipline(BaseModel):
     name: str
     flow: int
-    cource: str
+    course: str
     type: str = 'comum'
     workload: int = 60
 
@@ -22,8 +23,8 @@ class Discipline(BaseModel):
     def set_type(self, type: str):
         self.type = type
 
-    def set_cource(self, cource: str):
-        self.cource = cource
+    def set_cource(self, course: str):
+        self.course = course
     
     def get_flow(self) -> int:
         return self.flow
@@ -35,13 +36,13 @@ class Discipline(BaseModel):
         return self.type
 
     def get_cource(self) -> str:
-        return self.cource
+        return self.course
 
     def gen_code(self) -> str:
         return f"{self.name}-{self.flow}"
     
     def __repr__(self) -> str:
-        return f"{self.name}-{self.flow}-{self.workload}-{self.type}-{self.cource}"
+        return f"{self.name}-{self.flow}-{self.workload}-{self.type}-{self.course}"
 
     def get_all(self) -> dict:
         return {
@@ -49,5 +50,5 @@ class Discipline(BaseModel):
             'flow': self.flow,
             'type': self.type,
             'workload': self.workload,
-            'cource': self.cource
+            'course': self.course
         }

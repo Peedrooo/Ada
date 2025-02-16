@@ -41,7 +41,7 @@ class DisciplineStorage(Storage):
         """Cria um arquivo txt com todas as disciplinas cadastradas."""
         with open(path, 'w', encoding='utf-8') as file:
             for discipline in self._storage.values():
-                file.write(f"{discipline.name}-{discipline.flow}-"
+                file.write(f"{discipline.name}-{discipline.flow}-{discipline.course}-"
                            f"{discipline.workload}-{discipline.type}\n")
         logging.info("Saved all disciplines.")
 
@@ -50,9 +50,10 @@ class DisciplineStorage(Storage):
         if os.path.exists(path):
             with open(path, 'r', encoding='utf-8') as file:
                 for line in file:
-                    name, flow, workload, type = line.strip().split('-')
+                    name, flow, course, workload, type = line.strip().split('-')
                     discipline = Discipline(
-                        name=name, flow=flow, 
+                        name=name, flow=flow,
+                        course=course,
                         workload=int(workload), 
                         type=type)
                     self.add_discipline(discipline)

@@ -98,7 +98,7 @@ class GenerateClasses:
 
                 new_classroom_list.append(nova_turma)
 
-        self.classroom_list = new_classroom_list  # Atualiza a lista com turmas fragmentadas
+        self.classroom_list = new_classroom_list
 
     def get_classroom(self):
         print('Generating classes...')

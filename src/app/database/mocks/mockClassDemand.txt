@@ -26,7 +26,6 @@
   {"discipline": "Sistemas Operacionais Embarcados", "students": 48},
   {"discipline": "Projeto de Algoritmos", "students": 48},
   {"discipline": "Programacao para Competicoes", "students": 40},
-  {"discipline": "Topicos Especiais em Programacao", "students": 60},
   {"discipline": "Aprendizado de Maquina", "students": 90},
   {"discipline": "Topicos Especiais de Engenharia de Software", "students": 60},
   {"discipline": "Topicos Especiais em Governanca de TI", "students": 40},

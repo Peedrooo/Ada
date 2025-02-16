@@ -1,8 +1,9 @@
+import json
+import os
+import unicodedata
+
 import pandas as pd
 from IPython.display import display
-import unicodedata
-import os
-import json
 
 # Verifica diretório atual
 print("Diretório atual:", os.getcwd())
@@ -43,7 +44,7 @@ def extract_all_discipline():
 
 def convert_json(df):
     df = df.drop(df.columns[[1] + list(range(3, 11)) + list(range(12, 14))], axis=1)
-    df = df.rename(columns={'DISCIPLINA': 'name', 'FLUXO': 'flow', 'CURSO RESPONSAVEL': 'cource'})
+    df = df.rename(columns={'DISCIPLINA': 'name', 'FLUXO': 'flow', 'CURSO RESPONSAVEL': 'course'})
     
     # Converte fluxo para inteiro
     df['flow'] = df['flow'].fillna(0).astype(int)
