@@ -1,4 +1,4 @@
-from variable   import variable
+from scripts.variable import variable
 from typing import List
 import pandas as pd
 from IPython.display import display

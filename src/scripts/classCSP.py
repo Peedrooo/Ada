@@ -2,8 +2,8 @@ import sys
 
 sys.path.append('./src')
 
-from constraint import constraint
-from variable import variable
+from scripts.constraint import constraint
+from scripts.variable import variable
 from typing import List
 from model.classrom import Classrom
 
@@ -35,3 +35,6 @@ class classCSP:
         self.variable_list = sorted(self.variable_list, key = lambda x: x.Class.discipline.workload, reverse=True)
         # for var in self.variable_list:
             # print(f'{var.Class.discipline.name}, id - {var.Class.id}, part - {var.Class.part}, carga horária: {var.Class.discipline.workload}')
+
+    def __str__(self):
+        return f'locals: {self.locals}, days: {self.days}, times: {self.times}, cources: {self.cources}'
