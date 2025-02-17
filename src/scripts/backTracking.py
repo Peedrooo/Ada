@@ -32,7 +32,7 @@ class BackTracking:
 
         print(f'Variável: {var.Class.discipline.name} tamanho da turma: {var.Class.turma_size}')
         print(f'Quantidade de turmas alocadas: {len(assigment)}')
-        print(f'lista de valores: {len(val)} valor: {val}')
+        print(f'lista de valores: {len(val)}')
         for value in val:
             if self.isConsistent(var, value, assigment):
                 var.assign(value)
@@ -175,11 +175,16 @@ class BackTracking:
         return value_score  # Não conseguiu fazer nenhuma ordenação aprofundada        
     
     def variable_selection(self):
+        return min(
+        (var for var in self.csp.variable_list if not var.is_assigned),
+        key=lambda v: len(v.domain),
+        default=None
+    )
         # Valores ordenados conforme o fluxo e se faz parte da mesma turma
-        for var in self.csp.variable_list:
-            # print(var.Class.discipline.name)
-            if not var.is_assigned:
-                return var
+        # for var in self.csp.variable_list:
+        #     # print(var.Class.discipline.name)
+        #     if not var.is_assigned:
+        #         return var
         
     def isConsistent(self, var, value, assigment): # verificar restrições
         if not self.csp.constraints.verify(var, value, assigment):
@@ -314,7 +319,9 @@ if __name__ == "__main__":
         constraint = restrincao
     )
     csp.init_variables()
+    print("Inicialização terminou...")
     csp.sort_variables()
+    print("Ordenação das variáveis terminou...")
     back_tracking_search = BackTracking(csp)
     assigment_list = []
 

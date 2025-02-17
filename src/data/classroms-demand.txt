@@ -1,26 +1,26 @@
 Mecanica de Estruturas Aeronauticas-60
 Fundamentos do Projeto de Aeronaves-30
 Projeto de Sistemas de Observacao da Terra-20
-Topicos Especiais 4 em Engenharia Aeroespacial-60
+Topicos Especiais 4 em Engenharia Aeroespacial-55
 Sistemas de Propulsao Solida e Hibrida-90
 Topicos Especiais 2 em Engenharia Aeroespacial-30
 Topicos Especiais 3 em Engenharia Aeroespacial-60
-Engenharia de Software Automotivo-60
-Eletronica de Potencia-60
+Engenharia de Software Automotivo-31
+Eletronica de Potencia-40
 Fisica 3-120
 Fisica Moderna-35
 Topicos Especiais Em Matematica Aplicada-55
 Fundamentos de Energia Nuclear-30
 Fundamentos de Equacoes Diferenciais para Engenharia-48
-Fundamentos de Astronomia e Astrofisica-60
+Fundamentos de Astronomia e Astrofisica-12
 Eletronica Embarcada-100
 Projeto de Circuitos Integrados Digitais-120
-Eletronica de Alta Frequencia-60
+Eletronica de Alta Frequencia-40
 Codificacao e Compressao de Sinais e Video-27
 Antenas Impressas-20
 Sistemas de Informacao Geografica para Engenharia-67
 Regulacao Ambiental no Setor Energetico-30
-Engenharia de Software Experimental-60
+Engenharia de Software Experimental-15
 Topicos especiais em eletronica-60
 Sistemas Operacionais Embarcados-48
 Projeto de Algoritmos-48
@@ -42,17 +42,16 @@ Desenvolvimento de Sofware-50
 Fontes de Energia e Tecnologias de Conversao-30
 Probabilidade e Estatistica Aplicada a Engenharia-100
 Fisica 1-80
-Introducao a Algebra Linear-60
+Introducao a Algebra Linear-41
 Fisica 1 Experimental-60
-Sistemas Automotivos-60
+Sistemas Automotivos-46
 Metodos Numericos para Engenharia-80
-Engenharia Economica-30
 Quimica Geral Experimental-70
 Matematica Discreta 1-60
 Orientacao a Objetos-80
 Quimica Geral Teorica-60
 Pratica de Eletronica Digital 1-90
-Introducao ao Design e Concepcao de Veiculos-60
+Introducao ao Design e Concepcao de Veiculos-48
 Sistemas Aeroespaciais-30
 Mecanica dos Solidos 1 para Engenharia-70
 Calculo 3-120
@@ -71,9 +70,9 @@ Quimica Organica para Engenharia-70
 Estrutura de Dados e Algoritmos 1-100
 Fundamentos de Arquitetura de Computadores-60
 Fenomenos de Transporte-35
-Teoria de Eletronica Digital 2-60
+Teoria de Eletronica Digital 2-47
 Matematica Discreta 2-60
-Metodos de Desenvolvimento de Software-60
+Metodos de Desenvolvimento de Software-35
 Tecnicas de Programacao em Plataformas Emergentes-80
 Requisitos de Software-60
 Sistema de Banco de Dados 1-110
@@ -86,31 +85,31 @@ Laboratorio de Eletricidade Aplicada-15
 Humanidades e Cidadania-50
 Teoria da Fisica dos Dispositivos Eletronicos-60
 Engenharia de Petroleo e Gas-15
-Termodinamica 1-60
+Termodinamica 1-20
 Fundamentos de Sistemas Operacionais-60
 Interacao Humano Computador-60
 Matematica aplicada a sistemas-70
-Mecanica dos Materiais Compositos-60
+Mecanica dos Materiais Compositos-30
 Sinais e Sistemas para Engenharia-60
 Pratica de Fisica dos Dispositivos Eletronicos-60
-Topicos Especiais em Engenharia Automotiva-60
+Topicos Especiais em Engenharia Automotiva-50
 Mecanica dos Solidos 2 para Engenharia-90
-Tecnologias de Fabricacao 1-60
-Metodos Experimentais para Engenharia-60
+Tecnologias de Fabricacao 1-44
+Metodos Experimentais para Engenharia-43
 Pratica de Circuitos Eletronicos 2-60
 Aerodinamica de sistemas aeroespaciais-130
 Engenharia de Manutencao-15
 Dinamica dos Mecanismos-60
-Equipamentos Termofluidos Automotivos-60
-Principios de Comunicacao para Engenharia-60
+Equipamentos Termofluidos Automotivos-32
+Principios de Comunicacao para Engenharia-33
 Principios de Controle-140
 Testes de Software-60
 Sistema de Banco de Dados 2-90
-Qualidade de Software 1-60
+Qualidade de Software 1-31
 Instrumentacao e Sistemas de Controle-15
-Inovacao-60
+Inovacao-40
 Sistemas de Controle-60
-Microprocessadores e Microcontroladores-60
+Microprocessadores e Microcontroladores-35
 Arquitetura e Desenho de Software-70
 Laboratorio de Sistemas de Conversao de Energia-60
 Teoria de Circuitos Eletronicos 2-60
@@ -122,7 +121,7 @@ Materiais Compostos e Plasticos-20
 Gestao da Producao da Qualidade-21
 Projeto de Elementos Automotivos-60
 Tecnologias de Fabricacao 2-10
-Fundamentos de Redes de Computadores-60
+Fundamentos de Redes de Computadores-20
 Transferencia de Calor-40
 Biorrefinarias-15
 Maquinas de Fluido-60
@@ -131,20 +130,20 @@ Programacao para Sistemas Paralelos e Distribuidos-80
 Sistemas de Energia Solar e Eolica-22
 Fundamentos de Sistemas Embarcados-140
 Transmissao e Distribuicao de Energia Eletrica-30
-Fundamentos de Propulsao Eletrica Veicular-60
-Economia da Energia-60
+Fundamentos de Propulsao Eletrica Veicular-20
+Economia da Energia-25
 Analise Instrumental de Combustiveis-25
 Integracao e Testes-18
 Projeto de Sistemas Automotivos-48
 Sistemas Embarcados-65
-Mecanica do Voo-60
+Mecanica do Voo-25
 Analise Dinamica Metodos de Elementos Finitos-38
 Mecanica de Estruturas Aeroespaciais-60
 Eletronica Veicular-15
-Sistemas Hidraulicos e Pneumaticos-60
+Sistemas Hidraulicos e Pneumaticos-27
 Introducao a Mecanica da Fratura-60
 Dinamica dos Gases para Sistemas Aeroespaciais-49
-Arquitetura de Motores de Combustao interna-60
+Arquitetura de Motores de Combustao interna-21
 Analise Estrutural Metodos de Elementos Finitos-36
 Processamento de Sinais-34
 Instrumentacao Eletronica para Engenharia-28
@@ -164,13 +163,13 @@ Integridade de Sinais e Design de Circuitos-80
 Projeto de Circuitos Eletronicos Integrados 2-44
 Centrais de Geracao Termoeletrica-38
 Eficiencia Energetica em Instalacoes Eletricas Industriais-90
-Engenharia de Produto de Software-60
+Engenharia de Produto de Software-36
 Gerencia de Configuracao e Evolucao de Software-30
 Sistemas Hidroeletricos-90
 Processamento Digital de Imagens-35
 Processos Estocasticos-30
 Pratica de Circuitos Eletronicos 3-60
-Comunicacoes Digitais para Engenharia-60
+Comunicacoes Digitais para Engenharia-21
 Dinamica de Veiculos-40
 Projeto de Veiculos-27
 Gestao Ambiental no Setor Energetico-12
