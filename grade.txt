@@ -1,0 +1,378 @@
+                                                 Disciplina Turma       Sala Dia     Horario
+                                                  Calculo 1     1         I9 SEG 10:00-11:50
+                                                  Calculo 1     1         I9 QUA 10:00-11:50
+                                                  Calculo 1     1         I9 SEX 10:00-11:50
+                   Algoritmos e Programacao de Computadores    16 Anfiteatro SEG 08:00-09:50
+                   Algoritmos e Programacao de Computadores    16 Anfiteatro QUA 08:00-09:50
+                   Algoritmos e Programacao de Computadores    16 Anfiteatro SEX 08:00-09:50
+                                      Engenharia e Ambiente    17 Anfiteatro SEG 16:00-17:50
+                                      Engenharia e Ambiente    17 Anfiteatro QUA 16:00-17:50
+                Desenho Industrial Assistido por Computador    19 Anfiteatro SEG 14:00-15:50
+                Desenho Industrial Assistido por Computador    19 Anfiteatro QUA 14:00-15:50
+                                    Introducao a Engenharia    35         S3 QUI 14:00-15:50
+                                                  Calculo 1   188 Anfiteatro SEG 10:00-11:50
+                                                  Calculo 1   188 Anfiteatro QUA 10:00-11:50
+                                                  Calculo 1   188 Anfiteatro SEX 10:00-11:50
+                                                  Calculo 3     7         S3 SEG 10:00-11:50
+                                                  Calculo 3     7         S3 QUA 10:00-11:50
+                                                  Calculo 3     7         S3 SEX 10:00-11:50
+                                                  Calculo 2    39         I9 SEG 08:00-09:50
+                                                  Calculo 2    39         I9 QUA 08:00-09:50
+                                                  Calculo 2    39         I9 SEX 08:00-09:50
+          Probabilidade e Estatistica Aplicada a Engenharia    23         I9 SEG 16:00-17:50
+          Probabilidade e Estatistica Aplicada a Engenharia    23         I9 QUA 16:00-17:50
+                                     Principios de Controle     3         S3 SEG 08:00-09:50
+                                     Principios de Controle     3         S3 QUA 08:00-09:50
+                       Dinamica de Estruturas Aeroespaciais     4         S3 SEG 16:00-17:50
+                       Dinamica de Estruturas Aeroespaciais     4         S3 QUA 16:00-17:50
+                            Acustica e Vibracoes Veiculares     5 Anfiteatro TER 10:00-11:50
+                            Acustica e Vibracoes Veiculares     5 Anfiteatro QUI 10:00-11:50
+                     Aerodinamica de sistemas aeroespaciais     6 Anfiteatro TER 08:00-09:50
+                     Aerodinamica de sistemas aeroespaciais     6 Anfiteatro QUI 08:00-09:50
+               Topicos Especiais em Engenharia Aeroespacial    11 Anfiteatro TER 16:00-17:50
+               Topicos Especiais em Engenharia Aeroespacial    11 Anfiteatro QUI 16:00-17:50
+                         Fundamentos de Sistemas Embarcados     9 Anfiteatro TER 14:00-15:50
+                         Fundamentos de Sistemas Embarcados     9 Anfiteatro QUI 14:00-15:50
+                                             Compiladores 1    10         I9 TER 14:00-15:50
+                                             Compiladores 1    10         I9 QUI 14:00-15:50
+                          Estrutura de Dados e Algoritmos 1    70         S3 TER 14:00-15:50
+                          Estrutura de Dados e Algoritmos 1    70         S3 SEX 08:00-09:50
+   Topicos Especiais de Engenharia de Software (FELICIDADE)     2         S3 QUI 16:00-17:50
+                   Projeto de Circuitos Integrados Digitais     8         S3 QUI 08:00-09:50
+                                                   Fisica 3    13         S3 QUI 10:00-11:50
+                                       Eletronica Embarcada    32         S3 TER 16:00-17:50
+          Tecnicas de Programacao em Plataformas Emergentes    38        I10 SEG 08:00-09:50
+          Tecnicas de Programacao em Plataformas Emergentes    38        I10 QUA 08:00-09:50
+                                Sistema de Banco de Dados 1    79        I10 SEG 16:00-17:50
+                                Sistema de Banco de Dados 1    79        I10 QUA 16:00-17:50
+         Programacao para Sistemas Paralelos e Distribuidos    64         S2 SEG 08:00-09:50
+         Programacao para Sistemas Paralelos e Distribuidos    64         S2 QUA 08:00-09:50
+                                Sistema de Banco de Dados 2    26        I10 TER 14:00-15:50
+                                Sistema de Banco de Dados 2    26        I10 QUI 14:00-15:50
+                 Fundamentos de Arquitetura de Computadores    71         I6 SEG 08:00-09:50
+                 Fundamentos de Arquitetura de Computadores    71         I6 QUA 08:00-09:50
+                                      Estruturas de Dados 2   159         S1 SEG 10:00-11:50
+                                      Estruturas de Dados 2   159         S1 QUA 10:00-11:50
+                                                   Fisica 1    22         S4 SEG 10:00-11:50
+                                                   Fisica 1    22         S4 QUA 10:00-11:50
+                           Introducao a Geometria Analitica    18         S3 TER 08:00-09:50
+                      Introducao a Astronomia e Astrofisica    29         S1 SEG 08:00-09:50
+                      Introducao a Astronomia e Astrofisica    29         S1 QUA 08:00-09:50
+                      Introducao a Astronomia e Astrofisica    29         S1 SEX 08:00-09:50
+                            Pratica de Eletronica Digital 1    12         S1 SEG 16:00-17:50
+                            Pratica de Eletronica Digital 1    12         S1 QUA 16:00-17:50
+                                       Orientacao a Objetos    24         S1 TER 14:00-15:50
+                                       Orientacao a Objetos    24         S1 QUI 14:00-15:50
+                          Metodos Numericos para Engenharia    53         S1 TER 08:00-09:50
+                          Metodos Numericos para Engenharia    53         S1 QUI 08:00-09:50
+                                       Dinamica dos Fluidos    20         S4 SEG 08:00-09:50
+                                       Dinamica dos Fluidos    20         S4 QUA 08:00-09:50
+                                       Dinamica dos Fluidos    20         S4 SEX 08:00-09:50
+                                    Sistemas Hidroeletricos    21         S4 SEG 16:00-17:50
+                                    Sistemas Hidroeletricos    21         S4 QUA 16:00-17:50
+                                    Sistemas Hidroeletricos    21         S4 SEX 16:00-17:50
+ Eficiencia Energetica em Instalacoes Eletricas Industriais    41         S2 SEG 10:00-11:50
+ Eficiencia Energetica em Instalacoes Eletricas Industriais    41         S2 QUA 10:00-11:50
+ Eficiencia Energetica em Instalacoes Eletricas Industriais    41         S2 SEX 10:00-11:50
+                     Mecanica dos Solidos 2 para Engenharia    25         S2 SEG 16:00-17:50
+                     Mecanica dos Solidos 2 para Engenharia    25         S2 QUA 16:00-17:50
+                     Mecanica dos Solidos 2 para Engenharia    25         S2 SEX 16:00-17:50
+                     Sistemas de Propulsao Solida e Hibrida    33         S1 SEG 14:00-15:50
+                     Sistemas de Propulsao Solida e Hibrida    33         S1 QUA 14:00-15:50
+                     Sistemas de Propulsao Solida e Hibrida    33         S1 SEX 14:00-15:50
+                Integridade de Sinais e Design de Circuitos    40         S4 TER 14:00-15:50
+                Integridade de Sinais e Design de Circuitos    40         S4 QUI 14:00-15:50
+                       Topicos Especiais em Fisica Aplicada    65         S2 TER 14:00-15:50
+                       Topicos Especiais em Fisica Aplicada    65         S2 QUI 14:00-15:50
+                          Teoria de Materiais de Construcao   131         S4 TER 08:00-09:50
+                          Teoria de Materiais de Construcao   131         S4 QUI 08:00-09:50
+                                     Aprendizado de Maquina    14         S3 TER 10:00-11:50
+   Topicos Especiais de Engenharia de Software (FELICIDADE)   189         S2 QUI 16:00-17:50
+                     Mecanica dos Solidos 1 para Engenharia    28         S4 SEG 14:00-15:50
+                     Mecanica dos Solidos 1 para Engenharia    28         S4 QUA 14:00-15:50
+                                 Quimica Geral Experimental    50         S1 TER 10:00-11:50
+                                 Quimica Geral Experimental    50         S1 QUI 10:00-11:50
+                                      Matematica Discreta 1    51         S1 TER 16:00-17:50
+                                      Matematica Discreta 1    51         S1 QUI 16:00-17:50
+                                      Quimica Geral Teorica    52         S1 SEX 16:00-17:50
+                                      Quimica Geral Teorica    52         S4 SEX 14:00-15:50
+               Introducao ao Design e Concepcao de Veiculos    55         S5 SAB 10:00-11:50
+               Introducao ao Design e Concepcao de Veiculos    55         S5 SAB 08:00-09:50
+                                     Sistemas Aeroespaciais   110         I1 SAB 16:00-17:50
+                                     Sistemas Aeroespaciais   110         I1 SAB 14:00-15:50
+                                      Fisica 1 Experimental    46      MOCAP TER 14:00-15:50
+                                      Fisica 1 Experimental    46      MOCAP QUI 14:00-15:50
+                       Fundamentos de Sistemas Operacionais    90      MOCAP TER 08:00-09:50
+                       Fundamentos de Sistemas Operacionais    90      MOCAP QUI 08:00-09:50
+                                Interacao Humano Computador    91         S4 TER 10:00-11:50
+                                Interacao Humano Computador    91         S4 QUI 10:00-11:50
+                                     Requisitos de Software   155         S4 TER 16:00-17:50
+                                     Requisitos de Software   155         S4 QUI 16:00-17:50
+          Tecnicas de Programacao em Plataformas Emergentes   194         I7 SEG 08:00-09:50
+          Tecnicas de Programacao em Plataformas Emergentes   194         I7 QUA 08:00-09:50
+                                Sistema de Banco de Dados 1   191         I7 SEG 16:00-17:50
+                                Sistema de Banco de Dados 1   191         I7 QUA 16:00-17:50
+                                      Matematica Discreta 2    37      MOCAP SEG 16:00-17:50
+                                      Matematica Discreta 2    37      MOCAP QUA 16:00-17:50
+                                       Sistemas de Controle    27      MOCAP SEG 10:00-11:50
+                                       Sistemas de Controle    27      MOCAP QUA 10:00-11:50
+                         Pratica de Circuitos Eletronicos 2    49         I9 TER 08:00-09:50
+                         Pratica de Circuitos Eletronicos 2    49         I9 QUI 08:00-09:50
+                          Teoria de Circuitos Eletronicos 2   115      MOCAP TER 10:00-11:50
+                          Teoria de Circuitos Eletronicos 2   115      MOCAP QUI 10:00-11:50
+                                  Paradigmas de Programacao   129        I10 SEG 10:00-11:50
+                                  Paradigmas de Programacao   129        I10 QUA 10:00-11:50
+                           Projeto de Elementos Automotivos    30      MOCAP SEG 08:00-09:50
+                           Projeto de Elementos Automotivos    30      MOCAP QUA 08:00-09:50
+                                         Maquinas de Fluido    31        I10 TER 08:00-09:50
+                                         Maquinas de Fluido    31        I10 QUI 08:00-09:50
+                           Quimica Organica para Engenharia    34         S2 TER 08:00-09:50
+                           Quimica Organica para Engenharia    34         S2 QUI 08:00-09:50
+                           Introducao a Mecanica da Fratura    36         I9 TER 10:00-11:50
+                           Introducao a Mecanica da Fratura    36         I9 QUI 10:00-11:50
+              Teoria da Fisica dos Dispositivos Eletronicos    43        I10 TER 10:00-11:50
+              Teoria da Fisica dos Dispositivos Eletronicos    43        I10 QUI 10:00-11:50
+             Pratica de Fisica dos Dispositivos Eletronicos    47      MOCAP TER 16:00-17:50
+             Pratica de Fisica dos Dispositivos Eletronicos    47      MOCAP QUI 16:00-17:50
+                          Sinais e Sistemas para Engenharia    93      MOCAP SEG 14:00-15:50
+                          Sinais e Sistemas para Engenharia    93      MOCAP QUA 14:00-15:50
+                                      Propulsao Aeronautica    44         S2 TER 10:00-11:50
+                                      Propulsao Aeronautica    44         S2 QUI 10:00-11:50
+                             Matematica aplicada a sistemas    45         I9 TER 16:00-17:50
+                             Matematica aplicada a sistemas    45         I9 QUI 16:00-17:50
+                          Arquitetura e Desenho de Software    56        I10 TER 16:00-17:50
+                          Arquitetura e Desenho de Software    56        I10 QUI 16:00-17:50
+                                         Testes de Software   107         I9 SEG 14:00-15:50
+                                         Testes de Software   107         I9 QUA 14:00-15:50
+                        Engenharia de Seguranca do Trabalho    59         S2 TER 16:00-17:50
+                        Engenharia de Seguranca do Trabalho    59      MOCAP SEX 08:00-09:50
+                                    Dinamica dos Mecanismos   102        I10 SEG 14:00-15:50
+                                    Dinamica dos Mecanismos   102        I10 QUA 14:00-15:50
+                                        Sistemas Embarcados    69         S2 SEG 14:00-15:50
+                                        Sistemas Embarcados    69         S2 QUA 14:00-15:50
+                                     Propulsao Aeroespacial    77         S3 SEG 14:00-15:50
+                                     Propulsao Aeroespacial    77         S3 QUA 14:00-15:50
+                          Projeto de Estruturas de Veiculos    78        I10 SEX 08:00-09:50
+                          Projeto de Estruturas de Veiculos    78         S1 SEX 10:00-11:50
+                                   Mecanica do Voo Espacial    81         S2 SEX 08:00-09:50
+                                   Mecanica do Voo Espacial    81         S4 SEX 10:00-11:50
+                       Dinamica de Estruturas Aeroespaciais   190      MOCAP SEX 16:00-17:50
+                       Dinamica de Estruturas Aeroespaciais   190      MOCAP SEX 14:00-15:50
+                         Pratica de Circuitos Eletronicos 3    85      MOCAP SEX 10:00-11:50
+                         Pratica de Circuitos Eletronicos 3    85 Anfiteatro SEX 16:00-17:50
+            Laboratorio de Sistemas de Conversao de Energia   114        I10 SEX 10:00-11:50
+            Laboratorio de Sistemas de Conversao de Energia   114         I9 SEX 16:00-17:50
+                       Mecanica de Estruturas Aeroespaciais   141        I10 SEX 16:00-17:50
+                       Mecanica de Estruturas Aeroespaciais   141 Anfiteatro SEX 14:00-15:50
+             Topicos Especiais 3 em Engenharia Aeroespacial    15         S3 SEX 16:00-17:50
+                        Mecanica de Estruturas Aeronauticas    42         I9 SEX 14:00-15:50
+                            Topicos especiais em eletronica    48        I10 SEX 14:00-15:50
+                Topicos Especiais de Engenharia de Software    57         S2 SEX 14:00-15:50
+          Sistemas de Informacao Geografica para Engenharia    82         S3 SEX 14:00-15:50
+             Topicos Especiais 4 em Engenharia Aeroespacial    86         S1 SAB 10:00-11:50
+                   Topicos Especiais Em Matematica Aplicada    99         S4 SAB 10:00-11:50
+                       Fundamentos de Redes de Computadores   124         SS SEG 08:00-09:50
+                       Fundamentos de Redes de Computadores   124         SS QUA 08:00-09:50
+                                Sistema de Banco de Dados 2   192         I7 TER 14:00-15:50
+                                Sistema de Banco de Dados 2   192         I7 QUI 14:00-15:50
+         Programacao para Sistemas Paralelos e Distribuidos   195         I7 SEG 14:00-15:50
+         Programacao para Sistemas Paralelos e Distribuidos   195         I7 QUA 14:00-15:50
+                     Metodos de Desenvolvimento de Software   150         I7 TER 08:00-09:50
+                     Metodos de Desenvolvimento de Software   150         I7 QUI 08:00-09:50
+                          Engenharia de Produto de Software   166         I7 SEG 10:00-11:50
+                          Engenharia de Produto de Software   166         I7 QUA 10:00-11:50
+                                 Desenvolvimento de Sofware    80         I2 SEG 14:00-15:50
+                                 Desenvolvimento de Sofware    80         I2 QUA 14:00-15:50
+                                       Sistemas Automotivos    94         S5 TER 08:00-09:50
+                                       Sistemas Automotivos    94         S5 QUI 08:00-09:50
+                                Introducao a Algebra Linear    88         I1 TER 10:00-11:50
+                                Introducao a Algebra Linear    88         I1 QUI 10:00-11:50
+                          Elementos e Metodos em Eletronica   157         I1 TER 16:00-17:50
+                          Elementos e Metodos em Eletronica   157         I1 QUI 16:00-17:50
+                                     Ciencias Aeroespaciais   165         I1 SEX 10:00-11:50
+                                     Ciencias Aeroespaciais   165         I1 SEX 16:00-17:50
+               Fontes de Energia e Tecnologias de Conversao   171         I1 SEX 14:00-15:50
+               Fontes de Energia e Tecnologias de Conversao   171         I1 SAB 10:00-11:50
+                 Topicos Especiais em Engenharia Automotiva    95         I2 SEG 08:00-09:50
+                 Topicos Especiais em Engenharia Automotiva    95         I2 QUA 08:00-09:50
+                                    Humanidades e Cidadania    84         I3 SEG 14:00-15:50
+                                    Humanidades e Cidadania    84         I3 QUA 14:00-15:50
+             Dinamica dos Gases para Sistemas Aeroespaciais    72         I4 SEG 14:00-15:50
+             Dinamica dos Gases para Sistemas Aeroespaciais    72         I4 QUA 14:00-15:50
+                            Pratica de Eletronica Digital 2    66         I5 SEG 14:00-15:50
+                            Pratica de Eletronica Digital 2    66         I5 QUA 14:00-15:50
+                                                  Calculo 1   193         I1 SEG 10:00-11:50
+                                                  Calculo 1   193         I1 QUA 10:00-11:50
+                                                  Calculo 1   193         I7 SEX 10:00-11:50
+                          Projeto de Sistemas Aeroespaciais   156         I1 SEG 08:00-09:50
+                          Projeto de Sistemas Aeroespaciais   156         I1 QUA 08:00-09:50
+                  Principios de Comunicacao para Engenharia   105         I1 SEG 14:00-15:50
+                  Principios de Comunicacao para Engenharia   105         I1 QUA 14:00-15:50
+                      Instrumentacao e Sistemas de Controle   109         I7 TER 16:00-17:50
+                      Instrumentacao e Sistemas de Controle   109         I7 QUI 16:00-17:50
+                                                   Inovacao   111         I1 TER 14:00-15:50
+                                                   Inovacao   111         I1 QUI 14:00-15:50
+                    Microprocessadores e Microcontroladores   113         I1 SEG 16:00-17:50
+                    Microprocessadores e Microcontroladores   113         I1 QUA 16:00-17:50
+                                     Principios de Controle   196         I8 SEG 08:00-09:50
+                                     Principios de Controle   196         I8 QUA 08:00-09:50
+                                    Qualidade de Software 1   108         I1 TER 08:00-09:50
+                                    Qualidade de Software 1   108         I1 QUI 08:00-09:50
+                                    Processos Petroquimicos    89         I8 SEG 14:00-15:50
+                                    Processos Petroquimicos    89         I8 QUA 14:00-15:50
+                          Centrais de Geracao Termoeletrica   164         I3 SEG 08:00-09:50
+                          Centrais de Geracao Termoeletrica   164         I3 QUA 08:00-09:50
+                       Gestao Ambiental no Setor Energetico   175         I8 TER 08:00-09:50
+                       Gestao Ambiental no Setor Energetico   175         I8 QUI 08:00-09:50
+                    Analise de Sistemas de Energia Eletrica   179         I8 TER 16:00-17:50
+                    Analise de Sistemas de Energia Eletrica   179         I8 QUI 16:00-17:50
+                                 Teoria de Eletromagnetismo    61         I6 SEG 14:00-15:50
+                                 Teoria de Eletromagnetismo    61         I6 QUA 14:00-15:50
+               Ondulatoria e Fisica Termica para Engenharia   118         I4 SEG 08:00-09:50
+               Ondulatoria e Fisica Termica para Engenharia   118         I4 QUA 08:00-09:50
+                            Projeto de Sistemas Automotivos    68         S5 SEG 14:00-15:50
+                            Projeto de Sistemas Automotivos    68         S5 QUA 14:00-15:50
+                            Sistemas de Controle Automotivo   158         S7 SEG 14:00-15:50
+                            Sistemas de Controle Automotivo   158         S7 QUA 14:00-15:50
+              Projeto de Circuitos Eletronicos Integrados 2   163         SS SEG 14:00-15:50
+              Projeto de Circuitos Eletronicos Integrados 2   163         SS QUA 14:00-15:50
+                           Processamento Digital de Imagens   169         I5 SEG 08:00-09:50
+                           Processamento Digital de Imagens   169         I5 QUA 08:00-09:50
+                                     Processos Estocasticos   170         I2 TER 08:00-09:50
+                                     Processos Estocasticos   170         I2 QUI 08:00-09:50
+                      Comunicacoes Digitais para Engenharia   172         I2 TER 16:00-17:50
+                      Comunicacoes Digitais para Engenharia   172         I2 QUI 16:00-17:50
+                          Teoria de Circuitos Eletronicos 3   176         I7 TER 10:00-11:50
+                          Teoria de Circuitos Eletronicos 3   176         I7 QUI 10:00-11:50
+                                Tecnologias de Fabricacao 1    97      SalaG SEG 14:00-15:50
+                                Tecnologias de Fabricacao 1    97      SalaG QUA 14:00-15:50
+                            Gestao da Producao da Qualidade    60         I3 TER 08:00-09:50
+                            Gestao da Producao da Qualidade    60         I3 QUI 08:00-09:50
+                      Metodos Experimentais para Engenharia    98         I8 TER 10:00-11:50
+                      Metodos Experimentais para Engenharia    98         I8 QUI 10:00-11:50
+                                   Engenharia de Manutencao   101         I8 SEG 10:00-11:50
+                                   Engenharia de Manutencao   101         I8 QUA 10:00-11:50
+                      Equipamentos Termofluidos Automotivos   103         I8 TER 14:00-15:50
+                      Equipamentos Termofluidos Automotivos   103         I8 QUI 14:00-15:50
+                              Gestao da Producao Automotiva   119         I8 SEG 16:00-17:50
+                              Gestao da Producao Automotiva   119         I8 QUA 16:00-17:50
+                            Materiais Compostos e Plasticos   121         I8 SEX 10:00-11:50
+                            Materiais Compostos e Plasticos   121         I7 SEX 16:00-17:50
+                                Tecnologias de Fabricacao 2   123         I3 QUI 16:00-17:50
+                                Tecnologias de Fabricacao 2   123         I7 SEX 14:00-15:50
+                                Pratica de Eletromagnetismo   122         I4 TER 08:00-09:50
+                                Pratica de Eletromagnetismo   122         I4 QUI 08:00-09:50
+Laboratorio de Ondulatoria e Fisica Termica para Engenharia   125         I2 TER 10:00-11:50
+Laboratorio de Ondulatoria e Fisica Termica para Engenharia   125         I2 QUI 10:00-11:50
+                         Fundamentos de Sistemas Embarcados   197         I5 TER 08:00-09:50
+                         Fundamentos de Sistemas Embarcados   197         I5 QUI 08:00-09:50
+                                        Projeto de Veiculos    87         S5 SEG 08:00-09:50
+                                        Projeto de Veiculos    87         S5 QUA 08:00-09:50
+                                     Introducao ao Desgaste   154         I6 TER 08:00-09:50
+                                     Introducao ao Desgaste   154         I6 QUI 08:00-09:50
+                     Confiabilidade de Sistemas Automotivos   161         I3 TER 10:00-11:50
+                     Confiabilidade de Sistemas Automotivos   161         I3 QUI 10:00-11:50
+                                       Dinamica de Veiculos   173         I3 TER 16:00-17:50
+                                       Dinamica de Veiculos   173         I4 QUI 16:00-17:50
+                                            Mecanica do Voo   139         S7 TER 08:00-09:50
+                                            Mecanica do Voo   139         S7 QUI 08:00-09:50
+                                     Transferencia de Calor    62         SS TER 08:00-09:50
+                                     Transferencia de Calor    62         SS QUI 08:00-09:50
+                             Combustiveis e Biocombustiveis   116         S7 SEG 08:00-09:50
+                             Combustiveis e Biocombustiveis   116         S7 QUA 08:00-09:50
+                 Teoria de Sistemas de Conversao de Energia   117         I4 TER 10:00-11:50
+                 Teoria de Sistemas de Conversao de Energia   117         I4 QUI 10:00-11:50
+            Gerencia de Configuracao e Evolucao de Software   167      SalaG TER 08:00-09:50
+            Gerencia de Configuracao e Evolucao de Software   167      SalaG QUI 08:00-09:50
+                      Projeto com Circuitos Reconfiguraveis    75      SalaG SEG 08:00-09:50
+                      Projeto com Circuitos Reconfiguraveis    75      SalaG QUA 08:00-09:50
+                      Projeto com Circuitos Reconfiguraveis    75      SalaG SEX 08:00-09:50
+                             Teoria de Eletronica Digital 2   145         I5 TER 10:00-11:50
+                             Teoria de Eletronica Digital 2   145         I5 QUI 10:00-11:50
+       Fundamentos de Equacoes Diferenciais para Engenharia    58      SalaG QUI 14:00-15:50
+                           Sistemas Operacionais Embarcados   100      SalaG TER 14:00-15:50
+                                      Projeto de Algoritmos   106         SS QUI 14:00-15:50
+                          Projeto de Circuitos Integrados 1   151         I2 SEG 10:00-11:50
+                          Projeto de Circuitos Integrados 1   151         I2 QUA 10:00-11:50
+                          Projeto de Circuitos Integrados 1   151         I2 SEX 10:00-11:50
+                                    Processamento de Sinais   148         I6 TER 10:00-11:50
+                                    Processamento de Sinais   148         I6 QUI 10:00-11:50
+                  Instrumentacao Eletronica para Engenharia   149         I4 TER 16:00-17:50
+                  Instrumentacao Eletronica para Engenharia   149         I5 QUI 16:00-17:50
+                                      Engenharia de Produto   152         I2 TER 14:00-15:50
+                                      Engenharia de Produto   152         I2 QUI 14:00-15:50
+                                    Inteligencia Artificial   153         I2 SEG 16:00-17:50
+                                    Inteligencia Artificial   153         I2 QUA 16:00-17:50
+                            Teoria de Eletricidade Aplicada   162         S5 TER 10:00-11:50
+                            Teoria de Eletricidade Aplicada   162         S5 QUI 10:00-11:50
+                       Laboratorio de Eletricidade Aplicada   168         I5 TER 16:00-17:50
+                       Laboratorio de Eletricidade Aplicada   168         I6 QUI 16:00-17:50
+                               Engenharia de Petroleo e Gas   174         I3 TER 14:00-15:50
+                               Engenharia de Petroleo e Gas   174         I3 QUI 14:00-15:50
+                                            Termodinamica 1   177         I3 SEG 10:00-11:50
+                                            Termodinamica 1   177         I3 QUA 10:00-11:50
+            Analise Estrutural Metodos de Elementos Finitos    73         I6 TER 16:00-17:50
+            Analise Estrutural Metodos de Elementos Finitos    73         S5 QUI 16:00-17:50
+                                        Integracao e Testes   136         I4 TER 14:00-15:50
+                                        Integracao e Testes   136         I4 QUI 14:00-15:50
+              Analise Dinamica Metodos de Elementos Finitos   140         I4 SEG 10:00-11:50
+              Analise Dinamica Metodos de Elementos Finitos   140         I4 QUA 10:00-11:50
+                                        Eletronica Veicular   142         I3 SEG 16:00-17:50
+                                        Eletronica Veicular   142         I3 QUA 16:00-17:50
+                         Sistemas Hidraulicos e Pneumaticos   143         I3 SEX 10:00-11:50
+                         Sistemas Hidraulicos e Pneumaticos   143         I2 SEX 16:00-17:50
+                Arquitetura de Motores de Combustao interna   146         I2 SEX 14:00-15:50
+                Arquitetura de Motores de Combustao interna   146         I1 SEX 08:00-09:50
+                         Pratica de Circuitos Eletronicos 1   134         S5 TER 16:00-17:50
+                         Pratica de Circuitos Eletronicos 1   134         S7 QUI 16:00-17:50
+                          Teoria de Circuitos Eletronicos 1   137         I5 TER 14:00-15:50
+                          Teoria de Circuitos Eletronicos 1   137         I5 QUI 14:00-15:50
+                                         Propulsao Eletrica   182         S7 TER 16:00-17:50
+                                         Propulsao Eletrica   182         SS QUI 16:00-17:50
+             Topicos Especiais 2 em Engenharia Aeroespacial   112         I5 SEG 10:00-11:50
+             Topicos Especiais 2 em Engenharia Aeroespacial   112         I5 QUA 10:00-11:50
+             Topicos Especiais 2 em Engenharia Aeroespacial   112         I5 SEX 10:00-11:50
+                                        Economia da Energia    67         SS TER 16:00-17:50
+                                        Economia da Energia    67      SalaG QUI 16:00-17:50
+                                             Biorrefinarias   126         S7 TER 10:00-11:50
+                                             Biorrefinarias   126         S7 QUI 10:00-11:50
+                         Sistemas de Energia Solar e Eolica   130         I6 TER 14:00-15:50
+                         Sistemas de Energia Solar e Eolica   130         I6 QUI 14:00-15:50
+             Transmissao e Distribuicao de Energia Eletrica   132         I6 SEG 10:00-11:50
+             Transmissao e Distribuicao de Energia Eletrica   132         I6 QUA 10:00-11:50
+                 Fundamentos de Propulsao Eletrica Veicular   133         I4 SEG 16:00-17:50
+                 Fundamentos de Propulsao Eletrica Veicular   133         I4 QUA 16:00-17:50
+                       Analise Instrumental de Combustiveis   135         I4 SEX 10:00-11:50
+                       Analise Instrumental de Combustiveis   135         I3 SEX 16:00-17:50
+                Fundamentos do Metodo dos Elementos Finitos    83      SalaG TER 16:00-17:50
+                Fundamentos do Metodo dos Elementos Finitos    83         SS TER 10:00-11:50
+                          Mecanica dos Materiais Compositos   186         S5 TER 14:00-15:50
+                          Mecanica dos Materiais Compositos   186         S5 QUI 14:00-15:50
+       Laboratorio de Materiais de Construcao de Engenharia   127      SalaG TER 10:00-11:50
+       Laboratorio de Materiais de Construcao de Engenharia   127      SalaG QUI 10:00-11:50
+                                    Fenomenos de Transporte   147         S7 TER 14:00-15:50
+                                    Fenomenos de Transporte   147         S7 QUI 14:00-15:50
+                             Eletronica de Radio Frequencia   181         SS TER 14:00-15:50
+                             Eletronica de Radio Frequencia   181         S5 SEG 10:00-11:50
+                                Desenvolvimento Sustentavel   183         S7 SEG 10:00-11:50
+                                Desenvolvimento Sustentavel   183         S7 QUA 10:00-11:50
+                           Planejamento e Gestao de Energia   184         I5 SEG 16:00-17:50
+                           Planejamento e Gestao de Energia   184         I5 QUA 16:00-17:50
+               Topicos Especiais 1 em Engenharia de Energia   185         SS QUI 10:00-11:50
+               Topicos Especiais 1 em Engenharia de Energia   185         I6 SEX 10:00-11:50
+                          Melhoria de Processos de Software   187         SS SEG 10:00-11:50
+                          Melhoria de Processos de Software   187         SS QUA 10:00-11:50
+                               Programacao para Competicoes    54      SalaG SEG 10:00-11:50
+                      Topicos Especiais em Governanca de TI    63         S5 QUA 10:00-11:50
+                              Eletronica de Alta Frequencia    74      SalaG QUA 10:00-11:50
+                 Codificacao e Compressao de Sinais e Video    76         S5 SEX 10:00-11:50
+                        Engenharia de Software Experimental    92         S7 SEX 10:00-11:50
+                 Projeto de Sistemas de Observacao da Terra    96         SS SEX 10:00-11:50
+                             Fundamentos de Energia Nuclear   104      SalaG SEX 10:00-11:50
+                    Fundamentos de Astronomia e Astrofisica   120         I6 SEG 16:00-17:50
+                        Fundamentos do Projeto de Aeronaves   128         S5 SEG 16:00-17:50
+                                     Eletronica de Potencia   138         S7 SEG 16:00-17:50
+                          Engenharia de Software Automotivo   144         SS SEG 16:00-17:50
+                                          Antenas Impressas   160      SalaG SEG 16:00-17:50
+                    Regulacao Ambiental no Setor Energetico   178         I6 QUA 16:00-17:50
+                                             Fisica Moderna   180         S5 QUA 16:00-17:50
