@@ -335,7 +335,7 @@ if __name__ == "__main__":
     duracao = tempo_final - tempo_inicial
     if assigment:  # Se search retornou algo diferente de False
         ui = Interface(assigment)
-        ui.draw()
+        ui.draw("./grade.txt")
     else:
         print("❌ Nenhuma solução encontrada!")
     
