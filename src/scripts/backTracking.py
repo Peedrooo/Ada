@@ -30,9 +30,6 @@ class BackTracking:
         var = self.variable_selection()
         val = self.order_value_selection(var, assigment)
 
-        print(f'Variável: {var.Class.discipline.name} tamanho da turma: {var.Class.turma_size}')
-        print(f'Quantidade de turmas alocadas: {len(assigment)}')
-        print(f'lista de valores: {len(val)} valor: {val}')
         for value in val:
             if self.isConsistent(var, value, assigment):
                 var.assign(value)
